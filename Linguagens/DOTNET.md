@@ -22,3 +22,5 @@ Além disso, nem todo código é automaticamente compilado para CPU-especifico. 
 ### MSBuild
 O Microsoft Build Engine é uma build tool para gerenciar e compilar projetos. Essa ferramenta é configurada por um arquivo XML que controla e determina todo o processo de build.
 
+## Sintaxe e Estrutura do Projeto
+Quando inciamos um projeto C#, temos um arquivo chamado `Program.cs`, que geralmente é o ponto de entrada da aplicação, um arquivo terminado em `.csproj` com o nome do Projeto, que é o arquivo do `MSBuild` utilizado para buildar a aplicação com algumas configurações que dependem de cada projeto,
