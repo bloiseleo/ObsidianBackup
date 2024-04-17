@@ -34,4 +34,6 @@ Existem os seguintes tipos em Java:
 - boolean: Representa um valor verdadeiro ou falso e costuma ocupar 1 bit.
 - char: Representa um caracter e esse caracter geralmente é baseado na tabela ASCII.
 
-Esses tipos não são considerados objetos e são armazenados diretamente na stack.
+Esses tipos não são considerados objetos e são armazenados diretamente na stack. 
+
+Para determinar constantes, utilizamos a palavra chave `final`. Esse palavra chave
