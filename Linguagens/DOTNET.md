@@ -3,4 +3,15 @@ O .NET é uma plataforma de desenvolvimento de aplicações muito similar à JVM
 - Bibliotecas: Fornece a implementação das funcionalidades mais comuns.
 - Compilador: Realiza a compilação do código C# e/ou outras plataformas.
 - SDK: Ferramentas para auxiliar o desenvolvimento do software.
-- 
+
+### Runtime - Common Language Runtime
+O Common Language Runtime executa o código produzido pelos compiladores do .NET. Todo código gerado para esse runtime é chamado de `managed code` ou código gerenciado. Nesse caso, o compilador é o responsável por gerar esse código e os metados esperado pelo CLR. Esses metadados são responsáveis por:
+
+- Localizar e carregar classes.
+- Layoutar a memória.
+- Chamar métodos.
+- Gerar código nativo
+- Integração cross-language.
+
+
+
