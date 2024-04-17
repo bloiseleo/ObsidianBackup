@@ -26,3 +26,5 @@ O Microsoft Build Engine é uma build tool para gerenciar e compilar projetos. E
 Quando inciamos um projeto C#, temos um arquivo chamado `Program.cs`, que geralmente é o ponto de entrada da aplicação, um arquivo terminado em `.csproj` com o nome do Projeto, que é o arquivo do `MSBuild` utilizado para buildar a aplicação com algumas configurações que dependem de cada projeto, uma pasta bin e uma pasta obj. A pasta bin contêm os binários da aplicação, que é gerado quando você compila a aplicação, e, também, dentro da pasta obj. Nesse caso, dentro da pasta obj, teremos arquivos de debbuging.
 
 > Tanto a pasta bin como a pasta obj devem ser ignoradas quando versionamos nosso projeto.
+
+
