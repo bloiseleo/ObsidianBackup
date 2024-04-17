@@ -3,3 +3,5 @@ O java é uma linguagem de programação estaticamente tipada e completamente or
 ```
 Código Fonte -> Javac (Compilação) -> Bytecode -> (Interpretação) JRE (JVM).
 ```
+
+Para desenvolver em Java, precisamos do JDK. O Java Development Kit é um conjunto de ferramentas que nos possibilitam desenvolver programas em Java. Ele consiste em diversas bibliotecas para desenvolvimento e a própria JRE. Essa, por sua vez, é a única coisa necessária que o cliente terá que ter instalado na máquina ou servidor para executar esse software.
