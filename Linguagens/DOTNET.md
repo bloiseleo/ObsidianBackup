@@ -1,1 +1,1 @@
-O .NET é 
+O .NET é uma plataforma de desenvolvimento de aplicações 
