@@ -11,4 +11,6 @@ Quando instalamos o JDK, recebemos um binário chamado `java`e outro binário ch
 ### Convenções
 Todo arquivo em java deve ter uma classe cujo nome é o mesmo do arquivo. O nome da classe deve ter a primeira letra maiúscula.
 - Você pode ter outras classes dentro do mesmo arquivo, mas uma precisa obrigatoriamente seguir acima.
+- O nome das variáveis é camelCase.
+- Constantes são maiúsculas.
 - 
