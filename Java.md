@@ -31,7 +31,7 @@ Existem os seguintes tipos em Java:
 - long: Representa um número inteiro na base 10 e ocupa 8 bytes de memória.
 - float: Representa um número decimal na base 10 e ocupa 4 bytes de memória.
 - double: Representa um número decimal na base 10 e ocupa 8 bytes de memória.
-- boolean
-- char
+- boolean: Representa um valor verdadeiro ou falso e costuma ocupar 1 bit.
+- char: Representa um caracter e esse caracter geralmente é baseado na tabela ASCII.
 
 Esses tipos não são considerados objetos e são armazenados diretamente na stack.
