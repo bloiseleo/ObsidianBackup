@@ -14,5 +14,6 @@ O Common Language Runtime executa o código produzido pelos compiladores do .NET
 - Integração cross-language.
 
 #### Processo de Compilação e Execução
-O compilador é o responsável por ditar a sintaxe e como você irá escrever o código e acessar os recursos do `Common Language Runtime`. Ele irá compilar o código para 
+O compilador é o responsável por ditar a sintaxe e como você irá escrever o código e acessar os recursos do `Common Language Runtime`. Ele irá compilar o código para Microsoft Intermediate Language, que é independente de CPU. Esse código contem o código intermediário e os metadados para o CLR. 
+Para ser executado, esse código precisa ser compilado para código de máquina. Isso é feito pelo compilador JIT do CLR.
 
