@@ -1,0 +1,3 @@
+Banco de Dados é uma coleção de dados relacionados, onde dados são fatos que podem ser registrados e possuem significado. Antes de surgir banco de dados no sentido computacional, eles existiam em formato de papel e físico, onde eram manipulados manualmente pelos usuários.
+
+Depois que foi inventado o `Hard Disk`, nasceu a era de processamento de dados por computador. Nessa era, foi inventado um programa que gerenciava os arquivos armazenados nesse HD. Esse programa é conhecido como sistema de arquivos.
