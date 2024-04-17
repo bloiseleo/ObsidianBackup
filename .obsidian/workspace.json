@@ -11,8 +11,12 @@
             "id": "e23c4480453b4d7a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Java.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Exemplo.md"
+                "file": "Java.md"
               }
             }
           }
@@ -140,9 +146,10 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "45cc174db92e4ef5",
+  "active": "e23c4480453b4d7a",
   "lastOpenFiles": [
-    "Welcome.md",
-    "Exemplo.md"
+    "Java.md",
+    "Exemplo.md",
+    "Welcome.md"
   ]
 }

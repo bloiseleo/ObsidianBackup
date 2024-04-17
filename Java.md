@@ -1,0 +1,1 @@
+O java é uma linguagem de programação estaticamente tipada e completamente orientada a objetos. 
