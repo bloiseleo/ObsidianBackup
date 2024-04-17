@@ -52,3 +52,5 @@ Os operadores nos permitem realizar operações entre duas variáveis ou valores
 - -:  Subtração
 - \*: Multiplicação
 - /: Divisão
+
+Os operadores matemáticos e expressões matemáticas seguem o padrão
