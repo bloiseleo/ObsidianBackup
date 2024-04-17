@@ -45,4 +45,7 @@ public class App {
 }
 ```
 ### Operadores
-Os operadores nos permitem realizar operações entre duas variáveis ou valores do mesmo tipo e/ou tipos diferentes dependendo da operação.
+Os operadores nos permitem realizar operações entre duas variáveis ou valores do mesmo tipo e/ou tipos diferentes dependendo da operação:
+
+- =: Esse operador é o de atribuição.
+- 
