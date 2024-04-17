@@ -22,3 +22,16 @@ tipo nome_da_variavel; // Declaração
 tipo nome_da_variavel = valor; // Inicialização
 ```
 Os tipos das variáveis determinam o que ela pode fazer e para que ela pode ser utilizada. Cada uma possui suas propriedades e são melhor utilizadas para determinar certos dados.
+
+Existem os seguintes tipos em Java:
+
+- int: Representa um número inteiro na base 10 e ocupa 4 bytes.
+- byte: Representa um número inteiro na base 10 e  ocupa 1 byte de memória.
+- short: Representa um número inteiro na base 10 e ocupa 2 byte de memória.
+- long: Representa um número inteiro na base 10 e ocupa 8 bytes de memória.
+- float: Representa um número decimal na base 10 e ocupa 4 bytes de memória.
+- double: Representa um número decimal na base 10 e ocupa 8 bytes de memória.
+- boolean
+- char
+
+Esses tipos não são considerados objetos e são armazenados diretamente na stack.
