@@ -36,4 +36,11 @@ Existem os seguintes tipos em Java:
 
 Esses tipos não são considerados objetos e são armazenados diretamente na stack. 
 
-Para determinar constantes, utilizamos a palavra chave `final`. Esse palavra chave
+Para determinar constantes, utilizamos a palavra chave `final`. Esse palavra chave não permite alterar o valor da variável depois que ela é inicializada. Por exemplo:
+```
+public class App {
+	public static void main(String[] args) {
+		final int age = 23;
+	}
+}
+```
