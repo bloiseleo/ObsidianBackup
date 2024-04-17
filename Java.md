@@ -21,3 +21,4 @@ As variáveis são locais onde iremos guardar valores e/ou referências a objeto
 tipo nome_da_variavel; // Declaração
 tipo nome_da_variavel = valor; // Inicialização
 ```
+Os tipos das variáveis determinam o que ela pode fazer e para que ela pode ser utilizada. Cada uma possui suas propriedades e são melhor utilizadas para determinar certos dados.
