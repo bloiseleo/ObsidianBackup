@@ -1,1 +1,2 @@
 Durante a vida do sistema operacional, ele deve ser capaz de armazenar todas informações de maneira persistente e, também, ser acessível de maneira concorrente. Para fazer isso, existe o sistema de arquivos, que realiza a gerencia de algoritmos que implementam essas funcionalidades.
+
