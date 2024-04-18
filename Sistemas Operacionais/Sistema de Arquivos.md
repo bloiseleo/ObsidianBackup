@@ -5,3 +5,5 @@ Esse sistema é constituido de duas partes distintas:
 - Estrutura de Diretórios: Organiza e Fornece informações sobre os arquivos do sistema.
 ### Arquivos
 Cada arquivo é identificado por meio de um nome ( essas regras variam de acordo com o sistema ). Geralmente, temos um identificador alfanumérico e uma extensão, que é separado por ponto. Ademais, essas extensões podem não ser impostas pelo sistema operacional e serem meras convenções.
+
+No final, um arquivo, nada mais é, que um conjunto de bytes que está armazenado primeiramente em algum lugar do seu armazenamento secundário.
