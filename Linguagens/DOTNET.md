@@ -40,4 +40,6 @@ class Program {
 }
 ```
 
-O exemplo acima motra o primeiro objeto sendo chamado como entrypoint do C#.
+O exemplo acima motra a primeira classe sendo chamado como entrypoint do C#.
+
+> A convenção do C# é que métodos e propriedades públicas devem começar com maiúsculos e seguir minúsculo enquanto que, privados ou protegidos, devem ser camelCase.
