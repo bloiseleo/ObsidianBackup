@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md",
+                "file": "Linguagens/DOTNET.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6c5f7d567c103bb9",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md",
+                "file": "Linguagens/DOTNET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md",
+                "file": "Linguagens/DOTNET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md"
+                "file": "Linguagens/DOTNET.md"
               }
             }
           }
@@ -162,6 +161,7 @@
   },
   "active": "c26ff18de25f8658",
   "lastOpenFiles": [
+    "Sistemas Operacionais/Sistema de Arquivos.md",
     "Sistemas Operacionais/Memória de Um Processo.md",
     "Linguagens/DOTNET.md",
     "Linguagens/Linguagem C.md",
@@ -171,7 +171,6 @@
     "Banco de Dados.md",
     "Compiladores.md",
     "Linguagens/Java.md",
-    "Sistemas Operacionais/Sistema de Arquivos.md",
     "Linguagens/Linguagem Java.md",
     "Paradigmas de Programação/Programação Orientada a Aspecto.md",
     "Linguagens",

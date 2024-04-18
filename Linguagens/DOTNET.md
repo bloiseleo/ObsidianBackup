@@ -27,4 +27,4 @@ Quando inciamos um projeto C#, temos um arquivo chamado `Program.cs`, que geralm
 
 > Tanto a pasta bin como a pasta obj devem ser ignoradas quando versionamos nosso projeto.
 
-
+Qualquer projeto C# tem que ter um método `Main` que seja acessível pela CLR para ser chamado na inicialização do programa. Caso exista mais de um, você precisa dizer no momento da compilação qual a classe que será usada como ponto de entrada. Além disso, o método `Main` deve estar dentro de uma classe ou `struct` e deve ser 
