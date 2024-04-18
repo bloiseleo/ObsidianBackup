@@ -27,6 +27,8 @@ int main() {
 }
 ```
 
+### Pré-Processamento
+O pré-processamento ocorre antes de realizar a compilação de um arquivo C. Geralmente, temos diretivas que serão processados por essa etapa e cada uma produz uma 
 ### Header Files
 Os arquivos header são arquivos onde podemos determinar e declarar entidades que serão usadas pelo nosso código. Esses arquivos, por sua vez, podem ser injetados em outros arquivos que são necessários. Ao fazer isso, usamos a diretiva de pré-processamento chamada de `include`. Dessa forma, durante a compilação, temos as assinaturas e declarações prontas dentro do arquivo. Contudo, ainda precisamos da definição das funções. Essas definições estão dentro do arquivo de mesmo nome, porém terminado em `.c`.
 
