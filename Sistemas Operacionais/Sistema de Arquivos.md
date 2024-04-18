@@ -3,3 +3,5 @@ Durante a vida do sistema operacional, ele deve ser capaz de armazenar todas inf
 Esse sistema é constituido de duas partes distintas:
 - Conjunto de arquivos, que são os dados de fato. Esses arquivos são unidades lógicas de informação criadas por processos.
 - Estrutura de Diretórios: Organiza e Fornece informações sobre os arquivos do sistema.
+### Arquivos
+Cada arquivo é identificado por meio de um nome ( essas regras variam de acordo com o sistema ). Geralmente, temos um identificador alfanumérico e uma extensão, que é separado por ponto.
