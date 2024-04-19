@@ -54,7 +54,16 @@ public class Program {
 }
 ```
 
-Entretanto, para encurtar esse 
+Entretanto, para encurtar esse caminho, você precisa utilizar a declaração `using`. Essa declaração permite você usar um `namespace` de modo em que você use somente o nome da classe:
+
+```
+using NomeDoNamespace;
+public class Program {
+	public static void Main(string[] args) {
+		var obj = new Classe();
+	}
+}
+```
 ### Classes 
 A declaração de classes no C# é feita com a palavra reservada `class`.  Essa palavra é seguida pelo nome da classe, que deve ser maiúsculo e ser igual ao nome do arquivo. Antes dela, podemos ter um modificador de acesso:
 
