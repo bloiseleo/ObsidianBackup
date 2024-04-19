@@ -28,6 +28,22 @@ Quando inciamos um projeto C#, temos um arquivo chamado `Program.cs`, que geralm
 > Tanto a pasta bin como a pasta obj devem ser ignoradas quando versionamos nosso projeto.
 
 Qualquer projeto C# tem que ter um método `Main` que seja acessível pela CLR para ser chamado na inicialização do programa. Caso exista mais de um, você precisa dizer no momento da compilação qual a classe que será usada como ponto de entrada. Além disso, o método `Main` deve estar dentro de uma classe ou `struct` e deve ser `static`.
+
+### Tipos de Dados
+Existem os seguintes tipos de dados:
+- string: Conjunto de caracteres encodados com o UTF-8.
+- char: Caracter unicode.
+- int: Número inteiro com sinal de 32 bits de tamanho.
+- float: Número decimal com sinal e 32 bits de tamanho com precisão de uma casa decimal.
+- decimal: Números decimais com sinal de 28 a 29 dígitos significativos.
+- double: Números decimais com sinal com 64 bits de tamanho e precisão de duas casas decimais.
+- long: Número inteiro com sinal de 64 bits de tamanho.
+- unit: Número inteiro sem sinal de 32 bits de tamanho.
+- short: Número inteiro com sinal de 16 bits de tamanho.
+- ulong: Número inteiro sem sinal de 64 bits de tamanho.
+- object: Tipo base de todos os objetos.
+- byte: Inteiro sem sinal de 8 bits.
+
 ### Namespaces
 Os namespaces são uma forma que o C# usa para organizar as classes dentro de um determinado projeto e, também, das classes do C#. Todas as classes do C# estão contidas dentro de um `namespace`. Ao fazer isso, o nome da classe deixa de ser somente aquele declarado pelo programador e passa a ser `NomeDoNameSpace.NomeDaClasse`. Esse mecanismo é idêntico ao full qualified name do java.
 
