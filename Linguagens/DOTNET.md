@@ -49,10 +49,12 @@ Para usar essa classe ou recurso, você precisa usar o nome completo daquela cla
 ```
 public class Program {
 	public static void Main(string[] args) {
-		
+		var obj = new NomeDoNamespace.Classe();
 	}
 }
 ```
+
+Entretanto, para encurtar esse 
 ### Classes 
 A declaração de classes no C# é feita com a palavra reservada `class`.  Essa palavra é seguida pelo nome da classe, que deve ser maiúsculo e ser igual ao nome do arquivo. Antes dela, podemos ter um modificador de acesso:
 
