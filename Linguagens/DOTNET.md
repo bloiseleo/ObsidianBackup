@@ -44,6 +44,18 @@ Existem os seguintes tipos de dados:
 - object: Tipo base de todos os objetos.
 - byte: Inteiro sem sinal de 8 bits.
 
+> Para criar um `decimal`, você precisa fazer da seguinte forma: decimal preco = 1.80M; É necessário adicionar o sufixo M depois do valor.
+
+Ainda temos mais um tipo, o tipo `DateTime` no C# é usado para representar uma Data com horário, data e o timezone.
+### Operações em Tipos
+
+#### Concatenação de Strings
+Para concatenar as strings, podemos utilizar o operador `+` e/ou fazer uma `template string`:
+```
+int num = 1;
+Console.WriteLine("Número: " + num);
+Console.WriteLine($"Número: {num}");
+```
 ### Namespaces
 Os namespaces são uma forma que o C# usa para organizar as classes dentro de um determinado projeto e, também, das classes do C#. Todas as classes do C# estão contidas dentro de um `namespace`. Ao fazer isso, o nome da classe deixa de ser somente aquele declarado pelo programador e passa a ser `NomeDoNameSpace.NomeDaClasse`. Esse mecanismo é idêntico ao full qualified name do java.
 
