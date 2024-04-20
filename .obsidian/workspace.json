@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paradigmas de Programação/Programação Orientada a Aspecto.md",
+                "file": "Linguagens/DOTNET.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Paradigmas de Programação/Programação Orientada a Aspecto.md",
+                "file": "Linguagens/DOTNET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Paradigmas de Programação/Programação Orientada a Aspecto.md",
+                "file": "Linguagens/DOTNET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Paradigmas de Programação/Programação Orientada a Aspecto.md"
+                "file": "Linguagens/DOTNET.md"
               }
             }
           }
@@ -161,11 +161,11 @@
   },
   "active": "c26ff18de25f8658",
   "lastOpenFiles": [
-    "Sistemas Operacionais/Sistema de Arquivos.md",
-    "Sistemas Operacionais/Memória de Um Processo.md",
-    "Compiladores.md",
-    "Banco de Dados.md",
     "Paradigmas de Programação/Programação Orientada a Aspecto.md",
+    "Sistemas Operacionais/Memória de Um Processo.md",
+    "Banco de Dados.md",
+    "Sistemas Operacionais/Sistema de Arquivos.md",
+    "Compiladores.md",
     "Linguagens/DOTNET.md",
     "Linguagens/Linguagem C.md",
     "Java.md",

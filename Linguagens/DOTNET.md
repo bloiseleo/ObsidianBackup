@@ -49,7 +49,7 @@ Existem os seguintes tipos de dados:
 Ainda temos mais um tipo, o tipo `DateTime` no C# é usado para representar uma Data com horário, data e o timezone.
 ### Operações em Tipos
 
-Os operadores aritméticos possuem 
+Os operadores aritméticos possuem os valores de precedência que sobre eles existem. Nesse caso, estamos falando do `+, -, / e *`. A prescedência pode ser aplicada sobre eles de acordo com a ordem natural `* e / - + e -` nessa ordem respectivamente.
 #### Concatenação de Strings
 Para concatenar as strings, podemos utilizar o operador `+` e/ou fazer uma `template string`:
 ```
