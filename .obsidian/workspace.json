@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "3a0f50a1dc3001dd",
+        "id": "578ce98ce26cd9c3",
         "type": "tabs",
         "children": [
           {
-            "id": "e23c4480453b4d7a",
+            "id": "e03cb5a7da07f157",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d67bf8839080c00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Compiladores.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Compiladores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Compiladores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Compiladores.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,16 +138,16 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "4d67bf8839080c00",
+  "active": "e03cb5a7da07f157",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
+    "Sistemas Operacionais/Sistema de Arquivos.md",
+    "Paradigmas de Programação/Programação Orientada a Aspecto.md",
     "Compiladores.md",
     "Sistemas Operacionais/Memória de Um Processo.md",
-    "Sistemas Operacionais/Sistema de Arquivos.md",
     "Linguagens/Linguagem C.md",
     "Java.md",
     "Sistemas Operacionais",
-    "Paradigmas de Programação/Programação Orientada a Aspecto.md",
     "Paradigmas de Programação",
     "Linguagens/DOTNET.md",
     "Linguagens",
