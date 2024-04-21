@@ -107,3 +107,16 @@ class Program {
 O exemplo acima motra a primeira classe sendo chamado como entrypoint do C#.
 
 > A convenção do C# é que métodos e propriedades públicas devem começar com maiúsculos e seguir minúsculo enquanto que, privados ou protegidos, devem ser camelCase.
+
+### Indexadores
+Os indexadores nos permitem fazer uma sintaxe de `arrays`em qualquer classe que quisermos. Para fazer isso, usamos esses caras: os indexadores. Eles são feitos a partir de um método dentro de uma classe que você declarada dessa forma:
+```
+public T this[int i]
+
+{
+	get {return arr[i];}
+	set {arr[i] = value;}
+}
+```
+
+Dessa forma, estamos permitindo o acesso via índice aos nossos objetos enquanto mantemos controle total sobre quem está sendo acessado e como. Nesse caso, estamos aceitando um inteiro como parâmetro, pois o usuário deve passar um inteiro para acessar 0-indexed. Por fim, você pode ter mais de um desse na classe, ou seja, podem sofrer overload.

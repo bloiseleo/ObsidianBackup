@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estruturas de Dados/Introdução.md",
+                "file": "Linguagens/DOTNET.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estruturas de Dados/Introdução.md",
+                "file": "Linguagens/DOTNET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estruturas de Dados/Introdução.md",
+                "file": "Linguagens/DOTNET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estruturas de Dados/Introdução.md"
+                "file": "Linguagens/DOTNET.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "e03cb5a7da07f157",
   "lastOpenFiles": [
+    "Sem título.md",
+    "quan.md",
+    "Linguagens/DOTNET.md",
     "Estruturas de Dados/Introdução.md",
     "Estruturas de Dados",
     "conflict-files-obsidian-git.md",
@@ -159,7 +162,6 @@
     "Java.md",
     "Sistemas Operacionais",
     "Paradigmas de Programação",
-    "Linguagens/DOTNET.md",
     "Linguagens",
     "Banco de Dados.md",
     "Arquitetura de Computadores/Introdução.md",
