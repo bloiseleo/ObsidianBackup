@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4d67bf8839080c00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compiladores.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md",
+                "file": "Compiladores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md",
+                "file": "Compiladores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md"
+                "file": "Compiladores.md"
               }
             }
           }
@@ -146,13 +159,14 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "e23c4480453b4d7a",
+  "active": "4d67bf8839080c00",
   "lastOpenFiles": [
-    "Linguagens/Linguagem C.md",
+    "conflict-files-obsidian-git.md",
     "Compiladores.md",
-    "Java.md",
-    "Sistemas Operacionais/Sistema de Arquivos.md",
     "Sistemas Operacionais/Memória de Um Processo.md",
+    "Sistemas Operacionais/Sistema de Arquivos.md",
+    "Linguagens/Linguagem C.md",
+    "Java.md",
     "Sistemas Operacionais",
     "Paradigmas de Programação/Programação Orientada a Aspecto.md",
     "Paradigmas de Programação",
