@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos/Análise de um Algoritmo.md",
+                "file": "Estruturas de Dados/Array.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmos/Análise de um Algoritmo.md",
+                "file": "Estruturas de Dados/Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos/Análise de um Algoritmo.md",
+                "file": "Estruturas de Dados/Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmos/Análise de um Algoritmo.md"
+                "file": "Estruturas de Dados/Array.md"
               }
             }
           }
@@ -173,9 +173,11 @@
   },
   "active": "e7f7049f11adc8cc",
   "lastOpenFiles": [
+    "Arquitetura de Computadores/Introdução.md",
+    "Estruturas de Dados/Array.md",
+    "Algoritmos/Análise de um Algoritmo.md",
     "Linguagens/DOTNET.md",
     "Linguagens/Linguagem C.md",
-    "Algoritmos/Análise de um Algoritmo.md",
     "Algoritmos/Introdução.md",
     "Estruturas de Dados/Introdução.md",
     "Algoritmos",
@@ -191,7 +193,6 @@
     "Paradigmas de Programação",
     "Linguagens",
     "Banco de Dados.md",
-    "Arquitetura de Computadores/Introdução.md",
     "Arquitetura de Computadores/Instruction Set.md",
     "Arquitetura de Computadores",
     "Exemplo.md",
