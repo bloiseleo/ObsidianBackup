@@ -11,8 +11,12 @@
             "id": "e03cb5a7da07f157",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Estruturas de Dados/Introdução.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Estruturas de Dados/Introdução.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Estruturas de Dados/Introdução.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Estruturas de Dados/Introdução.md"
+              }
             }
           }
         ]
@@ -140,6 +148,8 @@
   },
   "active": "e03cb5a7da07f157",
   "lastOpenFiles": [
+    "Estruturas de Dados/Introdução.md",
+    "Estruturas de Dados",
     "conflict-files-obsidian-git.md",
     "Sistemas Operacionais/Sistema de Arquivos.md",
     "Paradigmas de Programação/Programação Orientada a Aspecto.md",
