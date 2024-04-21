@@ -12,5 +12,6 @@ Para determinar se um algoritmo é eficiente em uso de memória, ele deve ser co
 > Uma coisa que pode acontecer é: o melhor para espaço pode acabar consumindo mais tempo e vice versa. Nesse caso, cabe analisar melhor a sua solução e, por sua vez, selecionar o que melhor supre suas necessidades.
 
 ### Análise Assintomática
-
 De fato, todos os aspectos do hardware influenciam na análise da eficiência de um algoritmo. Portanto, quando vamos fazer a análise, nós dizemos que vamos fazer a análise assintomática do mesmo. Nesse caso, analisamos somente as etapas que ele vai tomar e, também,  no tamanho da entrada e seu crescimento. Dessa forma, não importa o hardware que aquilo será executado e teremos uma ideia geral do desempenho do hardware.
+
+Para fazer isso, usamos termos matemáticos que nos ajudam a descrever a performance de um algoritmo. Nesse caso, como estamos falando de análise assintomática, temos uma função cuja entrada será o input ou algo relacionado com ele.
