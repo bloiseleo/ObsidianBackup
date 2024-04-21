@@ -132,3 +132,5 @@ public class List<T>
 
 ### Análise de Complexidade
 Inserir ou remover em uma lista dessa sempre será `O(n)`ou `O(1)`. Nesse caso, somente teremos o `O(1)`quando fazemos operação de inserção e remoção no final da lista. Entretanto, no meio da lista, teremos sempre `O(n)`, pois é necessário mover os elementos para direita ou esquerda.
+
+Procurar um elemento na lista, no geral, s
