@@ -10,3 +10,7 @@ Essa medida é uma medida que determina quanto de espaço um determinado algorit
 Para determinar se um algoritmo é eficiente em uso de memória, ele deve ser comparado com outras soluções. Aquele algoritmo que levar a menor unidade de memória para a maior quantidade de input, será considerado o mais eficiente para resolução desse problema.
 
 > Uma coisa que pode acontecer é: o melhor para espaço pode acabar consumindo mais tempo e vice versa. Nesse caso, cabe analisar melhor a sua solução e, por sua vez, selecionar o que melhor supre suas necessidades.
+
+De fato, todos os aspectos do hardware influenciam na análise da eficiência de um algoritmo. Portanto, quando vamos fazer a análise, nós dizemos que vamos fazer a análise assintomática do mesmo. Nesse caso, analisamos somente as etapas que ele vai tomar e, também,  no tamanho da entrada e seu crescimento. Dessa forma, não importa o hardware que aquilo será executado e teremos uma ideia geral do desempenho do hardware.
+
+### Análise
