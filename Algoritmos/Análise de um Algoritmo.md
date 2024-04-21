@@ -35,3 +35,4 @@ Com base nessas regras, temos algumas notações que sempre aparecem:
 
 - O(1): Tempo ou memória constantes de acordo com o crescimento do input. Esse é o caso ideal que sempre buscamos. Funções matemáticas e acessar índices possuem essa notação.
 - O(n): Tempo ou memória crescem de acordo com o crescimento do input. Esse é um caso onde temos um for-loop que percorre todo um array, por exemplo, para achar um determinado dado. Nesse caso, teremos essa notação, visto que, no pior caso, o último elemento é o elemento procurado. Por conta disso, será necessário percorrer todo o array até achar o elemento.
+- O(n^2): Tempo ou memória crescem de acordo com o quadrado do input. Esse caso é um onde queremos evitar a todo custo, visto que o seu crescimento é exponencial. 
