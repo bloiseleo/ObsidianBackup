@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estruturas de Dados/Array.md",
+                "file": "Estruturas de Dados/Single Linked List and Double Linked List.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estruturas de Dados/Array.md",
+                "file": "Estruturas de Dados/Single Linked List and Double Linked List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estruturas de Dados/Array.md",
+                "file": "Estruturas de Dados/Single Linked List and Double Linked List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estruturas de Dados/Array.md"
+                "file": "Estruturas de Dados/Single Linked List and Double Linked List.md"
               }
             }
           }
@@ -173,8 +173,9 @@
   },
   "active": "e7f7049f11adc8cc",
   "lastOpenFiles": [
-    "Arquitetura de Computadores/Introdução.md",
     "Estruturas de Dados/Array.md",
+    "Estruturas de Dados/Single Linked List and Double Linked List.md",
+    "Arquitetura de Computadores/Introdução.md",
     "Algoritmos/Análise de um Algoritmo.md",
     "Linguagens/DOTNET.md",
     "Linguagens/Linguagem C.md",
