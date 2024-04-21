@@ -6,3 +6,7 @@ Essa medida é uma medida que determina quanto tempo um determinado algoritmo ir
 Para determinar se um algoritmo é eficiente, ele deve ser comparado com outras soluções. Aquele algoritmo que levar a menor unidade de medida para o maior input, será considerado mais eficiente para resolução desses problemas.
 ### Space Complexity
 Essa medida é uma medida que determina quanto de espaço um determinado algoritmo irá levar para ser concluído de acordo com uma determinada entrada.
+
+Para determinar se um algoritmo é eficiente em uso de memória, ele deve ser comparado com outras soluções. Aquele algoritmo que levar a menor unidade de memória para a maior quantidade de input, será considerado o mais eficiente para resolução desse problema.
+
+> Uma coisa que pode acontecer é: o melhor para espaço pode acabar consumindo mais tempo e vice versa. Nesse caso, cabe analisar melhor a sua solução e, por sua vez, selecionar o que melhor supre suas necessidades.
