@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/DOTNET.md",
+                "file": "Estruturas de Dados/Introdução.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a174106495d3eec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algoritmos/Introdução.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/DOTNET.md",
+                "file": "Algoritmos/Introdução.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/DOTNET.md",
+                "file": "Algoritmos/Introdução.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/DOTNET.md"
+                "file": "Algoritmos/Introdução.md"
               }
             }
           }
@@ -138,20 +151,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "e03cb5a7da07f157",
+  "active": "45cc174db92e4ef5",
   "lastOpenFiles": [
-    "Sem título.md",
-    "quan.md",
-    "Linguagens/DOTNET.md",
     "Estruturas de Dados/Introdução.md",
+    "Algoritmos/Introdução.md",
+    "Algoritmos",
+    "Linguagens/DOTNET.md",
+    "quan.md",
     "Estruturas de Dados",
     "conflict-files-obsidian-git.md",
     "Sistemas Operacionais/Sistema de Arquivos.md",

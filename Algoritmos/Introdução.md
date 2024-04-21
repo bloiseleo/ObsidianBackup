@@ -1,0 +1,1 @@
+Algoritmos são um conjunto de passos finitos e bem determinados que nos permitem realizar uma determinada tarefa com sucesso.
