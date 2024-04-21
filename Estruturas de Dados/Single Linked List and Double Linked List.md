@@ -7,4 +7,4 @@ A vantagem aqui é que podemos usar menos memória. Entretanto, percorrer a list
 ### Double Linked List
 Uma lista duplamente ligada possui dois ponteiros: um para o elemento anterior e outra para o elemento posterior. Nesse caso, a partir de qualquer elemento, podemos chegar no começo ou no final. O primeiro elemento é chamado de `head`e o último é chamado de `tail`.
 
-A vantagem aqui é que, a partir de qualquer elemento, podemos chegar no começo ou no final da lista.
+A vantagem aqui é que, a partir de qualquer elemento, podemos chegar no começo ou no final da lista. Por causa disso, conseguimos percorrê-la a partir de qualquer instância. Contudo, teremos que gastar o dobro de memória.
