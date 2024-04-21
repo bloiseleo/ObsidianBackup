@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/Linguagem C.md",
+                "file": "Sistemas Operacionais/Sistema de Arquivos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/Linguagem C.md",
+                "file": "Sistemas Operacionais/Sistema de Arquivos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/Linguagem C.md",
+                "file": "Sistemas Operacionais/Sistema de Arquivos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/Linguagem C.md"
+                "file": "Sistemas Operacionais/Sistema de Arquivos.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "e23c4480453b4d7a",
   "lastOpenFiles": [
+    "Linguagens/Linguagem C.md",
     "Compiladores.md",
     "Java.md",
     "Sistemas Operacionais/Sistema de Arquivos.md",
@@ -155,7 +156,6 @@
     "Sistemas Operacionais",
     "Paradigmas de Programação/Programação Orientada a Aspecto.md",
     "Paradigmas de Programação",
-    "Linguagens/Linguagem C.md",
     "Linguagens/DOTNET.md",
     "Linguagens",
     "Banco de Dados.md",
