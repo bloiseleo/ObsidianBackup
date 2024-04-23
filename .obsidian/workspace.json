@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "841b4794f8023eed",
+        "id": "5717b2104f1a937c",
         "type": "tabs",
         "children": [
           {
-            "id": "c5c1562cdfd99e5c",
+            "id": "b6b2000009167564",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linguagens/Linguagem C.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c26ff18de25f8658",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b89fcda92b7d8ea5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Agenda de Provas.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -171,10 +138,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c26ff18de25f8658",
+  "active": "b6b2000009167564",
   "lastOpenFiles": [
-    "Agenda de Provas.md",
+    "Linguagens/Linguagem C.md",
     "Sistemas Operacionais/Sistema de Arquivos.md",
+    "Agenda de Provas.md",
     "Compiladores.md",
     "Sistemas Operacionais/Memória de Um Processo.md",
     "Linguagens/DOTNET.md",
@@ -187,7 +155,6 @@
     "Algoritmos",
     "Paradigmas de Programação/Programação Orientada a Aspecto.md",
     "Banco de Dados.md",
-    "Linguagens/Linguagem C.md",
     "Java.md",
     "Arquitetura de Computadores/Introdução.md",
     "Arquitetura de Computadores/Instruction Set.md",
