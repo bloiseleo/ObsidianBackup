@@ -16,3 +16,9 @@ Cada arquivo é identificado por meio de um nome ( essas regras variam de acordo
 Cada arquivo possui uma organização própria. Essa organização pode ser uma estrutura pelo sistema operacional e/ou definida pela própria aplicação. Nesse caso, existem algumas que são mais utilizadas:
 - Sequência Desestruturada de Bytes: Nesse caso, o sistema de arquivos não impõem nenhuma estrutura obrigatória. Dessa forma, a interpretação daqueles bytes é de responsabilidade da aplicação.
 - Sequência de Registros de Tamanho Fixo: Nesse caso, o arquivo é armazenado de uma forma estruturada. O arquivo é dividido de acordo uma determinada estrutura e, o acesso a esse arquivo, deve ser realizado lidando com essa estrutura. Um exemplo são os programas armazenados em cartões perfurados. Nesse caso, o arquivo é divido em registros e cada registro possui um tamanho. 
+- Árvores de Registros: Nesse caso, o arquivo é composto por registros que não possuem o mesmo tamanho. Cada um contem uma chave em uma posição fixa dentro do registro. A árvore é ordenada pelo campo da chave.
+
+### Métodos de Acesso
+Para acessar um arquivo, existem alguns métodos que foram desenvolvidos:
+
+- Acesso Sequencial: O acesso era feito de forma sequencial, ou seja, eram acessados na ordem em que eram gravados.
