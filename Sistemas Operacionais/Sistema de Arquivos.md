@@ -23,3 +23,8 @@ Para acessar um arquivo, existem alguns métodos que foram desenvolvidos:
 
 - Acesso Sequencial: O acesso era feito de forma sequencial, ou seja, eram acessados na ordem em que eram gravados. Nesse caso, só era possível criar arquivos no final.
 - Acesso Aleatório: O acesso é feito diretamente no começo daquele arquivo. Nesse caso, você pode escrever e/ou ler de qualquer outro pedaço de memória. Além disso, para terem essa tecnologia, é necessário que cada registro tenho um tamanho fixo.
+
+### Tipos de Arquivos
+
+- Regulares: Guarda Informações genéricas, como dados do usuário.
+- Diretórios: Arquivos de sistema usados para manter a estrutura do sistema de arquivos.
