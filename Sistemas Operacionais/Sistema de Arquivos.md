@@ -22,4 +22,4 @@ Cada arquivo possui uma organização própria. Essa organização pode ser uma 
 Para acessar um arquivo, existem alguns métodos que foram desenvolvidos:
 
 - Acesso Sequencial: O acesso era feito de forma sequencial, ou seja, eram acessados na ordem em que eram gravados. Nesse caso, só era possível criar arquivos no final.
-- Acesso Aleatório:
+- Acesso Aleatório: O acesso é feito diretamente no começo daquele arquivo. Nesse caso, você pode escrever
