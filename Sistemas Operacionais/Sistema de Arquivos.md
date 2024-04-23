@@ -28,4 +28,8 @@ Para acessar um arquivo, existem alguns métodos que foram desenvolvidos:
 
 - Regulares: Guarda Informações genéricas, como dados do usuário.
 - Diretórios: Arquivos de sistema usados para manter a estrutura do sistema de arquivos.
-- Arquivo especial de Caractere:
+- Arquivo especial de Caractere: Relacionam-se com operações de E/S e costuma modelar dispositivos reais.
+- Arquivos especiais de Bloco: Texto ou Binário.
+
+### Diretórios
+Os diretórios servem para organizar os arquivos logicamente. Nesse caso, o diretório é um arquivo que contém uma estrutura de dados com entradas associadas aos arquivos onde são armazenados informações.
