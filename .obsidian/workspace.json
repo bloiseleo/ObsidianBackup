@@ -1,52 +1,64 @@
 {
   "main": {
-    "id": "8d020ec13570f96a",
+    "id": "13a7ff8d80778bb3",
     "type": "split",
     "children": [
       {
-        "id": "841b4794f8023eed",
+        "id": "578ce98ce26cd9c3",
         "type": "tabs",
         "children": [
           {
-            "id": "c5c1562cdfd99e5c",
+            "id": "e03cb5a7da07f157",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/Linguagem C.md",
+                "file": "Estruturas de Dados/Introdução.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c26ff18de25f8658",
+            "id": "7a174106495d3eec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/DOTNET.md",
+                "file": "Algoritmos/Introdução.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e7f7049f11adc8cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estruturas de Dados/Single Linked List and Double Linked List.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "7b51a282a3442713",
+    "id": "e837ad5c52865267",
     "type": "split",
     "children": [
       {
-        "id": "4f0433972225b00c",
+        "id": "4ee969e1fe9ac168",
         "type": "tabs",
         "children": [
           {
-            "id": "80ea6ddd4c566326",
+            "id": "45cc174db92e4ef5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +68,7 @@
             }
           },
           {
-            "id": "f95287f5191b92e8",
+            "id": "438988f38731722a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,7 +83,7 @@
             }
           },
           {
-            "id": "a1ab9fb6330b2768",
+            "id": "3667cd760376c955",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -85,20 +97,20 @@
     "width": 300
   },
   "right": {
-    "id": "6c5f7d567c103bb9",
+    "id": "6f7a76c7f7479eec",
     "type": "split",
     "children": [
       {
-        "id": "3d8384b882066b9e",
+        "id": "3bcdc802acbe573a",
         "type": "tabs",
         "children": [
           {
-            "id": "7164986c2db6cf6c",
+            "id": "9b714ce0768fb4ae",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/DOTNET.md",
+                "file": "Estruturas de Dados/Single Linked List and Double Linked List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,19 +122,19 @@
             }
           },
           {
-            "id": "0e811b8fc14862d5",
+            "id": "ccc21247022b040a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/DOTNET.md",
+                "file": "Estruturas de Dados/Single Linked List and Double Linked List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "02626b2a987e1c23",
+            "id": "0ba8ce2e709fef45",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,12 +145,12 @@
             }
           },
           {
-            "id": "86a426e93fed0b58",
+            "id": "dccc15954c374f65",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/DOTNET.md"
+                "file": "Estruturas de Dados/Single Linked List and Double Linked List.md"
               }
             }
           }
@@ -151,34 +163,40 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "c26ff18de25f8658",
+  "active": "e7f7049f11adc8cc",
   "lastOpenFiles": [
-    "Paradigmas de Programação/Programação Orientada a Aspecto.md",
-    "Sistemas Operacionais/Memória de Um Processo.md",
-    "Banco de Dados.md",
-    "Sistemas Operacionais/Sistema de Arquivos.md",
-    "Compiladores.md",
+    "Estruturas de Dados/Array.md",
+    "Estruturas de Dados/Single Linked List and Double Linked List.md",
+    "Arquitetura de Computadores/Introdução.md",
+    "Algoritmos/Análise de um Algoritmo.md",
     "Linguagens/DOTNET.md",
     "Linguagens/Linguagem C.md",
+    "Algoritmos/Introdução.md",
+    "Estruturas de Dados/Introdução.md",
+    "Algoritmos",
+    "quan.md",
+    "Estruturas de Dados",
+    "conflict-files-obsidian-git.md",
+    "Sistemas Operacionais/Sistema de Arquivos.md",
+    "Paradigmas de Programação/Programação Orientada a Aspecto.md",
+    "Compiladores.md",
+    "Sistemas Operacionais/Memória de Um Processo.md",
     "Java.md",
-    "Arquitetura de Computadores/Introdução.md",
-    "Arquitetura de Computadores/Instruction Set.md",
-    "Linguagens/Java.md",
-    "Linguagens/Linguagem Java.md",
-    "Linguagens",
-    "Paradigmas de Programação",
     "Sistemas Operacionais",
-    "Onde Parei?.md",
-    "Instruction.md",
-    "Welcome.md",
-    "Arquitetura de Computadores"
+    "Paradigmas de Programação",
+    "Linguagens",
+    "Banco de Dados.md",
+    "Arquitetura de Computadores/Instruction Set.md",
+    "Arquitetura de Computadores",
+    "Exemplo.md",
+    "Welcome.md"
   ]
 }
