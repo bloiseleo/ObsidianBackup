@@ -47,6 +47,8 @@ Existem os seguintes tipos de dados:
 > Para criar um `decimal`, você precisa fazer da seguinte forma: decimal preco = 1.80M; É necessário adicionar o sufixo M depois do valor.
 
 Ainda temos mais um tipo, o tipo `DateTime` no C# é usado para representar uma Data com horário, data e o timezone.
+
+Por fim, todos os tipos herdam de `Object`, que é uma classe base de todas as derivações. Essa classe é extendida automaticamente e sem nós sabermos. P
 ### Operações em Tipos
 
 Os operadores aritméticos possuem os valores de precedência que sobre eles existem. Nesse caso, estamos falando do `+, -, / e *`. A prescedência pode ser aplicada sobre eles de acordo com a ordem natural `* e / - + e -` nessa ordem respectivamente.
