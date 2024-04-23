@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md",
+                "file": "Agenda de Provas.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,11 +171,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b89fcda92b7d8ea5",
+  "active": "c26ff18de25f8658",
   "lastOpenFiles": [
-    "Compiladores.md",
     "Agenda de Provas.md",
     "Sistemas Operacionais/Sistema de Arquivos.md",
+    "Compiladores.md",
     "Sistemas Operacionais/Memória de Um Processo.md",
     "Linguagens/DOTNET.md",
     "Estruturas de Dados/Single Linked List and Double Linked List.md",

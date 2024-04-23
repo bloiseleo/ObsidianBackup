@@ -34,4 +34,4 @@ Para acessar um arquivo, existem alguns métodos que foram desenvolvidos:
 ### Diretórios
 Os diretórios servem para organizar os arquivos logicamente. Nesse caso, o diretório é um arquivo que contém uma estrutura de dados com entradas associadas aos arquivos armazenados dentro dele. Cada entrada possui informações sobre esse arquivo.
 
-O sistema mais adotado hoje em dia é o sistema de arquivos em árvore. Nessa estrutura, cada diretório pode conter mais diretórios e, também, arquivos. Por conta disso, cada arquivo possui um caminho que vai desde a raiz até aquele det
+O sistema mais adotado hoje em dia é o sistema de arquivos em árvore. Nessa estrutura, cada diretório pode conter mais diretórios e, também, arquivos. Por conta disso, cada arquivo possui um caminho que vai desde a raiz até aquele determinado ponto.
