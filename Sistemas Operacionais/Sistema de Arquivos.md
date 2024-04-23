@@ -14,4 +14,5 @@ Cada arquivo é identificado por meio de um nome ( essas regras variam de acordo
 > No final, um arquivo, nada mais é, que um conjunto de bytes que está armazenado primeiramente em algum lugar do seu armazenamento secundário.
 
 Cada arquivo possui uma organização própria. Essa organização pode ser uma estrutura pelo sistema operacional e/ou definida pela própria aplicação. Nesse caso, existem algumas que são mais utilizadas:
-- Sequência Desestruturada de Bytes
+- Sequência Desestruturada de Bytes: Nesse caso, o sistema de arquivos não impõem nenhuma estrutura obrigatória. Dessa forma, a interpretação daqueles bytes é de responsabilidade da aplicação.
+- Sequência de Registros de Tamanho Fixo: Nesse caso, o arquivo é armazenado de uma forma estruturada. O arquivo é dividido de acordo uma determinada estrutura e, o acesso a esse arquivo, deve ser realizado lidando com essa estrutura.
