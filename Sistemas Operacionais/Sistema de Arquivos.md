@@ -28,3 +28,4 @@ Para acessar um arquivo, existem alguns métodos que foram desenvolvidos:
 
 - Regulares: Guarda Informações genéricas, como dados do usuário.
 - Diretórios: Arquivos de sistema usados para manter a estrutura do sistema de arquivos.
+- Arquivo especial de Caractere:
