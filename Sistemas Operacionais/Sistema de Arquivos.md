@@ -35,3 +35,12 @@ Para acessar um arquivo, existem alguns métodos que foram desenvolvidos:
 Os diretórios servem para organizar os arquivos logicamente. Nesse caso, o diretório é um arquivo que contém uma estrutura de dados com entradas associadas aos arquivos armazenados dentro dele. Cada entrada possui informações sobre esse arquivo.
 
 O sistema mais adotado hoje em dia é o sistema de arquivos em árvore. Nessa estrutura, cada diretório pode conter mais diretórios e, também, arquivos. Por conta disso, cada arquivo possui um caminho que vai desde a raiz até aquele determinado ponto.
+
+### Implementação
+A transferência entre memória principal e secundária se dá através de blocos. Cada bloco é constituido por outras divisões lógicas chamadas de setores. O Setor 0 é chamado de  Master Boot Record, que é utilizado durante a inicialização do computador. Ao final desse setor, tem registrado a tabela de partição, que contêm registrado o começo e final de toda partição.
+
+Quando o computador inicia suas operações, a BIOS lê e executa o MBR. Nesse caso, a primeira coisa feita é localizar a partição ativa, ler o seu primeiro bloco (que é o bloco de inicialização) e executá-lo. Esse programa lido no primeiro bloco incializa e carrega o sistema operacional na memória. Mesmo que não haja um sistema operacional, toda partição começa com um bloco de inicialização.
+
+O primeiro item de uma partição também costuma ser um `superbloco`. Esse super bloco contêm informações a respeito do sistema de arquivos e é lido para para a memória quando o computador inicia ou o sistema de arquivos é iniciado. 
+
+Para conseguir registrar

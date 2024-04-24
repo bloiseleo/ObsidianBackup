@@ -3,7 +3,7 @@ Todo programa em C começa da função `main`. Essa função é a que será exec
 ### Variáveis
 Todas as variáveis em C devem ser, ao menos, declaradas antes de serem utilizadas. Essas variáveis conterão valores que podem ser usados durante a duração daquele escopo.
 ### Comentários
-Os comentários em C são ignorados pelo compilador e devem começar com `/*` e terminar com `*/`. Todo conteúdo colocado dentro desses caracteres serão ignorados.
+Os comentários em C são ignorados pelo compilador e devem começar com `/*` e terminar com `*/`. Todo conteúdo colocado dentro desses caracteres serão ignorados. Além disso, é possível fazer um comentário de uma única linha. Para fazer isso, você deve fazer com o comentário `//`.
 ### Funções
 As funções em C seguem a seguinte sintaxe:
 ```
