@@ -1,7 +1,32 @@
 Essa linguagem apresenta-se de uma forma onde estão presentes funções e variáveis. Essas funções apresentam `statements` que mandam o computador executar algo. Além disso, as variáveis contém valores que são usados por esses `statements`.
 Todo programa em C começa da função `main`. Essa função é a que será executada quando o programa começar a ser executado.
 ### Variáveis
-Todas as variáveis em C devem ser, ao menos, declaradas antes de serem utilizadas. Essas variáveis conterão valores que podem ser usados durante a duração daquele escopo.
+Todas as variáveis em C devem ser, ao menos, declaradas antes de serem utilizadas. Essas variáveis conterão valores que podem ser usados durante a duração daquele escopo. Além disso, por padrão, elas **não são imutáveis** e podem ser alteradas. 
+
+Para declarar variáveis, usamos esse contexto:
+
+```
+#include <iostream>
+
+int main() {
+    int age = 23;
+    age += 1;
+    std::cout << "My age is " << age << std::endl;
+}
+```
+
+Perceba que, nesse caso, declaramos uma variável inteira e reatribuimos seu valor.
+
+### Statements e Expressões
+Um statement é uma instrução. Essa instrução não gera um resultado necessariamente. Contudo, pode gerar um resultado. No caso de uma expressão, temos a obrigatoriedade de gerar um resultado.
+
+```
+int main() {
+	int i; // Statement que não gera um resultado.
+	std::cout << "Hello World!"; // Statement que gera um resultado
+}
+```
+
 ### Comentários
 Os comentários em C são ignorados pelo compilador e devem começar com `/*` e terminar com `*/`. Todo conteúdo colocado dentro desses caracteres serão ignorados. Além disso, é possível fazer um comentário de uma única linha. Para fazer isso, você deve fazer com o comentário `//`.
 ### Funções

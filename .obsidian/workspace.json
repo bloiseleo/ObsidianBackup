@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5717b2104f1a937c",
+        "id": "000d72a001c26192",
         "type": "tabs",
         "children": [
           {
-            "id": "b6b2000009167564",
+            "id": "0dce246f25db6460",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5b5aff6cfd0ed60d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md",
+                "file": "Linguagens/Linguagem C e C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md",
+                "file": "Linguagens/Linguagem C e C++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md"
+                "file": "Linguagens/Linguagem C e C++.md"
               }
             }
           }
@@ -159,14 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b5aff6cfd0ed60d",
+  "active": "0dce246f25db6460",
   "lastOpenFiles": [
-    "Sistemas Operacionais/Memória de Um Processo.md",
-    "Agenda de Provas.md",
-    "Blockchain.md",
-    "Linguagens/Linguagem C e C++.md",
     "Sistemas Operacionais/Sistema de Arquivos.md",
+    "Linguagens/Linguagem C e C++.md",
+    "Sistemas Operacionais/Memória de Um Processo.md",
     "Compiladores.md",
+    "Blockchain.md",
+    "Agenda de Provas.md",
     "Linguagens/DOTNET.md",
     "Estruturas de Dados/Single Linked List and Double Linked List.md",
     "Estruturas de Dados/Introdução.md",
