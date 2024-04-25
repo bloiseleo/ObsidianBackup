@@ -36,7 +36,8 @@ O sistema mais adotado hoje em dia é o sistema de arquivos em árvore. Nessa es
 ## Partições
 Um disco diz-se particionado quando um conjunto de bytes é separado e funciona independentemente de outro conjunto de bytes. Na prática, é quase como se tivessemos um HD virtual dentro do físico real. Um HD pode conter uma partição só ou pode ter várias e cada uma pode ter o seu próprio sistema de arquivos.
 
-Cada partição é registrada no disco em uma tabela de partição e, cada partição, deve possuir um sist
+Cada partição é registrada no disco em uma tabela de partição e, cada partição, deve possuir um sistema de arquivos. No linux, cada dispositivo fica dentro do diretório `/dev` e possui um `fd` que te possibilita manipular esses dados: 
+- Existe um padrão pra nome dos file descriptors. No caso, o primeiro caractere é o tipo de disco, seguido de `d` e um número que identifica a partição.
 ### Implementação
 A transferência entre memória principal e secundária se dá através de blocos. Cada bloco é constituido por outras divisões lógicas chamadas de setores. O Setor 0 é chamado de  Master Boot Record, que é utilizado durante a inicialização do computador. Ao final desse setor, tem registrado a tabela de partição, que contêm registrado o começo e final de toda partição.
 
