@@ -38,6 +38,11 @@ Um disco diz-se particionado quando um conjunto de bytes é separado e funciona 
 
 Cada partição é registrada no disco em uma tabela de partição e, cada partição, deve possuir um sistema de arquivos. No linux, cada dispositivo fica dentro do diretório `/dev` e possui um `fd` que te possibilita manipular esses dados: 
 - Existe um padrão pra nome dos file descriptors. No caso, o primeiro caractere é o tipo de disco, seguido de `d` e um número que identifica a partição.
+
+O processo de criar as partições significa separar um determinado espaço para implantar um sistema de arquivos. Contudo, somente isso, não cria um sistema de arquivos. Portanto, depois de particionar, é necessário formatar uma partição.
+
+## Formatação
+A formatação é o processo onde um determinado sistema de arquivos é implementado naquela partição. Dessa forma, todo o processo de implantar os requesitos daquele sistema de arquivos é elaborado e completado.
 ### Implementação
 A transferência entre memória principal e secundária se dá através de blocos. Cada bloco é constituido por outras divisões lógicas chamadas de setores. O Setor 0 é chamado de  Master Boot Record, que é utilizado durante a inicialização do computador. Ao final desse setor, tem registrado a tabela de partição, que contêm registrado o começo e final de toda partição.
 
