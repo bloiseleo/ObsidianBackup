@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md",
+                "file": "Linux/Sistema de Arquivos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md",
+                "file": "Linux/Sistema de Arquivos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md",
+                "file": "Linux/Sistema de Arquivos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operacionais/Sistema de Arquivos.md"
+                "file": "Linux/Sistema de Arquivos.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "0dce246f25db6460",
   "lastOpenFiles": [
-    "Linux/Sistema de Arquivos.md",
     "Sistemas Operacionais/Sistema de Arquivos.md",
+    "Linux/Sistema de Arquivos.md",
     "Linux",
     "Linguagens/Linguagem C e C++.md",
     "Sistemas Operacionais/Memória de Um Processo.md",
