@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Sistema de Arquivos.md",
+                "file": "Algoritmos/Análise de um Algoritmo.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Sistema de Arquivos.md",
+                "file": "Algoritmos/Análise de um Algoritmo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Sistema de Arquivos.md",
+                "file": "Algoritmos/Análise de um Algoritmo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Sistema de Arquivos.md"
+                "file": "Algoritmos/Análise de um Algoritmo.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "0dce246f25db6460",
   "lastOpenFiles": [
-    "Sistemas Operacionais/Sistema de Arquivos.md",
+    "Paradigmas de Programação/Programação Orientada a Aspecto.md",
     "Linux/Sistema de Arquivos.md",
+    "Sistemas Operacionais/Sistema de Arquivos.md",
     "Linux",
     "Linguagens/Linguagem C e C++.md",
     "Sistemas Operacionais/Memória de Um Processo.md",
@@ -164,7 +165,6 @@
     "Algoritmos/Introdução.md",
     "Algoritmos/Análise de um Algoritmo.md",
     "Algoritmos",
-    "Paradigmas de Programação/Programação Orientada a Aspecto.md",
     "Banco de Dados.md",
     "Java.md",
     "Arquitetura de Computadores/Introdução.md",
