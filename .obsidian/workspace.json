@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos/Análise de um Algoritmo.md",
+                "file": "Sistemas Operacionais/Automatização de Tarefas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmos/Análise de um Algoritmo.md",
+                "file": "Sistemas Operacionais/Automatização de Tarefas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos/Análise de um Algoritmo.md",
+                "file": "Sistemas Operacionais/Automatização de Tarefas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmos/Análise de um Algoritmo.md"
+                "file": "Sistemas Operacionais/Automatização de Tarefas.md"
               }
             }
           }
@@ -148,6 +148,10 @@
   },
   "active": "0dce246f25db6460",
   "lastOpenFiles": [
+    "Banco de Dados.md",
+    "Sistemas Operacionais/Automatização de Tarefas.md",
+    "Agenda de Provas.md",
+    "Algoritmos/Análise de um Algoritmo.md",
     "Paradigmas de Programação/Programação Orientada a Aspecto.md",
     "Linux/Sistema de Arquivos.md",
     "Sistemas Operacionais/Sistema de Arquivos.md",
@@ -156,16 +160,13 @@
     "Sistemas Operacionais/Memória de Um Processo.md",
     "Compiladores.md",
     "Blockchain.md",
-    "Agenda de Provas.md",
     "Linguagens/DOTNET.md",
     "Estruturas de Dados/Single Linked List and Double Linked List.md",
     "Estruturas de Dados/Introdução.md",
     "Estruturas de Dados/Array.md",
     "Estruturas de Dados",
     "Algoritmos/Introdução.md",
-    "Algoritmos/Análise de um Algoritmo.md",
     "Algoritmos",
-    "Banco de Dados.md",
     "Java.md",
     "Arquitetura de Computadores/Introdução.md",
     "Arquitetura de Computadores/Instruction Set.md",
