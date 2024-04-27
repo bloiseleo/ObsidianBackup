@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blockchain.md",
+                "file": "Agenda de Provas.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6c5f7d567c103bb9",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blockchain.md",
+                "file": "Agenda de Provas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blockchain.md",
+                "file": "Agenda de Provas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blockchain.md"
+                "file": "Agenda de Provas.md"
               }
             }
           }
@@ -150,11 +149,11 @@
   "active": "0dce246f25db6460",
   "lastOpenFiles": [
     "Banco de Dados.md",
+    "Compiladores.md",
+    "Blockchain.md",
     "Linguagens/Linguagem Go.md",
     "Linguagens/DOTNET.md",
     "Linguagens/Linguagem C e C++.md",
-    "Blockchain.md",
-    "Compiladores.md",
     "Agenda de Provas.md",
     "Sistemas Operacionais/Automatização de Tarefas.md",
     "Algoritmos/Análise de um Algoritmo.md",
