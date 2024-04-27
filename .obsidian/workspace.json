@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operacionais/Automatização de Tarefas.md",
+                "file": "Blockchain.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6c5f7d567c103bb9",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operacionais/Automatização de Tarefas.md",
+                "file": "Blockchain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operacionais/Automatização de Tarefas.md",
+                "file": "Blockchain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operacionais/Automatização de Tarefas.md"
+                "file": "Blockchain.md"
               }
             }
           }
@@ -149,18 +150,19 @@
   "active": "0dce246f25db6460",
   "lastOpenFiles": [
     "Banco de Dados.md",
-    "Sistemas Operacionais/Automatização de Tarefas.md",
+    "Linguagens/Linguagem Go.md",
+    "Linguagens/DOTNET.md",
+    "Linguagens/Linguagem C e C++.md",
+    "Blockchain.md",
+    "Compiladores.md",
     "Agenda de Provas.md",
+    "Sistemas Operacionais/Automatização de Tarefas.md",
     "Algoritmos/Análise de um Algoritmo.md",
     "Paradigmas de Programação/Programação Orientada a Aspecto.md",
     "Linux/Sistema de Arquivos.md",
     "Sistemas Operacionais/Sistema de Arquivos.md",
     "Linux",
-    "Linguagens/Linguagem C e C++.md",
     "Sistemas Operacionais/Memória de Um Processo.md",
-    "Compiladores.md",
-    "Blockchain.md",
-    "Linguagens/DOTNET.md",
     "Estruturas de Dados/Single Linked List and Double Linked List.md",
     "Estruturas de Dados/Introdução.md",
     "Estruturas de Dados/Array.md",
