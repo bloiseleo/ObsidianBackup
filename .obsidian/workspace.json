@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agenda de Provas.md",
+                "file": "Linguagens/Linguagem Go.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Agenda de Provas.md",
+                "file": "Linguagens/Linguagem Go.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Agenda de Provas.md",
+                "file": "Linguagens/Linguagem Go.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Agenda de Provas.md"
+                "file": "Linguagens/Linguagem Go.md"
               }
             }
           }
@@ -148,17 +148,19 @@
   },
   "active": "0dce246f25db6460",
   "lastOpenFiles": [
-    "Banco de Dados.md",
+    "Linux/Sistema de Arquivos.md",
+    "Blockchain/SHA-256.md",
+    "Blockchain/Blockchain.md",
+    "Blockchain",
     "Compiladores.md",
-    "Blockchain.md",
+    "Agenda de Provas.md",
+    "Banco de Dados.md",
     "Linguagens/Linguagem Go.md",
     "Linguagens/DOTNET.md",
     "Linguagens/Linguagem C e C++.md",
-    "Agenda de Provas.md",
     "Sistemas Operacionais/Automatização de Tarefas.md",
     "Algoritmos/Análise de um Algoritmo.md",
     "Paradigmas de Programação/Programação Orientada a Aspecto.md",
-    "Linux/Sistema de Arquivos.md",
     "Sistemas Operacionais/Sistema de Arquivos.md",
     "Linux",
     "Sistemas Operacionais/Memória de Um Processo.md",
