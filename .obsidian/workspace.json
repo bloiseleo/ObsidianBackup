@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "000d72a001c26192",
+        "id": "c2df74c020a1111c",
         "type": "tabs",
         "children": [
           {
-            "id": "0dce246f25db6460",
+            "id": "aa9ac6bc8c1cf513",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linguagens/Linguagem Go.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/Linguagem Go.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/Linguagem Go.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Linguagens/Linguagem Go.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0dce246f25db6460",
+  "active": "aa9ac6bc8c1cf513",
   "lastOpenFiles": [
+    "Linguagens/Linguagem Go.md",
     "Linux/Sistema de Arquivos.md",
     "Blockchain/SHA-256.md",
     "Blockchain/Blockchain.md",
@@ -155,7 +148,6 @@
     "Compiladores.md",
     "Agenda de Provas.md",
     "Banco de Dados.md",
-    "Linguagens/Linguagem Go.md",
     "Linguagens/DOTNET.md",
     "Linguagens/Linguagem C e C++.md",
     "Sistemas Operacionais/Automatização de Tarefas.md",
