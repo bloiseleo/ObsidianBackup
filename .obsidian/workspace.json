@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aa9ac6bc8c1cf513",
+            "id": "1762e99e9cde5f37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agenda de Provas.md",
+                "file": "Planejamento de Reestruturação.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Agenda de Provas.md",
+                "file": "Planejamento de Reestruturação.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Agenda de Provas.md",
+                "file": "Planejamento de Reestruturação.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Agenda de Provas.md"
+                "file": "Planejamento de Reestruturação.md"
               }
             }
           }
@@ -146,15 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aa9ac6bc8c1cf513",
+  "active": "1762e99e9cde5f37",
   "lastOpenFiles": [
+    "Agenda de Provas.md",
+    "Planejamento de Reestruturação.md",
     "Linguagens/Linguagem Go.md",
     "Linux/Sistema de Arquivos.md",
     "Blockchain/SHA-256.md",
     "Blockchain/Blockchain.md",
     "Blockchain",
     "Compiladores.md",
-    "Agenda de Provas.md",
     "Banco de Dados.md",
     "Linguagens/DOTNET.md",
     "Linguagens/Linguagem C e C++.md",
@@ -180,7 +181,6 @@
     "Sistemas Operacionais",
     "Onde Parei?.md",
     "Instruction.md",
-    "Welcome.md",
     "Arquitetura de Computadores"
   ]
 }
