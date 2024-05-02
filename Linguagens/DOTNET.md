@@ -59,6 +59,21 @@ int num = 1;
 Console.WriteLine("Número: " + num);
 Console.WriteLine($"Número: {num}");
 ```
+### Formatação
+A formatação é um tratamento dos dados antes desse dado ser exibido. Existem diversas formas de formatar:
+- Dinheiro: Podemos formatar valores ao interpolar strings da seguinte forma `${value:C}`. Essa formatação pega a localização do sistema e utiliza para formatar corretamente.
+- ToString: O método `ToString` implementado por padrão nos permite formatar como um determinado valor será representado. Nesse caso, para fazermos a mesma coisa do de cima, fazemos da seguinte forma: `Console.WriteLine(value.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")))`
+- C1, C2, C3, ...: Nessa formatação, não especificamos a cultura, mas especificamos a quantidade de casas decimais representadas.
+- P: Nessa formatação, representamos um valor entre 0 e 1 como porcentagem. Por exemplo: `Console.WriteLine(value.ToString("P")) -> %50.00`.
+- `#`: Nessa formatação, estamos trabalhando com números, onde podemos definir onde irá entrar dígitos com a cerquilha e onde não irá entrar com qualquer outro caracter ou espaço.
+
+### Localização e Internacionalização
+Por padrão, o C# irá recuperar essa informação do sistema operacional que a máquina que está rodando apresenta.  Para alterá-la em tempo de execução, precisamos alterá-la no código. Para fazer isso, usamos uma classe chamada `CultureInfo`. Essa classe apresenta informações referentes ao sistema de escrita, calendário, moeda e outras informações necessárias para localização. Para alterar, podemos usar a seguinte sintaxe:
+
+```
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("");
+```
+Como parâmetro, passamos a localização. Para o Brasil, podemos passar `pt-BR` e, para inglês, `en-US`.
 ### Namespaces
 Os namespaces são uma forma que o C# usa para organizar as classes dentro de um determinado projeto e, também, das classes do C#. Todas as classes do C# estão contidas dentro de um `namespace`. Ao fazer isso, o nome da classe deixa de ser somente aquele declarado pelo programador e passa a ser `NomeDoNameSpace.NomeDaClasse`. Esse mecanismo é idêntico ao full qualified name do java.
 
