@@ -59,6 +59,20 @@ int num = 1;
 Console.WriteLine("Número: " + num);
 Console.WriteLine($"Número: {num}");
 ```
+
+### Datas
+Em C#, as datas são representadas pela classe `DateTime`.  Além disso, essa classe carrega consigo, também, o fuso horário da data. Por padrão, ele leva em consideração o fuso horário da data.
+A formatação da data pode ser feita de maneira direta, ou seja, pode ser feita dessa forma:
+```
+Console.WriteLine(data);
+```
+Essa formatação leva em consideração o `CultureInfo` para formatar a data. Essa informação é procurada no sistema operacional. Para formatar de outra forma, temos um método chamdo `ToString()`, que aceita uma formatação:
+```
+Console.WriteLine(now.ToString("dd/MM/yyyy"));
+```
+Vale a pena dar uma olhada na documentação para entender quais formatações estão funcionando.  Para pegar somente a data sem a hora, podemos usar o método `ToShortDateString()`. Para pegar somente a hora, use o método `ToShortTimeString()`.
+
+Para converter de `string`  para `DateTime`, podemos utilizar o `Parse`, `TryParseExact` e `TryParse`. O `Parse` irá lançar uma exceção caso não consiga converter e, o `TryParseExact` e `TryParse`, irá converter e retornar `true ou false` para o sucesso ou falha. A diferença entre o `TryParse` e `TryParseExact` é justmanete na precisão oferecida. No `TryParse`, você não precisa informar nada além da data. Enquanto que, no `TryParseExact`, você precisa fornecer o formato que a data está, cultura, estilo e aonde será armazenado.
 ### Formatação
 A formatação é um tratamento dos dados antes desse dado ser exibido. Existem diversas formas de formatar:
 - Dinheiro: Podemos formatar valores ao interpolar strings da seguinte forma `${value:C}`. Essa formatação pega a localização do sistema e utiliza para formatar corretamente.
@@ -110,6 +124,9 @@ public class Program {
 	}
 }
 ```
+
+### Exceções 
+
 ### Classes 
 A declaração de classes no C# é feita com a palavra reservada `class`.  Essa palavra é seguida pelo nome da classe, que deve ser maiúsculo e ser igual ao nome do arquivo. Antes dela, podemos ter um modificador de acesso:
 
