@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Azure Pipelines.md",
+                "file": "Linguagens/DOTNET.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevOps/Azure Pipelines.md",
+                "file": "Linguagens/DOTNET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevOps/Azure Pipelines.md",
+                "file": "Linguagens/DOTNET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevOps/Azure Pipelines.md"
+                "file": "Linguagens/DOTNET.md"
               }
             }
           }
@@ -161,14 +161,14 @@
   },
   "active": "a0a77bc0c95e5ac5",
   "lastOpenFiles": [
-    "Linguagens/DOTNET.md",
+    "Linguagens/Linguagem C e C++.md",
     "DevOps/Azure Pipelines.md",
+    "Linguagens/DOTNET.md",
     "DevOps",
     "Agenda de Provas.md",
     "Banco de Dados.md",
     "Compiladores.md",
     "Blockchain/SHA-256.md",
-    "Linguagens/Linguagem C e C++.md",
     "Blockchain",
     "Linguagens/Linguagem Go.md",
     "Blockchain/Blockchain.md",
