@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a0a77bc0c95e5ac5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Azure Pipelines.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/DOTNET.md",
+                "file": "DevOps/Azure Pipelines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/DOTNET.md",
+                "file": "DevOps/Azure Pipelines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/DOTNET.md"
+                "file": "DevOps/Azure Pipelines.md"
               }
             }
           }
@@ -146,15 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0dce246f25db6460",
+  "active": "a0a77bc0c95e5ac5",
   "lastOpenFiles": [
+    "Linguagens/DOTNET.md",
+    "DevOps/Azure Pipelines.md",
+    "DevOps",
     "Agenda de Provas.md",
     "Banco de Dados.md",
     "Compiladores.md",
     "Blockchain/SHA-256.md",
     "Linguagens/Linguagem C e C++.md",
     "Blockchain",
-    "Linguagens/DOTNET.md",
     "Linguagens/Linguagem Go.md",
     "Blockchain/Blockchain.md",
     "Sistemas Operacionais/Automatização de Tarefas.md",
@@ -180,7 +195,6 @@
     "Sistemas Operacionais",
     "Onde Parei?.md",
     "Instruction.md",
-    "Welcome.md",
     "Arquitetura de Computadores"
   ]
 }
