@@ -126,7 +126,7 @@ public class Program {
 ```
 
 ### Exceções 
-
+Uma exceção é um erro que ocorre dentro de uma rotina. Geralmente, ela ocorre devido à um problema que é irremediável durante a execução ou um problema que impede a execução daquele fluxo.
 ### Classes 
 A declaração de classes no C# é feita com a palavra reservada `class`.  Essa palavra é seguida pelo nome da classe, que deve ser maiúsculo e ser igual ao nome do arquivo. Antes dela, podemos ter um modificador de acesso:
 
