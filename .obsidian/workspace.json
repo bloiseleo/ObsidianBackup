@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Etapas Comuns.md",
+                "file": "Engenharia de Software/Gerenciamento de Projeto.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Etapas Comuns.md",
+                "file": "Engenharia de Software/Gerenciamento de Projeto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Etapas Comuns.md",
+                "file": "Engenharia de Software/Gerenciamento de Projeto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Etapas Comuns.md"
+                "file": "Engenharia de Software/Gerenciamento de Projeto.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "32e2c627d008c0ee",
   "lastOpenFiles": [
-    "Engenharia de Software/Introdução.md",
     "Engenharia de Software/Etapas Comuns.md",
+    "Engenharia de Software/Gerenciamento de Projeto.md",
+    "Engenharia de Software/Introdução.md",
     "Planejamento de Reestruturação.md",
     "Planejamento de Reestruturação.pdf",
     "Linguagens/DOTNET.md",
