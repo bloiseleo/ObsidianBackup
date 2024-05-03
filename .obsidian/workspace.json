@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "000d72a001c26192",
+        "id": "0e017204ff17cef2",
         "type": "tabs",
         "children": [
           {
-            "id": "0dce246f25db6460",
+            "id": "32e2c627d008c0ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/DOTNET.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0a77bc0c95e5ac5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linguagens/DOTNET.md",
+                "file": "Engenharia de Software/Etapas Comuns.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/DOTNET.md",
+                "file": "Engenharia de Software/Etapas Comuns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/DOTNET.md",
+                "file": "Engenharia de Software/Etapas Comuns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/DOTNET.md"
+                "file": "Engenharia de Software/Etapas Comuns.md"
               }
             }
           }
@@ -159,20 +146,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80ea6ddd4c566326",
+  "active": "32e2c627d008c0ee",
   "lastOpenFiles": [
-    "Planejamento de Reestruturação.pdf",
-    "Planejamento de Reestruturação.md",
+    "Engenharia de Software/Introdução.md",
     "Engenharia de Software/Etapas Comuns.md",
+    "Planejamento de Reestruturação.md",
+    "Planejamento de Reestruturação.pdf",
+    "Linguagens/DOTNET.md",
     "DevOps/Azure Pipelines.md",
     "DevOps",
-    "Engenharia de Software/Introdução.md",
     "Agenda de Provas.md",
     "Engenharia de Software",
     "Banco de Dados.md",
     "Compiladores.md",
     "Sistemas Operacionais/Sistema de Arquivos.md",
-    "Linguagens/DOTNET.md",
     "Linguagens/Linguagem C e C++.md",
     "Blockchain/SHA-256.md",
     "Blockchain",
@@ -195,7 +182,6 @@
     "Arquitetura de Computadores/Instruction Set.md",
     "Linguagens",
     "Paradigmas de Programação",
-    "Sistemas Operacionais",
-    "Arquitetura de Computadores"
+    "Sistemas Operacionais"
   ]
 }
