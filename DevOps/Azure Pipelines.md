@@ -1,6 +1,0 @@
-- Uma pipeline é um conjunto de stages.
-- Cada stage é um conjunto de Steps, que constitui um Job.
-- Um Job precisa ser executado dentro de um agente. O agente é toda a infraestrutura necessária para executar determinado job.
-- Um step pode ser um script ou uma tarefa. Essa é a menor unidade de trabalho do Azure Pipelines.
-- Uma tarefa é um script pré-feito que realiza alguma ação específica, como chamar uma api ou publicar artefatos.
-- Um artefato é um conjunto de arquivos ou pacotes que podem vir a ser utilizados por tarefas subsequentes.
