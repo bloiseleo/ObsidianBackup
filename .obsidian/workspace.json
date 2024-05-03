@@ -159,8 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a0a77bc0c95e5ac5",
+  "active": "80ea6ddd4c566326",
   "lastOpenFiles": [
+    "Planejamento de Reestruturação.pdf",
+    "Planejamento de Reestruturação.md",
     "Engenharia de Software/Etapas Comuns.md",
     "DevOps/Azure Pipelines.md",
     "DevOps",
@@ -191,7 +193,6 @@
     "Java.md",
     "Arquitetura de Computadores/Introdução.md",
     "Arquitetura de Computadores/Instruction Set.md",
-    "Linguagens/Java.md",
     "Linguagens",
     "Paradigmas de Programação",
     "Sistemas Operacionais",
