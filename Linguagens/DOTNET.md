@@ -126,7 +126,33 @@ public class Program {
 ```
 
 ### Exceções 
-Uma exceção é um erro que ocorre dentro de uma rotina. Geralmente, ela ocorre devido à um problema que é irremediável durante a execução ou um problema que impede a execução daquele fluxo. Portanto, 
+Uma exceção é um erro que ocorre dentro de uma rotina. Geralmente, ela ocorre devido à um problema que é irremediável durante a execução ou um problema que impede a execução daquele fluxo. Entretanto, além de rotinas do próprio C# poderem lançar exceções, nós podemos fazer as nossas próprias.
+
+Para capturar uma exceção, rodeamos a porção que pode gerar exceção com o bloco `try...catch...`. Esse bloco executa e, quando uma exceção é lançada, ela pode ser capturada pelo bloco `catch`. Por exemplo: 
+
+```
+try {
+	var i = 1 - 1;
+	var r = 1 / i;
+} catch(Exception exception) {
+	Console.WriteLine("Exception ocorreu! " + exception.Message);
+}
+```
+O código acima nos permite capturar qualquer exceção. Nesse caso, a exceção lançada é a `DivideByZeroException`. Entretanto, todas as exceções herdam de `Exception`, logo, todas as exceções cairam ali. Caso queiramos tratar uma exceção em específica, podemos adicionar um bloco `catch` com o tipo específico da `Exception` que queremos lidar com aquele bloco.
+```
+try {
+	var data = File.ReadAllLines("./teste.text");
+} catch(FileNotFoundException exception) {
+	Console.WriteLine("Não achei seu arquivo! " + exception.Message );
+} catch(Exception exception) {
+	Console.WriteLine("Erro não encontrado! " + exception.Message);
+}
+```
+> Quando uma exceção ocorre e não há um `try...catch...`, você perde o controle do fluxo e o programa interrompe.
+
+O bloco `finally` nos permite executar um bloco de código independente do que ocorreu acima, ou seja, independente se foi feito o bloco `try` sem problemas e, também, com problemas no `try` e caindo para o `catch`.
+
+> Esse lugar é ótimo para garantir o fechamento de recursos!
 ### Classes 
 A declaração de classes no C# é feita com a palavra reservada `class`.  Essa palavra é seguida pelo nome da classe, que deve ser maiúsculo e ser igual ao nome do arquivo. Antes dela, podemos ter um modificador de acesso:
 
