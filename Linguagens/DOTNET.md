@@ -125,6 +125,7 @@ public class Program {
 }
 ```
 
+### Coleções
 ### Exceções 
 Uma exceção é um erro que ocorre dentro de uma rotina. Geralmente, ela ocorre devido à um problema que é irremediável durante a execução ou um problema que impede a execução daquele fluxo. Entretanto, além de rotinas do próprio C# poderem lançar exceções, nós podemos fazer as nossas próprias.
 
