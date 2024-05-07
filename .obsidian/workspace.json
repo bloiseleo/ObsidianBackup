@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Gerenciamento de Projeto.md",
+                "file": "Linux/Sistema de Arquivos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Gerenciamento de Projeto.md",
+                "file": "Linux/Sistema de Arquivos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Gerenciamento de Projeto.md",
+                "file": "Linux/Sistema de Arquivos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Gerenciamento de Projeto.md"
+                "file": "Linux/Sistema de Arquivos.md"
               }
             }
           }
@@ -146,32 +146,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "32e2c627d008c0ee",
+  "active": "80ea6ddd4c566326",
   "lastOpenFiles": [
-    "Engenharia de Software/Etapas Comuns.md",
+    "Sistemas Operacionais/Automatização de Tarefas.md",
+    "Sistemas Operacionais/Memória de Um Processo.md",
+    "Sistemas Operacionais/Sistema de Arquivos.md",
+    "Agenda de Provas.md",
+    "Linux/Sistema de Arquivos.md",
     "Engenharia de Software/Gerenciamento de Projeto.md",
+    "Engenharia de Software/Etapas Comuns.md",
     "Engenharia de Software/Introdução.md",
     "Planejamento de Reestruturação.md",
     "Planejamento de Reestruturação.pdf",
     "Linguagens/DOTNET.md",
     "DevOps/Azure Pipelines.md",
     "DevOps",
-    "Agenda de Provas.md",
     "Engenharia de Software",
     "Banco de Dados.md",
     "Compiladores.md",
-    "Sistemas Operacionais/Sistema de Arquivos.md",
     "Linguagens/Linguagem C e C++.md",
     "Blockchain/SHA-256.md",
     "Blockchain",
     "Linguagens/Linguagem Go.md",
     "Blockchain/Blockchain.md",
-    "Sistemas Operacionais/Automatização de Tarefas.md",
     "Algoritmos/Análise de um Algoritmo.md",
     "Paradigmas de Programação/Programação Orientada a Aspecto.md",
-    "Linux/Sistema de Arquivos.md",
     "Linux",
-    "Sistemas Operacionais/Memória de Um Processo.md",
     "Estruturas de Dados/Single Linked List and Double Linked List.md",
     "Estruturas de Dados/Introdução.md",
     "Estruturas de Dados/Array.md",
