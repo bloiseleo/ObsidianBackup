@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b3f53d96428b6e5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mercado Financeiro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/DOTNET.md",
+                "file": "Mercado Financeiro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/DOTNET.md",
+                "file": "Mercado Financeiro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/DOTNET.md"
+                "file": "Mercado Financeiro.md"
               }
             }
           }
@@ -146,8 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "32e2c627d008c0ee",
+  "active": "b3f53d96428b6e5b",
   "lastOpenFiles": [
+    "Linguagens/DOTNET.md",
+    "Mercado Financeiro.md",
+    "Untitled",
     "Paradigmas de Programação/Programação Orientada a Aspecto.md",
     "Linux/Sistema de Arquivos.md",
     "Sistemas Operacionais/Automatização de Tarefas.md",
@@ -164,7 +180,6 @@
     "Engenharia de Software/Etapas Comuns.md",
     "Engenharia de Software/Introdução.md",
     "Planejamento de Reestruturação.pdf",
-    "Linguagens/DOTNET.md",
     "DevOps/Azure Pipelines.md",
     "DevOps",
     "Engenharia de Software",
@@ -178,17 +193,9 @@
     "Blockchain/Blockchain.md",
     "Algoritmos/Análise de um Algoritmo.md",
     "Linux",
-    "Estruturas de Dados/Single Linked List and Double Linked List.md",
-    "Estruturas de Dados/Introdução.md",
-    "Estruturas de Dados/Array.md",
     "Estruturas de Dados",
-    "Algoritmos/Introdução.md",
     "Algoritmos",
-    "Java.md",
-    "Arquitetura de Computadores/Introdução.md",
-    "Arquitetura de Computadores/Instruction Set.md",
     "Linguagens",
-    "Paradigmas de Programação",
-    "Sistemas Operacionais"
+    "Paradigmas de Programação"
   ]
 }
