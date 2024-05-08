@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/Linguagem C e C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/Linguagem C e C++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/Linguagem C e C++.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -146,8 +144,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8b9bfbf4657ebe5",
+  "active": "80ea6ddd4c566326",
   "lastOpenFiles": [
+    "Linguagens/Linguagem C e C++.md",
+    "Untitled.md",
     "Mercado Financeiro.md",
     "Linguagens/DOTNET.md",
     "Untitled",
@@ -160,7 +160,6 @@
     "Engenharia de Software/Gerenciamento de Projeto.md",
     "Engenharia de Software/Etapas Comuns.md",
     "Engenharia de Software/Introdução.md",
-    "Linguagens/Linguagem C e C++.md",
     "Compiladores.md",
     "Planejamento de Reestruturação.md",
     "Engenharia de Software/Gerenciamento de Projeto.md",
@@ -172,13 +171,11 @@
     "Engenharia de Software",
     "Banco de Dados.md",
     "Compiladores.md",
-    "Linguagens/Linguagem C e C++.md",
     "Sistemas Operacionais/Sistema de Arquivos.md",
     "Blockchain/SHA-256.md",
     "Blockchain",
     "Linguagens/Linguagem Go.md",
     "Blockchain/Blockchain.md",
-    "Algoritmos/Análise de um Algoritmo.md",
     "Linux",
     "Estruturas de Dados",
     "Algoritmos",
