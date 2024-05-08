@@ -126,6 +126,40 @@ public class Program {
 ```
 
 ### Coleções
+As coleções são conjuntos de dados organizados de alguma forma. Existem diversas coleções e podem ser mais eficientes em determinadas situações do que outras. Portanto, vale a pena saber como elas se comportam.
+#### Array
+O array é uma coleção básica que armazena os elementos do mesmo tipo de acordo com o índice, que começa do 0. Além disso, ele é estático, ou seja, não muda de tamanho de acordo com o passar do tempo.
+
+```
+int[] arr = { 0, 1, 2, 3, 4, 5 };
+
+foreach(var i in arr)
+{
+    Console.WriteLine(i);
+}
+```
+
+#### List
+O tipo `List` é muito parecido com o `Array`, mas possui dinamicidade no tamanho dele. Contudo, como é uma estrutura mais complexa, ele é um objeto e você pode interagir com ele através de métodos:
+
+```
+var list = new List<int>();
+
+for(int i = 0; i < 10; i++)
+{
+    list.Add(i);
+}
+
+foreach(var i in list)
+{
+    Console.WriteLine(i);
+}
+
+for(int i = 0; i < 10; i++)
+{
+    Console.WriteLine(list[i]);
+}
+```
 ### Exceções 
 Uma exceção é um erro que ocorre dentro de uma rotina. Geralmente, ela ocorre devido à um problema que é irremediável durante a execução ou um problema que impede a execução daquele fluxo. Entretanto, além de rotinas do próprio C# poderem lançar exceções, nós podemos fazer as nossas próprias.
 
