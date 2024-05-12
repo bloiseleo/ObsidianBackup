@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/Linguagem C e C++.md",
+                "file": "Sistemas Operacionais/Unix.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/Linguagem C e C++.md",
+                "file": "Sistemas Operacionais/Unix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/Linguagem C e C++.md",
+                "file": "Sistemas Operacionais/Unix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/Linguagem C e C++.md"
+                "file": "Sistemas Operacionais/Unix.md"
               }
             }
           }
@@ -148,6 +148,10 @@
   },
   "active": "80ea6ddd4c566326",
   "lastOpenFiles": [
+    "Sistemas Operacionais/Sistema de Arquivos.md",
+    "Sistemas Operacionais/Memória de Um Processo.md",
+    "Sistemas Operacionais/Automatização de Tarefas.md",
+    "Sistemas Operacionais/Unix.md",
     "Linguagens/Linguagem C e C++.md",
     "Untitled.md",
     "Mercado Financeiro.md",
@@ -155,9 +159,6 @@
     "Untitled",
     "Paradigmas de Programação/Programação Orientada a Aspecto.md",
     "Linux/Sistema de Arquivos.md",
-    "Sistemas Operacionais/Automatização de Tarefas.md",
-    "Sistemas Operacionais/Memória de Um Processo.md",
-    "Sistemas Operacionais/Sistema de Arquivos.md",
     "Agenda de Provas.md",
     "Engenharia de Software/Gerenciamento de Projeto.md",
     "Engenharia de Software/Etapas Comuns.md",
@@ -173,7 +174,6 @@
     "Engenharia de Software",
     "Banco de Dados.md",
     "Compiladores.md",
-    "Sistemas Operacionais/Sistema de Arquivos.md",
     "Blockchain/SHA-256.md",
     "Blockchain",
     "Linguagens/Linguagem Go.md",
