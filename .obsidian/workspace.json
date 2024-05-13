@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operacionais/Unix.md",
+                "file": "Linguagens/Linguagem C e C++.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operacionais/Unix.md",
+                "file": "Linguagens/Linguagem C e C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operacionais/Unix.md",
+                "file": "Linguagens/Linguagem C e C++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operacionais/Unix.md"
+                "file": "Linguagens/Linguagem C e C++.md"
               }
             }
           }
@@ -146,12 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80ea6ddd4c566326",
+  "active": "e8b9bfbf4657ebe5",
   "lastOpenFiles": [
+    "Sistemas Operacionais/Unix.md",
     "Sistemas Operacionais/Sistema de Arquivos.md",
     "Sistemas Operacionais/Memória de Um Processo.md",
     "Sistemas Operacionais/Automatização de Tarefas.md",
-    "Sistemas Operacionais/Unix.md",
     "Linguagens/Linguagem C e C++.md",
     "Untitled.md",
     "Mercado Financeiro.md",
