@@ -31,4 +31,4 @@ int soma(int x, int y) {
 ```
 
 ### Variáveis
-As variáveis são espaços de memória 
+As variáveis são espaços de memória que armazenam valores. Nesse caso, podemos inicializar e/ou declarar as variáveis. Declarar só reserva o espaço enquanto que, inicializar, declara e atribui um valor para aquele espaço.
