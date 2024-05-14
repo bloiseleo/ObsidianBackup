@@ -1,7 +1,6 @@
 A linguagem C foi criada há muitos anos atrás para a elaboração do sistema `Unix`. Entretanto, com o passar dos anos, a American National Standard Institute (ANSI) estabeleceu um manual definindo o padrão de C. Portanto, essa referência é chamada de `ANSI C`. 
 
 O ANSI C define um conjunto de header files, tipos de dados e structs que são fornecidos em tempo de execução. Dessa forma, a biblioteca padrão é bem determinada e, programas que a usam, tem uma garantia de que serão suportados em diferentes arquiteturas.
-
 ### Comentários
 Os comentários são ignroados pelo compilador e tudo que está dentro desses caracteres `/**/`.
 ### Funções
@@ -31,4 +30,8 @@ int soma(int x, int y) {
 ```
 
 ### Variáveis
-As variáveis são espaços de memória que armazenam valores. Nesse caso, podemos inicializar e/ou declarar as variáveis. Declarar só reserva o espaço enquanto que, inicializar, declara e atribui um valor para aquele espaço.
+As variáveis são espaços de memória que armazenam valores. Nesse caso, podemos inicializar e/ou declarar as variáveis. Declarar só reserva o espaço enquanto que, inicializar, declara e atribui um valor para aquele espaço. Para fazer qualquer uma dessas operações, precisamos definir o tipo daquela variável. Para fazer isso, executamos da seguinte forma:
+```
+tipo nome_variavel; // Declaração
+tipo nome_variavel = valor // Inicialização
+```
