@@ -205,7 +205,35 @@ O bloco `finally` nos permite executar um bloco de código independente do que o
 
 A  serialização é o ato de transformar um conjunto de bytes em outro conjunto de bytes. No caso, ouvimos mais essa palavra no contexto de JSON. Portanto, nesse caso, estamos fazendo a transformação de um JSON para string. 
 
-Isso é necessário muitas vezes para transportar dados dentro do seu sistema ou para o sistema de terceiros.
+Isso é necessário muitas vezes para transportar dados dentro do seu sistema ou para o sistema de terceiros. Geralmente, fazemos isso com o `Newtonsoft.Json`, que é uma biblioteca que realiza esse parsing. Para que ela realize esse parsing, ela utiliza-se das propriedades públicas, que podem ser mostradas.
+Por exemplo:
+```
+public class Product
+{
+    public Product(string name, string value)
+    {
+        Name = name;
+        Value = value;
+    }
+    private string Name;
+    private string Value;
+}
+```
+
+Essa classe acima não iria produzir objeto, devido a todas as propriedades serem privadas.
+Entretanto, esse aqui seria completamente deserializado:
+```
+public class Product
+{
+    public Product(string name, string value)
+    {
+        Name = name;
+        Value = value;
+    }
+    public string Name;
+    public string Value;
+}
+```
 ### Classes 
 A declaração de classes no C# é feita com a palavra reservada `class`.  Essa palavra é seguida pelo nome da classe, que deve ser maiúsculo e ser igual ao nome do arquivo. Antes dela, podemos ter um modificador de acesso:
 
