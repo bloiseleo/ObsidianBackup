@@ -23,8 +23,18 @@ Além disso, nem todo código é automaticamente compilado para CPU-especifico. 
 O Microsoft Build Engine é uma build tool para gerenciar e compilar projetos. Essa ferramenta é configurada por um arquivo XML que controla e determina todo o processo de build.
 
 ### Nuget
+Um pacote é um conjunto de códigos escrito por alguém que resolve um ou mais determinados problemas. Para fazer o download desses pacotes, utilizamos um gerenciador de pacotes.  Nesse caso, entra o `Nuget`, que é um gerenciador de pacotes onde outros desenvolvedores podem publicar suas soluções.
 
+> Ter uma ferramenta que realiza esse gerenciamento é importante devido a necessidade de versionamento, baixar e trocar versões e etc. Esse processo era custoso antigamente.
 
+Para adicionar pacotes ao projeto, usamos o comando abaixo:
+```
+dotnet add package NomeDoPacote 
+```
+
+Esse comando gera um registro dentro do `csproj`. Essa entrada é colocada dentro de m `ItemGroup`, onde é adicionado uma `PackageReference` contendo o nome do pacote + versão dele. Depois disso, quando formos usar esse código em outro lugar, basta executarmos `dotnet restore`.
+
+Além disso, você pode instalar esse pacote através do Nuget dentro do Visual Studio pelo `Manage Nuget Projects`.
 ## Sintaxe e Estrutura do Projeto
 Quando inciamos um projeto C#, temos um arquivo chamado `Program.cs`, que geralmente é o ponto de entrada da aplicação, um arquivo terminado em `.csproj` com o nome do Projeto, que é o arquivo do `MSBuild` utilizado para buildar a aplicação com algumas configurações que dependem de cada projeto, uma pasta bin e uma pasta obj. A pasta bin contêm os binários da aplicação, que é gerado quando você compila a aplicação, e, também, dentro da pasta obj. Nesse caso, dentro da pasta obj, teremos arquivos de debbuging.
 
@@ -191,6 +201,11 @@ try {
 O bloco `finally` nos permite executar um bloco de código independente do que ocorreu acima, ou seja, independente se foi feito o bloco `try` sem problemas e, também, com problemas no `try` e caindo para o `catch`.
 
 > Esse lugar é ótimo para garantir o fechamento de recursos!
+### Serialização
+
+A  serialização é o ato de transformar um conjunto de bytes em outro conjunto de bytes. No caso, ouvimos mais essa palavra no contexto de JSON. Portanto, nesse caso, estamos fazendo a transformação de um JSON para string. 
+
+Isso é necessário muitas vezes para transportar dados dentro do seu sistema ou para o sistema de terceiros.
 ### Classes 
 A declaração de classes no C# é feita com a palavra reservada `class`.  Essa palavra é seguida pelo nome da classe, que deve ser maiúsculo e ser igual ao nome do arquivo. Antes dela, podemos ter um modificador de acesso:
 
