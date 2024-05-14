@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/Linguagem C e C++.md",
+                "file": "Linguagens/DOTNET.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/Linguagem C e C++.md",
+                "file": "Linguagens/DOTNET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/Linguagem C e C++.md",
+                "file": "Linguagens/DOTNET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/Linguagem C e C++.md"
+                "file": "Linguagens/DOTNET.md"
               }
             }
           }
@@ -148,11 +148,11 @@
   },
   "active": "e8b9bfbf4657ebe5",
   "lastOpenFiles": [
+    "Linguagens/Linguagem C e C++.md",
     "Sistemas Operacionais/Unix.md",
     "Sistemas Operacionais/Sistema de Arquivos.md",
     "Sistemas Operacionais/Memória de Um Processo.md",
     "Sistemas Operacionais/Automatização de Tarefas.md",
-    "Linguagens/Linguagem C e C++.md",
     "Untitled.md",
     "Mercado Financeiro.md",
     "Linguagens/DOTNET.md",
