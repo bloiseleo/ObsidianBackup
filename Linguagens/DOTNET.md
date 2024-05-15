@@ -84,6 +84,55 @@ Console.WriteLine(now.ToString("dd/MM/yyyy"));
 Vale a pena dar uma olhada na documentação para entender quais formatações estão funcionando.  Para pegar somente a data sem a hora, podemos usar o método `ToShortDateString()`. Para pegar somente a hora, use o método `ToShortTimeString()`.
 
 Para converter de `string`  para `DateTime`, podemos utilizar o `Parse`, `TryParseExact` e `TryParse`. O `Parse` irá lançar uma exceção caso não consiga converter e, o `TryParseExact` e `TryParse`, irá converter e retornar `true ou false` para o sucesso ou falha. A diferença entre o `TryParse` e `TryParseExact` é justmanete na precisão oferecida. No `TryParse`, você não precisa informar nada além da data. Enquanto que, no `TryParseExact`, você precisa fornecer o formato que a data está, cultura, estilo e aonde será armazenado.
+
+### Nullable Types
+Nesses tipos, você pode representar o valor do tipo + o valor `null`, que é um valor que representa a ausência de valor. Geralmente, para fazer isso, usamos o `?` depois do nome do tipo:
+
+```
+tipo? variavel;
+```
+Exemplo:
+```
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Product? product = null;
+        if(product == null) {
+            Console.WriteLine("It's null");
+            return;
+        }
+        Console.WriteLine(product);
+    }
+}
+```
+
+Quando o tipo é um objeto que nós criamos, você pode fazer o check se a referência é `null`. Caso seja um tipo primitivo, você pode vir a realizar a chamada de um método `.HasValue`. Esse método verifica se há valor dentro daquele Nullable Type de acordo com seu tipo normal.
+
+> Isso também pode ser aplicado para propriedades e retorno de métodos.
+
+### Anonymous Type
+Um tipo anônimo é uma forma de escrever um objeto de forma bem parecida com o JavaScript. Nesse caso, usamos esse tipo da seguinta forma:
+```
+class Program
+{
+    public static void Main(string[] args)
+    {
+        var anon = new {
+            nome =  "Leonardo",
+            sobrenome = "Bloise",
+            altura = 1.80
+        };
+        Console.WriteLine(anon);
+    }
+}
+```
+Entretanto, esse objeto torna-se readonly após ser definido, ou seja, não pode ser alterado.
+### Dynamic Type
+Esse tipo de dado é aferido em tempo de execução e permite a sua alteração em runtime, ou seja, ela permite que uma determinada variável seja dinâmica. Para fazer isso, usamos o seguinte:
+```
+dynamic name = 4;
+```
 ### Formatação
 A formatação é um tratamento dos dados antes desse dado ser exibido. Existem diversas formas de formatar:
 - Dinheiro: Podemos formatar valores ao interpolar strings da seguinte forma `${value:C}`. Essa formatação pega a localização do sistema e utiliza para formatar corretamente.
@@ -271,6 +320,33 @@ O exemplo acima motra a primeira classe sendo chamado como entrypoint do C#.
 
 > A convenção do C# é que métodos e propriedades públicas devem começar com maiúsculos e seguir minúsculo enquanto que, privados ou protegidos, devem ser camelCase.
 
+### Classes Genéricas
+Essas classes são classes que podem conter outros objetos e, também, aplicam operações que não são relacionadas diretamente com aquele objeto. Um exemplo perfeito é a classe `List`. Esse tipo engloba um objeto e permite aplicar diversaas manipulações de `List` sem nos preocupar com o tipo que está por baixo.
+
+Para criar uma classe que aceita um genêrico, você pode passar o nome que representará o tipo depois do nome da classe:
+```
+namespace LearnAndRepeat {
+    public class LearnAndRepeat<T> {
+        private T[] values = new T[10];
+    }
+}
+```
+
+O nome `T` é um padrão para esses casos, mas podemos passar qualquer outro valor para representar esse genêrico.
+### Métodos de Extensão
+Os métodos de extensão são uma forma de acrescentar comportamento que seja comum à todas as instâncias de um determinado objeto sem necessariamente alterar a classe dele. Para fazer isso, devemos criar uma classe `static`, visto que nenhuma instância dessa classe será feita. Após isso, iremos necessitar de escrever um método público para aquela extensão. Esse método pode ter qualquer nome e deve ser `static` também. Por fim, dentro dos argumentos, digitamos `this` seguido do tipo que queremos adicionar aquele método e o nome para o parâmetro, que representará o valor que o chamou.
+
+No exemplo abaixo, estou adicionando um método de extensão para um inteiro:
+
+```
+namespace LearnAndRepeat {
+    public static class EvenCalculator {
+        public static bool IsEven(this int number) {
+            return number % 2 == 0;
+        }
+    }
+}
+```
 ### Indexadores
 Os indexadores nos permitem fazer uma sintaxe de `arrays`em qualquer classe que quisermos. Para fazer isso, usamos esses caras: os indexadores. Eles são feitos a partir de um método dentro de uma classe que você declarada dessa forma:
 ```
