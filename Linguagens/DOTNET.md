@@ -20,7 +20,6 @@ Para ser executado, esse código precisa ser compilado para código de máquina.
 Além disso, nem todo código é automaticamente compilado para CPU-especifico. Nesse caso, somente aquilo que é necessário e chamado durante a execução.
 ### MSBuild
 O Microsoft Build Engine é uma build tool para gerenciar e compilar projetos. Essa ferramenta é configurada por um arquivo XML que controla e determina todo o processo de build.
-
 ### Nuget
 Um pacote é um conjunto de códigos escrito por alguém que resolve um ou mais determinados problemas. Para fazer o download desses pacotes, utilizamos um gerenciador de pacotes.  Nesse caso, entra o `Nuget`, que é um gerenciador de pacotes onde outros desenvolvedores podem publicar suas soluções.
 
@@ -233,6 +232,30 @@ public class Product
     public string Value;
 }
 ```
+
+> Datas serializadas, por padrão, são ISO-8601 no Newtonsoft.Json. Logo, ler ou escrever bits nesse formato é o padrão.
+
+Uma forma de estabelecer o nome de uma determinada propriedade num json, é fazer da seguinte forma:
+
+```
+public class Product
+{
+    public Product(string name, string value, DateTime data)
+    {
+        Name = name;
+        Value = value;
+	    CreationDate = data;
+    }
+    [JsonProperty("name")]
+    public string Name;
+    [JsonProperty("value")]
+    public string Value;
+    [JsonProperty("creationDate")]
+    public DateTime CreationDate;
+}
+```
+
+Dessa forma, conseguimos fazer com que ele leia e escreva o valor das propriedades nos JSONs corretos.
 ### Classes 
 A declaração de classes no C# é feita com a palavra reservada `class`.  Essa palavra é seguida pelo nome da classe, que deve ser maiúsculo e ser igual ao nome do arquivo. Antes dela, podemos ter um modificador de acesso:
 
