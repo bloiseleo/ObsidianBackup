@@ -11,7 +11,6 @@ O Common Language Runtime executa o código produzido pelos compiladores do .NET
 - Chamar métodos.
 - Gerar código nativo
 - Integração cross-language.
-
 #### Processo de Compilação e Execução
 O compilador é o responsável por ditar a sintaxe e como você irá escrever o código e acessar os recursos do `Common Language Runtime`. Ele irá compilar o código para Microsoft Intermediate Language, que é independente de CPU. Esse código contem o código intermediário e os metadados para o CLR. 
 
@@ -320,6 +319,106 @@ O exemplo acima motra a primeira classe sendo chamado como entrypoint do C#.
 
 > A convenção do C# é que métodos e propriedades públicas devem começar com maiúsculos e seguir minúsculo enquanto que, privados ou protegidos, devem ser camelCase.
 
+### Encapsulamento
+O encapsulamento é um pilar da orientação a objetos que diz respeito sobre a acessibilidade das propriedades do objeto em determinado contexto. Para fazer isso, exsitem os modificadores de acesso:
+
+- `private`: Somente a própria classe pode acessar aquela propriedade/método.
+- `public`: Qualquer entidade pode acessar aquela propriedade/método/classe.
+- `protected`: Qualquer classe filha, além da classe pai, pode acessar e sobreescrever essa propriedade.
+
+```
+namespace LearnAndRepeat.Models
+{
+    public class ContaCorrente
+    {
+        private int Numero;
+        private decimal Saldo;
+        public ContaCorrente(int numero, decimal saldo)
+        {
+            Numero = numero;
+            Saldo = saldo;
+        }
+        public void Sacar(decimal valor) {
+            if(valor > Saldo) {
+                throw new Exception("Saldo insuficiente");
+            }
+            Saldo -= valor;
+        }
+    }
+}
+```
+### Herança
+A herança é o princípio que nos permite herdar e reutilizar com ou sem modificações os mesmos comportamentos que uma outra classe. A classe que herda é chamada de filho e, a classe que é herdada, é chamada de pai. 
+
+Para realizar a herança, usamos a seguinte sintaxe:
+```
+namespace LearnAndRepeat.Models
+{
+    public class Student : Person
+    {
+        private int Degree;
+        public Student(string name, int age, int degree) : base(name, age)
+        {
+            Degree = degree;
+        }
+    }
+}
+```
+
+Nesse caso, `Person` é uma classe que está sendo herdada por `Student`. É possível também que `Student` seja pai de outros filhos e, dessa forma, são netos de `Person`. Contudo, não é possível implementar herança múltipla de classes.
+### Polimorfismo
+O polimorfismo é um conceito onde uma determinada instância ou método que, teoricamente, faz uma coisa só, possa fazer várias outras coisas dependendo da sua forma.  Por exemplo, temos a classe abaixo:
+
+```
+namespace LearnAndRepeat.Models
+{
+    public class Person
+    {
+        public string Name { get; }
+        public int Age { get; }
+        public Person(string name, int age)
+        {
+            Name = name;
+            Age = age;
+        }
+        public void Apresentar() {
+            Console.WriteLine("Olá! Eu sou o " + Name + " e tenho " + Age + " anos");
+        }
+        public override string ToString()
+        {
+            return $"{Name} {Age}";
+        }
+    }
+}
+```
+
+Essa classe irá fornecer esse método para todas as suas filhas. Logo, caso façamos isso:
+```
+    public static void Main(string[] args) {
+        var person = new Person("Pessoa qualquer", 20);
+        person.Apresentar();
+        var teacher = new Teacher("Leonardo", 24, 2000);
+        teacher.Apresentar();
+        var aluno = new Student("Aluno", 23, 20);
+        aluno.Apresentar();
+    }
+```
+Todas as classes filhas tram esse comportamento e podemos chamar esse método em todas elas. Para poder aplicar o polimorfismo nesse método, precisamos indicar que esse método pode ser sobreescrito. Para fazer isso, colocamos `virtual` dentro da assinatura do método:
+
+```
+public virtual void Apresentar() {
+	Console.WriteLine("Olá! Eu sou o " + Name + " e tenho " + Age + " anos");
+}
+```
+Depois disso, nas classes que queremos fazer a sobreescrita, fazemos da seguinte forma:
+```
+public override void Apresentar()
+{
+	Console.WriteLine($"Eu sou o {Name} tenho {Age} anos e recebo {Salary}");
+}
+```
+### Classes Abstratas
+Essas classes são modelos puros que não podem ser instanciadas diretamente, ou seja, precisam ser herdadas para serem utilizadas. Elas podem definir métodos e propriedades que são herdadas diretamente pelos filhos ou definir métodos e propriedades que eles precisam implementar. Isso é chamado de métodos abstratos.
 ### Classes Genéricas
 Essas classes são classes que podem conter outros objetos e, também, aplicam operações que não são relacionadas diretamente com aquele objeto. Um exemplo perfeito é a classe `List`. Esse tipo engloba um objeto e permite aplicar diversaas manipulações de `List` sem nos preocupar com o tipo que está por baixo.
 
