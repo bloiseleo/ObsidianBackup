@@ -419,6 +419,42 @@ public override void Apresentar()
 ```
 ### Classes Abstratas
 Essas classes são modelos puros que não podem ser instanciadas diretamente, ou seja, precisam ser herdadas para serem utilizadas. Elas podem definir métodos e propriedades que são herdadas diretamente pelos filhos ou definir métodos e propriedades que eles precisam implementar. Isso é chamado de métodos abstratos.
+
+Para criar uma classe abstrata, fazemos dessa forma:
+
+```
+public abstract class Conta
+{
+        protected decimal Saldo;
+        public Conta(decimal saldo)
+        {
+            Saldo = saldo;
+        }
+        public abstract void Creditar(decimal valor);
+        public void ExibirSaldo()
+        {
+            Console.WriteLine(Saldo);
+        }
+}
+```
+
+A classe `Conta` não pode ser instanciada e o método `abstract` deve ser implementado pelas outras classes dessa forma:
+
+```
+namespace LearnAndRepeat.Models
+{
+    public class Corrente : Conta
+    {
+        public Corrente(decimal saldo) : base(saldo)
+        {
+        }
+        public override void Creditar(decimal valor)
+        {
+            Saldo += valor;
+        }
+    }
+}
+```
 ### Classes Genéricas
 Essas classes são classes que podem conter outros objetos e, também, aplicam operações que não são relacionadas diretamente com aquele objeto. Um exemplo perfeito é a classe `List`. Esse tipo engloba um objeto e permite aplicar diversaas manipulações de `List` sem nos preocupar com o tipo que está por baixo.
 
