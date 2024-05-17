@@ -382,6 +382,8 @@ A classe filha é do tipo `Conta`, logo, ela precisa de um saldo. Entretanto, o 
 ```
 public Corrente(decimal saldo) : base(saldo) {}
 ```
+
+Para evitar que uma classe possa ser herdada ou algum método/propriedade seja sobreescrito, dessa forma, você garante uma implementação única. Para fazer isso, basta adicionar `sealed` ao invés de `abstract`.
 ### Polimorfismo
 O polimorfismo é um conceito onde uma determinada instância ou método que, teoricamente, faz uma coisa só, possa fazer várias outras coisas dependendo da sua forma.  Por exemplo, temos a classe abaixo:
 
@@ -484,6 +486,23 @@ namespace LearnAndRepeat {
 ```
 
 O nome `T` é um padrão para esses casos, mas podemos passar qualquer outro valor para representar esse genêrico.
+### Interfaces
+Uma interface é um contrato que determina métodos e propriedades que toda classe que a implementa deve implementar. Caso não implemente nessa totalidade, ela não será válida e não irá compilar.
+
+Para criar uma interface, você deve criar da seguinte forma:
+```
+public interface Calculadora {
+    public int Soma(int x, int y);
+	public int Subtrair(int x, int y);
+}
+```
+Para que uma determinada classe seja do tipo `Calculadora`, você precisa herdar da seguinte forma:
+
+```
+public class CalculadoraCientifica: Calculadora {}
+```
+
+> É possível implementar uma implementação padrão nessa interface
 ### Métodos de Extensão
 Os métodos de extensão são uma forma de acrescentar comportamento que seja comum à todas as instâncias de um determinado objeto sem necessariamente alterar a classe dele. Para fazer isso, devemos criar uma classe `static`, visto que nenhuma instância dessa classe será feita. Após isso, iremos necessitar de escrever um método público para aquela extensão. Esse método pode ter qualquer nome e deve ser `static` também. Por fim, dentro dos argumentos, digitamos `this` seguido do tipo que queremos adicionar aquele método e o nome para o parâmetro, que representará o valor que o chamou.
 
@@ -510,3 +529,6 @@ public T this[int i]
 ```
 
 Dessa forma, estamos permitindo o acesso via índice aos nossos objetos enquanto mantemos controle total sobre quem está sendo acessado e como. Nesse caso, estamos aceitando um inteiro como parâmetro, pois o usuário deve passar um inteiro para acessar 0-indexed. Por fim, você pode ter mais de um desse na classe, ou seja, podem sofrer overload.
+
+### System.Object
+Essa classe é a classe mãe de todas as outras classes e objetos do C#. Todo mundo deriva diretamente ou indiretamente dessa classe e provem serviços de baixo nível para as filhas.
