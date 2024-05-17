@@ -366,6 +366,22 @@ namespace LearnAndRepeat.Models
 ```
 
 Nesse caso, `Person` é uma classe que está sendo herdada por `Student`. É possível também que `Student` seja pai de outros filhos e, dessa forma, são netos de `Person`. Contudo, não é possível implementar herança múltipla de classes.
+
+Sempre que definimos um construtor na classe pai, precisamos chamar ele também na classe que herda essa classe. Para fazer isso, imaginemos o seguinte:
+
+Classe pai
+```
+public Conta(decimal saldo)
+{
+	Saldo = saldo;
+}
+```
+
+A classe filha é do tipo `Conta`, logo, ela precisa de um saldo. Entretanto, o saldo é construído na classe pai. Portanto, para fazer isso, você precisa chamar o construtor pai da seguinte forma:
+
+```
+public Corrente(decimal saldo) : base(saldo) {}
+```
 ### Polimorfismo
 O polimorfismo é um conceito onde uma determinada instância ou método que, teoricamente, faz uma coisa só, possa fazer várias outras coisas dependendo da sua forma.  Por exemplo, temos a classe abaixo:
 
