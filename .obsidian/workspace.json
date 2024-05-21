@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/DOTNET.md",
+                "file": "Agenda de Provas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/DOTNET.md",
+                "file": "Agenda de Provas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/DOTNET.md",
+                "file": "Agenda de Provas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/DOTNET.md"
+                "file": "Agenda de Provas.md"
               }
             }
           }
@@ -146,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80ea6ddd4c566326",
+  "active": "e8b9bfbf4657ebe5",
   "lastOpenFiles": [
+    "Linguagens/DOTNET.md",
     "Mercado Financeiro.md",
     "Planejamento de Reestruturação.md",
     "Compiladores.md",
@@ -163,7 +164,6 @@
     "Algoritmos/Análise de um Algoritmo.md",
     "Arquitetura de Computadores/Instruction Set.md",
     "Arquitetura de Computadores/Introdução.md",
-    "Linguagens/DOTNET.md",
     "Linguagens/Linguagem C e C++.md",
     "Sistemas Operacionais/Unix.md",
     "Sistemas Operacionais/Sistema de Arquivos.md",
