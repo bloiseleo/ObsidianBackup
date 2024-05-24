@@ -8,3 +8,6 @@ Esse banco de dados exige uma série de regras para os dados. Nesse caso, os cam
 Um banco de dados não relacional guarda os seus dados de maneira não estruturada ou semi estruturadas que não apresentam relação (pelo menos, não deveria).
 
 Esses bancos de dados são mais flexíveis e mais rápidos, visto que não apresentam muitas regras e validações rígidas, como, por exemplo, a ausência do ACID. Por conta disso, são ótimos para dados onde não se sabe muito bem a estrutura ou a estrutura varia muito de caso em caso.
+
+### Database Management System
+Software utilizado para monitorar, acessar e manipular o banco de dados. Geralmente, essas ferramentas são utilizadas por desenvolvedores e DBAs para manipular esse banco de dado com um conjunto de ferramentas que nos auxlia no desenvolvimento.
