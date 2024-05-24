@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de Dados/Introdução.md",
+                "file": "Banco de Dados/Structured Query Language.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de Dados/Introdução.md",
+                "file": "Banco de Dados/Structured Query Language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de Dados/Introdução.md",
+                "file": "Banco de Dados/Structured Query Language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de Dados/Introdução.md"
+                "file": "Banco de Dados/Structured Query Language.md"
               }
             }
           }
@@ -159,10 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80ea6ddd4c566326",
+  "active": "66c6744581bb0e2a",
   "lastOpenFiles": [
-    "Banco de Dados.md",
     "Banco de Dados/Introdução.md",
+    "Banco de Dados/Structured Query Language.md",
+    "Banco de Dados.md",
     "Agenda de Provas.md",
     "Banco de Dados",
     "Sistemas Operacionais/Automatização de Tarefas.md",

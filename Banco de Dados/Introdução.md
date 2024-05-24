@@ -11,3 +11,5 @@ Esses bancos de dados são mais flexíveis e mais rápidos, visto que não apres
 
 ### Database Management System
 Software utilizado para monitorar, acessar e manipular o banco de dados. Geralmente, essas ferramentas são utilizadas por desenvolvedores e DBAs para manipular esse banco de dado com um conjunto de ferramentas que nos auxlia no desenvolvimento.
+
+> O SQL (Structured Query Language) é a linguagem que utilizamos para realizar as consultas no banco de dados e, também, alterações.
