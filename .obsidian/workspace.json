@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e8b9bfbf4657ebe5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Agenda de Provas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "66c6744581bb0e2a",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,11 +148,11 @@
   },
   "active": "66c6744581bb0e2a",
   "lastOpenFiles": [
-    "Linguagens/DOTNET.md",
+    "Agenda de Provas.md",
     "Linguagens/React Native.md",
+    "Linguagens/DOTNET.md",
     "Arquitetura de Computadores/Instruction Set.md",
     "Arquitetura de Computadores/Introdução.md",
-    "Agenda de Provas.md",
     "Compiladores.md",
     "Banco de Dados.md",
     "Mercado Financeiro.md",

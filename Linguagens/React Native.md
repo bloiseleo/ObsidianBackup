@@ -20,3 +20,26 @@ A comunicação se dá dessa forma:
 - A bridge envia a mensagem para a thread do aplicativo.
 - O aplicativo aplica as ações.
 
+## Componentes
+Um componente é um conceito de interface máxima reduzidaa. Nesse caso, podemos imaginar o componente como a menor unidade de um componente visual.  Ela representa alguma determinada informação e possui sua própria estilização de modo independente. Os componentes podem ser encaixados um dentro do outro para formar componentes maiores.
+### View
+A partir disso, vamos construimos nossas telas. Para fazer isso, precisamos, primeiro, criar um container que irá conter nossos elementos. O React Native chama esse componente de `View`, que é o mais básico de todos. Ele será traduzido para diferentes coisas no nativo. Dessa forma, a  mais básica é:
+
+```
+<View>
+	<Text>Hello World!</Text>
+</View>
+```
+
+Para podermos lidar com eventos relacionados com essa `View`, podemos lançar mão dos eventos. Geralmente, eles começam com `on` e a continuação desse nome é relacionada a açao que o dispara. Por exemplo, para lidar com o clique do usuário, podemos fazer da seguinte forma:
+```
+    <View onTouchStart={() => {
+      console.log("clicked!");
+    }}
+    onTouchEnd={() => {
+     console.log("ended!");
+    }}>
+    ...
+    </View>
+```
+Nesse  caso, `TouchStart` é emitido quando o usuário clica na tela. `TouchEnd` é emitido quando o usuário termina de clicar na tela.
