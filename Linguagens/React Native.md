@@ -31,7 +31,8 @@ A partir disso, vamos construimos nossas telas. Para fazer isso, precisamos, pri
 </View>
 ```
 
-Para podermos lidar com eventos relacionados com essa `View`, podemos lançar mão dos eventos. Geralmente, eles começam com `on` e a continuação desse nome é relacionada a açao que o dispara. Por exemplo, para lidar com o clique do usuário, podemos fazer da seguinte forma:
+Para podermos lidar com eventos relacionados com essa `View`, podemos lançar mão dos eventos de gesto. Geralmente, eles começam com `on` e a continuação desse nome é relacionada a açao que o dispara. Por exemplo, para lidar com o clique do usuário, podemos fazer da seguinte forma:
+
 ```
     <View onTouchStart={() => {
       console.log("clicked!");
@@ -42,4 +43,21 @@ Para podermos lidar com eventos relacionados com essa `View`, podemos lançar m�
     ...
     </View>
 ```
-Nesse  caso, `TouchStart` é emitido quando o usuário clica na tela. `TouchEnd` é emitido quando o usuário termina de clicar na tela.
+
+Nesse  caso, `TouchStart` é emitido quando o usuário clica na tela. `TouchEnd` é emitido quando o usuário termina de clicar na tela. Existem vários outros tipos que vale a pena consultar a documentação para saber mais.
+## Text
+Esse componente nos permite escrever um determinado texto na tela. Ele pode ser utilizado de diversas formas e, inclusive, pode ser feito um botão a partir dele. Entretanto, recomenda-se que utilize ele somente para texto.
+
+```
+<Text onPress={onClick} style={style.button}> Clique aqui para ler mais </Text>
+```
+
+Nesse exemplo, eu criei algo parecido com um botão utilizando essa tag. Para deixar ele selecionável, você pode adicionar a propriedade `selectable` como `true`. 
+
+> Os texts podem ser colocados dentro de outro `<Text>` o efeito resultante é como se os textos fossem concatenados sem quebra de linha.
+
+## Stylesheet
+A folha de estilo do react-native baseia-se no CSS da web. Entretanto, esses valores são convertidos quando falamos referente ao mobile para a plataforma. Nesse caso, podemos fazer de três formas:
+- JavaScript Object: Passamos os estilos diretamente no elemento.
+- StyleSheet Object: Criamos uma folha de estilo separada em formato de objeto e referenciamos ela na view.
+- Array de StyleSheet + JS: Passamos um array com os estilos e a prescedência indo do último para o final.
