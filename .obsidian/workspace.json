@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "415029404ce055ce",
+        "id": "de06737a7071ff25",
         "type": "tabs",
         "children": [
           {
-            "id": "66c6744581bb0e2a",
+            "id": "01b0646bbbc258cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de Dados/Introdução.md",
+                "file": "Nihongo 🇯🇵/Geral.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de Dados/Introdução.md",
+                "file": "Nihongo 🇯🇵/Geral.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de Dados/Introdução.md",
+                "file": "Nihongo 🇯🇵/Geral.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de Dados/Introdução.md"
+                "file": "Nihongo 🇯🇵/Geral.md"
               }
             }
           }
@@ -146,19 +146,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66c6744581bb0e2a",
+  "active": "01b0646bbbc258cd",
   "lastOpenFiles": [
+    "Nihongo 🇯🇵/Hiragana.md",
+    "Nihongo 🇯🇵/Geral.md",
+    "Mercado Financeiro.md",
+    "Nihongo 🇯🇵",
+    "Agenda de Provas.md",
+    "Banco de Dados/Introdução.md",
     "Banco de Dados/Structured Query Language.md",
     "Linguagens/DOTNET.md",
     "Linguagens/React Native.md",
     "Linux/Sistema de Arquivos.md",
-    "Agenda de Provas.md",
     "Arquitetura de Computadores/Instruction Set.md",
     "Arquitetura de Computadores/Introdução.md",
     "Compiladores.md",
     "Banco de Dados.md",
-    "Mercado Financeiro.md",
-    "Banco de Dados/Introdução.md",
     "Banco de Dados",
     "Sistemas Operacionais/Automatização de Tarefas.md",
     "Planejamento de Reestruturação.md",
@@ -173,16 +176,13 @@
     "Sistemas Operacionais/Unix.md",
     "Sistemas Operacionais/Sistema de Arquivos.md",
     "Sistemas Operacionais/Memória de Um Processo.md",
-    "Paradigmas de Programação/Programação Orientada a Aspecto.md",
     "Planejamento de Reestruturação.pdf",
-    "DevOps/Azure Pipelines.md",
     "DevOps",
     "Engenharia de Software",
     "Blockchain",
     "Linux",
     "Estruturas de Dados",
     "Algoritmos",
-    "Linguagens",
-    "Paradigmas de Programação"
+    "Linguagens"
   ]
 }
