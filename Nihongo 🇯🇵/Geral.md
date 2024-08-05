@@ -1,4 +1,4 @@
-O japonês é composto por três escritas:
+  O japonês é composto por três escritas:
 - Hiragana
 - Katakana
 - Kanji
