@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e426bcf5c68c3ca3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Monitores que não estão implementados.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Monitores que não estão implementados.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Monitores que não estão implementados.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -159,10 +171,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dc08e4302635e482",
+  "active": "e426bcf5c68c3ca3",
   "lastOpenFiles": [
-    "Nihongo 🇯🇵/Geral.md",
     "Monitores que não estão implementados.md",
+    "Untitled.md",
+    "Nihongo 🇯🇵/Geral.md",
     "Table_hiragana.jpg",
     "Nihongo 🇯🇵/Hiragana.md",
     "Mercado Financeiro.md",
@@ -189,7 +202,6 @@
     "Algoritmos/Análise de um Algoritmo.md",
     "Linguagens/Linguagem C e C++.md",
     "Sistemas Operacionais/Unix.md",
-    "Sistemas Operacionais/Sistema de Arquivos.md",
     "Planejamento de Reestruturação.pdf",
     "DevOps",
     "Engenharia de Software",
