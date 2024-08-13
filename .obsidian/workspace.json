@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dc08e4302635e482",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Monitores que não estão implementados.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nihongo 🇯🇵/Geral.md",
+                "file": "Monitores que não estão implementados.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Nihongo 🇯🇵/Geral.md",
+                "file": "Monitores que não estão implementados.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nihongo 🇯🇵/Geral.md"
+                "file": "Monitores que não estão implementados.md"
               }
             }
           }
@@ -146,11 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "01b0646bbbc258cd",
+  "active": "dc08e4302635e482",
   "lastOpenFiles": [
+    "Nihongo 🇯🇵/Geral.md",
+    "Monitores que não estão implementados.md",
     "Table_hiragana.jpg",
     "Nihongo 🇯🇵/Hiragana.md",
-    "Nihongo 🇯🇵/Geral.md",
     "Mercado Financeiro.md",
     "Nihongo 🇯🇵",
     "Agenda de Provas.md",
