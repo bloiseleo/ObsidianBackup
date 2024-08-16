@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "01b0646bbbc258cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nihongo 🇯🇵/Geral.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc08e4302635e482",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Monitores que não estão implementados.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e426bcf5c68c3ca3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Roteiro - Umbraco.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6c5f7d567c103bb9",
@@ -110,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Roteiro - Umbraco.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Roteiro - Umbraco.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Roteiro - Umbraco.md"
               }
             }
           }
@@ -174,7 +150,7 @@
   "active": "e426bcf5c68c3ca3",
   "lastOpenFiles": [
     "Monitores que não estão implementados.md",
-    "Untitled.md",
+    "Roteiro - Umbraco.md",
     "Nihongo 🇯🇵/Geral.md",
     "Table_hiragana.jpg",
     "Nihongo 🇯🇵/Hiragana.md",

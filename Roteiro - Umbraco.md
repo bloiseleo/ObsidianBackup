@@ -1,0 +1,16 @@
+- O que é o Umbraco?
+	- Definição
+	- Ferramentas utilizadas por baixo dos panos
+	- Detalhar ferramentas (.NET, .NET Framework, Razor, ASP.NET, DOTNET CLI)
+	- Instalar ferramentas
+- Teoria sobre Document Types
+	- O que são document types?
+	- O que são properties e groups dentro dos document types?
+	- Oque é Content?
+- Prática sobre Document Types
+- Rodar o projeto Localmente
+	- Clonar projeto
+	- Criar projeto no Visual Studio
+	- Levantar banco de dados
+	- Realizar migrações
+	- That's it!
