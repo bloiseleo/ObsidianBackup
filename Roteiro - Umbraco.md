@@ -1,7 +1,7 @@
 - O que é o Umbraco?
 	- Definição
 	- Ferramentas utilizadas por baixo dos panos
-	- Detalhar ferramentas (.NET, .NET Framework, Razor, ASP.NET, DOTNET CLI)
+	- Detalhar ferramentas (.NET, .NET Framework, Razor, ASP.NET, DOTNET CLI).
 	- Instalar ferramentas
 - Teoria sobre Document Types
 	- O que são document types?
