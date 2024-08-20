@@ -48,3 +48,5 @@ DERIVATIVES -> BMF
 
 Para avaliar isso, pedir ao cliente quem mandou e qual foi o ativo.
 ![[image.png]]
+
+##

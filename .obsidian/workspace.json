@@ -174,8 +174,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 776,
-        "y": 125,
+        "x": 561,
+        "y": 67,
         "width": 616,
         "height": 839,
         "maximize": false,
@@ -185,9 +185,9 @@
   },
   "active": "6b8d87222a57bacb",
   "lastOpenFiles": [
-    "image.png",
     "Roteiro - Umbraco.md",
     "Anotações.md",
+    "image.png",
     "Monitores que não estão implementados.md",
     "Nihongo 🇯🇵/Geral.md",
     "Table_hiragana.jpg",
