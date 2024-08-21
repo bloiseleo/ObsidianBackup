@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "175af156e5df182f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Alterar Ordem e Zerar Posição.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Roteiro - Umbraco.md",
+                "file": "Alterar Ordem e Zerar Posição.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Roteiro - Umbraco.md",
+                "file": "Alterar Ordem e Zerar Posição.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Roteiro - Umbraco.md"
+                "file": "Alterar Ordem e Zerar Posição.md"
               }
             }
           }
@@ -146,10 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e426bcf5c68c3ca3",
+  "active": "175af156e5df182f",
   "lastOpenFiles": [
-    "Anotações.md",
     "Roteiro - Umbraco.md",
+    "Alterar Ordem e Zerar Posição.md",
+    "Intelitrader - Bugs",
+    "Anotações.md",
     "image.png",
     "Monitores que não estão implementados.md",
     "Nihongo 🇯🇵/Geral.md",
@@ -183,7 +198,6 @@
     "Blockchain",
     "Linux",
     "Estruturas de Dados",
-    "Algoritmos",
-    "Linguagens"
+    "Algoritmos"
   ]
 }
