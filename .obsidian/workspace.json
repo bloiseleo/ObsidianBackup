@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Alterar Ordem e Zerar Posição.md",
+                "file": "Anotações.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Alterar Ordem e Zerar Posição.md",
+                "file": "Anotações.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Alterar Ordem e Zerar Posição.md",
+                "file": "Anotações.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Alterar Ordem e Zerar Posição.md"
+                "file": "Anotações.md"
               }
             }
           }
@@ -161,18 +161,18 @@
   },
   "active": "175af156e5df182f",
   "lastOpenFiles": [
-    "Roteiro - Umbraco.md",
-    "Alterar Ordem e Zerar Posição.md",
-    "Intelitrader - Bugs",
-    "Anotações.md",
     "image.png",
+    "Mercado Financeiro.md",
+    "Agenda de Provas.md",
+    "Alterar Ordem e Zerar Posição.md",
+    "Anotações.md",
     "Monitores que não estão implementados.md",
+    "Roteiro - Umbraco.md",
+    "Intelitrader - Bugs",
     "Nihongo 🇯🇵/Geral.md",
     "Table_hiragana.jpg",
     "Nihongo 🇯🇵/Hiragana.md",
-    "Mercado Financeiro.md",
     "Nihongo 🇯🇵",
-    "Agenda de Provas.md",
     "Banco de Dados/Introdução.md",
     "Banco de Dados/Structured Query Language.md",
     "Linguagens/DOTNET.md",
@@ -191,7 +191,6 @@
     "Engenharia de Software/Gerenciamento de Projeto.md",
     "Engenharia de Software/Etapas Comuns.md",
     "Algoritmos/Introdução.md",
-    "Algoritmos/Análise de um Algoritmo.md",
     "Planejamento de Reestruturação.pdf",
     "DevOps",
     "Engenharia de Software",
