@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4be79bd53db94664",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coisas pra fazer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Anotações.md",
+                "file": "Coisas pra fazer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Anotações.md",
+                "file": "Coisas pra fazer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Anotações.md"
+                "file": "Coisas pra fazer.md"
               }
             }
           }
@@ -159,13 +171,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "175af156e5df182f",
+  "active": "4be79bd53db94664",
   "lastOpenFiles": [
+    "Anotações.md",
+    "Coisas pra fazer.md",
     "image.png",
     "Mercado Financeiro.md",
     "Agenda de Provas.md",
     "Alterar Ordem e Zerar Posição.md",
-    "Anotações.md",
     "Monitores que não estão implementados.md",
     "Roteiro - Umbraco.md",
     "Intelitrader - Bugs",
