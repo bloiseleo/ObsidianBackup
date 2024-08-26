@@ -1,1 +1,2 @@
 - Mergear master com develop.
+- Verificar se o `nssm.exe`
