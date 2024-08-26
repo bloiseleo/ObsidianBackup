@@ -197,7 +197,6 @@ foreach(var i in arr)
     Console.WriteLine(i);
 }
 ```
-
 #### List
 O tipo `List` é muito parecido com o `Array`, mas possui dinamicidade no tamanho dele. Contudo, como é uma estrutura mais complexa, ele é um objeto e você pode interagir com ele através de métodos:
 

@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e426bcf5c68c3ca3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Roteiro - Umbraco.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "175af156e5df182f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anotações.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4be79bd53db94664",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Coisas pra fazer.md",
+                "file": "Daily Intelitrader.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coisas pra fazer.md",
+                "file": "Daily Intelitrader.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coisas pra fazer.md",
+                "file": "Daily Intelitrader.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coisas pra fazer.md"
+                "file": "Daily Intelitrader.md"
               }
             }
           }
@@ -171,44 +146,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4be79bd53db94664",
+  "active": "175af156e5df182f",
   "lastOpenFiles": [
-    "Anotações.md",
-    "Coisas pra fazer.md",
     "image.png",
-    "Mercado Financeiro.md",
+    "Daily Intelitrader.md",
+    "Anotações.md",
     "Agenda de Provas.md",
-    "Alterar Ordem e Zerar Posição.md",
-    "Monitores que não estão implementados.md",
-    "Roteiro - Umbraco.md",
-    "Intelitrader - Bugs",
-    "Nihongo 🇯🇵/Geral.md",
-    "Table_hiragana.jpg",
-    "Nihongo 🇯🇵/Hiragana.md",
-    "Nihongo 🇯🇵",
-    "Banco de Dados/Introdução.md",
-    "Banco de Dados/Structured Query Language.md",
     "Linguagens/DOTNET.md",
-    "Linguagens/React Native.md",
-    "Linux/Sistema de Arquivos.md",
-    "Arquitetura de Computadores/Instruction Set.md",
-    "Arquitetura de Computadores/Introdução.md",
-    "Compiladores.md",
-    "Banco de Dados.md",
-    "Banco de Dados",
-    "Sistemas Operacionais/Automatização de Tarefas.md",
-    "Planejamento de Reestruturação.md",
+    "Arquitetura de Computadores/Sistemas Operacionais/Linux/Sistema de Arquivos.md",
     "Estruturas de Dados/Introdução.md",
+    "Estruturas de Dados/Single Linked List and Double Linked List.md",
     "Estruturas de Dados/Array.md",
-    "Engenharia de Software/Introdução.md",
-    "Engenharia de Software/Gerenciamento de Projeto.md",
     "Engenharia de Software/Etapas Comuns.md",
+    "Arquitetura de Computadores/Sistemas Operacionais/Unix.md",
+    "Arquitetura de Computadores/Sistemas Operacionais/Sistema de Arquivos.md",
+    "Arquitetura de Computadores/Sistemas Operacionais/Memória de Um Processo.md",
+    "Arquitetura de Computadores/Sistemas Operacionais/Automatização de Tarefas.md",
+    "Alterar Ordem e Zerar Posição.md",
+    "Table_hiragana.jpg",
+    "Roteiro - Umbraco.md",
+    "Problema.md",
+    "Monitores que não estão implementados.md",
+    "Mercado Financeiro.md",
+    "Blockchain/Blockchain.md",
+    "Blockchain/SHA-256.md",
+    "Banco de Dados/Structured Query Language.md",
+    "Banco de Dados/Introdução.md",
+    "Algoritmos/Análise de um Algoritmo.md",
     "Algoritmos/Introdução.md",
+    "Arquitetura de Computadores/Introdução.md",
+    "Intelitrader - Bugs",
+    "Nihongo 🇯🇵",
+    "Banco de Dados",
     "Planejamento de Reestruturação.pdf",
     "DevOps",
     "Engenharia de Software",
     "Blockchain",
-    "Linux",
+    "Arquitetura de Computadores/Sistemas Operacionais/Linux",
     "Estruturas de Dados",
     "Algoritmos"
   ]
