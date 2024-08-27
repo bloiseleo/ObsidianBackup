@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Intelitrader.md",
+                "file": "Linguagens/DOTNET.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Intelitrader.md",
+                "file": "Linguagens/DOTNET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Intelitrader.md",
+                "file": "Linguagens/DOTNET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Intelitrader.md"
+                "file": "Linguagens/DOTNET.md"
               }
             }
           }
@@ -148,16 +148,24 @@
   },
   "active": "175af156e5df182f",
   "lastOpenFiles": [
-    "image.png",
+    "Estruturas de Dados/Array.md",
+    "Estruturas de Dados/Introdução.md",
+    "Estruturas de Dados/Single Linked List and Double Linked List.md",
+    "Engenharia de Software/Introdução.md",
+    "Engenharia de Software/Gerenciamento de Projeto.md",
+    "Engenharia de Software/Etapas Comuns.md",
+    "Banco de Dados/Structured Query Language.md",
+    "Banco de Dados/Introdução.md",
+    "Arquitetura de Computadores/Introdução.md",
+    "Arquitetura de Computadores/Instruction Set.md",
+    "Algoritmos/Introdução.md",
+    "Algoritmos/Análise de um Algoritmo.md",
     "Daily Intelitrader.md",
+    "image.png",
     "Anotações.md",
     "Agenda de Provas.md",
     "Linguagens/DOTNET.md",
     "Arquitetura de Computadores/Sistemas Operacionais/Linux/Sistema de Arquivos.md",
-    "Estruturas de Dados/Introdução.md",
-    "Estruturas de Dados/Single Linked List and Double Linked List.md",
-    "Estruturas de Dados/Array.md",
-    "Engenharia de Software/Etapas Comuns.md",
     "Arquitetura de Computadores/Sistemas Operacionais/Unix.md",
     "Arquitetura de Computadores/Sistemas Operacionais/Sistema de Arquivos.md",
     "Arquitetura de Computadores/Sistemas Operacionais/Memória de Um Processo.md",
@@ -168,13 +176,6 @@
     "Problema.md",
     "Monitores que não estão implementados.md",
     "Mercado Financeiro.md",
-    "Blockchain/Blockchain.md",
-    "Blockchain/SHA-256.md",
-    "Banco de Dados/Structured Query Language.md",
-    "Banco de Dados/Introdução.md",
-    "Algoritmos/Análise de um Algoritmo.md",
-    "Algoritmos/Introdução.md",
-    "Arquitetura de Computadores/Introdução.md",
     "Intelitrader - Bugs",
     "Nihongo 🇯🇵",
     "Banco de Dados",

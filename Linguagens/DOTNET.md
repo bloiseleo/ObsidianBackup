@@ -38,7 +38,6 @@ Quando inciamos um projeto C#, temos um arquivo chamado `Program.cs`, que geralm
 > Tanto a pasta bin como a pasta obj devem ser ignoradas quando versionamos nosso projeto.
 
 Qualquer projeto C# tem que ter um método `Main` que seja acessível pela CLR para ser chamado na inicialização do programa. Caso exista mais de um, você precisa dizer no momento da compilação qual a classe que será usada como ponto de entrada. Além disso, o método `Main` deve estar dentro de uma classe ou `struct` e deve ser `static`.
-
 ### Tipos de Dados
 Existem os seguintes tipos de dados:
 - string: Conjunto de caracteres encodados com o UTF-8.
@@ -60,7 +59,6 @@ Ainda temos mais um tipo, o tipo `DateTime` no C# é usado para representar uma 
 
 Por fim, todos os tipos herdam de `Object`, que é uma classe base de todas as derivações. Essa classe é extendida automaticamente e sem nós sabermos. P
 ### Operações em Tipos
-
 Os operadores aritméticos possuem os valores de precedência que sobre eles existem. Nesse caso, estamos falando do `+, -, / e *`. A prescedência pode ser aplicada sobre eles de acordo com a ordem natural `* e / - + e -` nessa ordem respectivamente.
 #### Concatenação de Strings
 Para concatenar as strings, podemos utilizar o operador `+` e/ou fazer uma `template string`:
@@ -69,7 +67,6 @@ int num = 1;
 Console.WriteLine("Número: " + num);
 Console.WriteLine($"Número: {num}");
 ```
-
 ### Datas
 Em C#, as datas são representadas pela classe `DateTime`.  Além disso, essa classe carrega consigo, também, o fuso horário da data. Por padrão, ele leva em consideração o fuso horário da data.
 A formatação da data pode ser feita de maneira direta, ou seja, pode ser feita dessa forma:
