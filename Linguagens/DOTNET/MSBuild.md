@@ -1,0 +1,3 @@
+It's the main build tool used by C# projects to build and publish your application. Every C# project created with `.NET` contains a file terminating with `.csproj`. This file is a XML file that contains all the configuration and metadata needed to build and publish your application. The first tag that all projects must have to define its own properties.
+### <Project\>
+This tag can receive some properties to define additional behavior. The most common optional property used is `Sdk`. This property is used to define implicit imports that are needed for some common projects, like Web Projects or Console Projects.

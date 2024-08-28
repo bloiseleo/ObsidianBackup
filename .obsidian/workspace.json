@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/DOTNET.md",
+                "file": "Linguagens/DOTNET/Hosts.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/DOTNET.md",
+                "file": "Linguagens/DOTNET/Hosts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/DOTNET.md",
+                "file": "Linguagens/DOTNET/Hosts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/DOTNET.md"
+                "file": "Linguagens/DOTNET/Hosts.md"
               }
             }
           }
@@ -148,6 +148,11 @@
   },
   "active": "175af156e5df182f",
   "lastOpenFiles": [
+    "Linguagens/DOTNET/ASP.NET Core.md",
+    "Linguagens/DOTNET/DOTNET.md",
+    "Linguagens/DOTNET/Hosts.md",
+    "Linguagens/DOTNET/MSBuild.md",
+    "Linguagens/DOTNET",
     "Estruturas de Dados/Array.md",
     "Estruturas de Dados/Introdução.md",
     "Estruturas de Dados/Single Linked List and Double Linked List.md",
@@ -164,7 +169,6 @@
     "image.png",
     "Anotações.md",
     "Agenda de Provas.md",
-    "Linguagens/DOTNET.md",
     "Arquitetura de Computadores/Sistemas Operacionais/Linux/Sistema de Arquivos.md",
     "Arquitetura de Computadores/Sistemas Operacionais/Unix.md",
     "Arquitetura de Computadores/Sistemas Operacionais/Sistema de Arquivos.md",
@@ -173,9 +177,6 @@
     "Alterar Ordem e Zerar Posição.md",
     "Table_hiragana.jpg",
     "Roteiro - Umbraco.md",
-    "Problema.md",
-    "Monitores que não estão implementados.md",
-    "Mercado Financeiro.md",
     "Intelitrader - Bugs",
     "Nihongo 🇯🇵",
     "Banco de Dados",
@@ -184,7 +185,6 @@
     "Engenharia de Software",
     "Blockchain",
     "Arquitetura de Computadores/Sistemas Operacionais/Linux",
-    "Estruturas de Dados",
-    "Algoritmos"
+    "Estruturas de Dados"
   ]
 }

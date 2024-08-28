@@ -525,6 +525,5 @@ public T this[int i]
 ```
 
 Dessa forma, estamos permitindo o acesso via índice aos nossos objetos enquanto mantemos controle total sobre quem está sendo acessado e como. Nesse caso, estamos aceitando um inteiro como parâmetro, pois o usuário deve passar um inteiro para acessar 0-indexed. Por fim, você pode ter mais de um desse na classe, ou seja, podem sofrer overload.
-
 ### System.Object
 Essa classe é a classe mãe de todas as outras classes e objetos do C#. Todo mundo deriva diretamente ou indiretamente dessa classe e provem serviços de baixo nível para as filhas.

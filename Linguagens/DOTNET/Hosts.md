@@ -1,0 +1,3 @@
+Hosts are objects that encapsulates resources and functionality needed by that app while it's running and existing. The most common resources are: DI, Logging, Settings, Shutdown and Hosted Services (Background Tasks). When the application starts, the method `StartAsync` is called to start the application. If it contains any `BackgroundService` instance, it'll call the method `ExecuteAsync`.
+## Setting things Up
+In order to create a host, you need to create a builder. The builder will be responsible to build and configure your host services and other stuff.
