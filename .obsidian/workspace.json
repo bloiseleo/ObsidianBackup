@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/DOTNET/Hosts.md",
+                "file": "Daily Intelitrader.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/DOTNET/Hosts.md",
+                "file": "Daily Intelitrader.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/DOTNET/Hosts.md",
+                "file": "Daily Intelitrader.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/DOTNET/Hosts.md"
+                "file": "Daily Intelitrader.md"
               }
             }
           }
@@ -148,10 +148,11 @@
   },
   "active": "175af156e5df182f",
   "lastOpenFiles": [
-    "Linguagens/DOTNET/ASP.NET Core.md",
-    "Linguagens/DOTNET/DOTNET.md",
-    "Linguagens/DOTNET/Hosts.md",
+    "Linguagens/DOTNET.md",
     "Linguagens/DOTNET/MSBuild.md",
+    "Linguagens/DOTNET/Hosts.md",
+    "Linguagens/DOTNET/DOTNET.md",
+    "Linguagens/DOTNET/ASP.NET Core.md",
     "Linguagens/DOTNET",
     "Estruturas de Dados/Array.md",
     "Estruturas de Dados/Introdução.md",
@@ -176,7 +177,6 @@
     "Arquitetura de Computadores/Sistemas Operacionais/Automatização de Tarefas.md",
     "Alterar Ordem e Zerar Posição.md",
     "Table_hiragana.jpg",
-    "Roteiro - Umbraco.md",
     "Intelitrader - Bugs",
     "Nihongo 🇯🇵",
     "Banco de Dados",
