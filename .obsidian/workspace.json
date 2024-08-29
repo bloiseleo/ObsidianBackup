@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "de06737a7071ff25",
+        "id": "befca8a2210b0e59",
         "type": "tabs",
         "children": [
           {
-            "id": "175af156e5df182f",
+            "id": "add096087ec5d23f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/DOTNET/ASP.NET Core.md",
+                "file": "Linguagens/Java/Build Tools/Gradle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd172786fcc0b2a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Intelitrader.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/DOTNET/ASP.NET Core.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/DOTNET/ASP.NET Core.md",
+                "file": "Daily Intelitrader.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/DOTNET/ASP.NET Core.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -146,9 +159,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "175af156e5df182f",
+  "active": "dd172786fcc0b2a1",
   "lastOpenFiles": [
-    "Linguagens/DOTNET/Hosts.md",
+    "Linguagens/Java/Build Tools/Gradle.md",
+    "conflict-files-obsidian-git.md",
+    "Linguagens/Java/Kotlin.md",
+    "Linguagens/Java/Build Tools",
+    "image.png",
+    "Daily Intelitrader.md",
+    "Anotações.md",
+    "Linguagens/Java",
+    "Linguagens/Untitled.md",
+    "Linguagens/Java.md",
     "Linguagens/DOTNET/ASP.NET Core.md",
     "Linguagens/DOTNET/DOTNET.md",
     "Linguagens/DOTNET/MSBuild.md",
@@ -165,26 +187,16 @@
     "Arquitetura de Computadores/Instruction Set.md",
     "Algoritmos/Introdução.md",
     "Algoritmos/Análise de um Algoritmo.md",
-    "Daily Intelitrader.md",
-    "image.png",
-    "Anotações.md",
     "Agenda de Provas.md",
     "Arquitetura de Computadores/Sistemas Operacionais/Linux/Sistema de Arquivos.md",
     "Arquitetura de Computadores/Sistemas Operacionais/Unix.md",
-    "Arquitetura de Computadores/Sistemas Operacionais/Sistema de Arquivos.md",
-    "Arquitetura de Computadores/Sistemas Operacionais/Memória de Um Processo.md",
-    "Arquitetura de Computadores/Sistemas Operacionais/Automatização de Tarefas.md",
-    "Alterar Ordem e Zerar Posição.md",
     "Table_hiragana.jpg",
-    "Roteiro - Umbraco.md",
     "Intelitrader - Bugs",
     "Nihongo 🇯🇵",
     "Banco de Dados",
     "Planejamento de Reestruturação.pdf",
     "DevOps",
     "Engenharia de Software",
-    "Blockchain",
-    "Arquitetura de Computadores/Sistemas Operacionais/Linux",
-    "Estruturas de Dados"
+    "Blockchain"
   ]
 }
