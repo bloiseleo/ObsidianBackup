@@ -11,8 +11,12 @@
             "id": "add096087ec5d23f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Linguagens/Java/Build Tools/Gradle.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Linguagens/Java/Build Tools/Gradle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Linguagens/Java/Build Tools/Gradle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Linguagens/Java/Build Tools/Gradle.md"
+              }
             }
           }
         ]
@@ -140,9 +148,10 @@
   },
   "active": "add096087ec5d23f",
   "lastOpenFiles": [
+    "Linguagens/Java/Kotlin.md",
+    "Daily Intelitrader.md",
     "Linguagens/Java/Build Tools/Gradle.md",
     "Linguagens/Java/Build Tools",
-    "Linguagens/Java/Kotlin.md",
     "Linguagens/Java",
     "image.png",
     "Linguagens/DOTNET/MSBuild.md",
@@ -152,7 +161,6 @@
     "Linguagens/DOTNET",
     "Anotações.md",
     "conflict-files-obsidian-git.md",
-    "Daily Intelitrader.md",
     "Linguagens/Untitled.md",
     "Linguagens/Java.md",
     "Estruturas de Dados/Array.md",
