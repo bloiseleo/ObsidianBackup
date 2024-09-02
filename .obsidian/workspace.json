@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/Java/Build Tools/Gradle.md",
+                "file": "Linguagens/Java/Kotlin.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/Java/Build Tools/Gradle.md",
+                "file": "Linguagens/Java/Kotlin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/Java/Build Tools/Gradle.md",
+                "file": "Linguagens/Java/Kotlin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/Java/Build Tools/Gradle.md"
+                "file": "Linguagens/Java/Kotlin.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "add096087ec5d23f",
   "lastOpenFiles": [
+    "Linguagens/Java/Build Tools/Gradle.md",
     "Linguagens/Java/Kotlin.md",
     "Daily Intelitrader.md",
-    "Linguagens/Java/Build Tools/Gradle.md",
     "Linguagens/Java/Build Tools",
     "Linguagens/Java",
     "image.png",
