@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/Java/Kotlin.md",
+                "file": "Linguagens/JavaScript.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/Java/Kotlin.md",
+                "file": "Linguagens/JavaScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/Java/Kotlin.md",
+                "file": "Linguagens/JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/Java/Kotlin.md"
+                "file": "Linguagens/JavaScript.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "add096087ec5d23f",
   "lastOpenFiles": [
-    "Linguagens/Java/Build Tools/Gradle.md",
     "Linguagens/Java/Kotlin.md",
+    "Linguagens/JavaScript.md",
+    "Linguagens/Java/Build Tools/Gradle.md",
     "Daily Intelitrader.md",
     "Linguagens/Java/Build Tools",
     "Linguagens/Java",
@@ -161,7 +162,6 @@
     "Linguagens/DOTNET",
     "Anotações.md",
     "conflict-files-obsidian-git.md",
-    "Linguagens/Untitled.md",
     "Linguagens/Java.md",
     "Estruturas de Dados/Array.md",
     "Estruturas de Dados/Introdução.md",
