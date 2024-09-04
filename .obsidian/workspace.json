@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/JavaScript.md",
+                "file": "Study More.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/JavaScript.md",
+                "file": "Study More.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/JavaScript.md",
+                "file": "Study More.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/JavaScript.md"
+                "file": "Study More.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "add096087ec5d23f",
   "lastOpenFiles": [
-    "Linguagens/Java/Kotlin.md",
     "Linguagens/JavaScript.md",
+    "Study More.md",
+    "Linguagens/Java/Kotlin.md",
     "Linguagens/Java/Build Tools/Gradle.md",
     "Daily Intelitrader.md",
     "Linguagens/Java/Build Tools",
