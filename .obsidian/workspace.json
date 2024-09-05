@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study More.md",
+                "file": "Linguagens/Javascript/JavaScript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7598e113186389c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linguagens/Javascript/React.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study More.md",
+                "file": "Linguagens/Javascript/React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study More.md",
+                "file": "Linguagens/Javascript/React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study More.md"
+                "file": "Linguagens/Javascript/React.md"
               }
             }
           }
@@ -148,11 +161,16 @@
   },
   "active": "80ea6ddd4c566326",
   "lastOpenFiles": [
-    "Testes",
-    "Linguagens/JavaScript.md",
-    "Study More.md",
-    "Linguagens/Java/Kotlin.md",
+    "Cloud",
+    "Untitled",
+    "Linguagens/Javascript/Build Tool.md",
+    "Linguagens/Javascript/React.md",
+    "Linguagens/Javascript/JavaScript.md",
+    "Linguagens/Javascript",
     "Linguagens/Java/Build Tools/Gradle.md",
+    "Linguagens/Java/Kotlin.md",
+    "Study More.md",
+    "Testes",
     "Daily Intelitrader.md",
     "Linguagens/Java/Build Tools",
     "Linguagens/Java",
@@ -176,15 +194,10 @@
     "Arquitetura de Computadores/Introdução.md",
     "Arquitetura de Computadores/Instruction Set.md",
     "Algoritmos/Introdução.md",
-    "Algoritmos/Análise de um Algoritmo.md",
-    "Agenda de Provas.md",
     "Table_hiragana.jpg",
     "Intelitrader - Bugs",
     "Nihongo 🇯🇵",
     "Banco de Dados",
-    "Planejamento de Reestruturação.pdf",
-    "DevOps",
-    "Engenharia de Software",
-    "Blockchain"
+    "Planejamento de Reestruturação.pdf"
   ]
 }
