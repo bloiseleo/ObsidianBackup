@@ -1,2 +1,8 @@
-- How modules in Nest.JS works?
+- Nest.JS
+	- How modules in Nest.JS works?
 - Tests
+	- What to test?
+	- When to test?
+- Cloud
+	- Azure
+	- What is an API Gateway?
