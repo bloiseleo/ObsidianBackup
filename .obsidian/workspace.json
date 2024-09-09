@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/Java/Kotlin.md",
+                "file": "Linguagens/Javascript/React.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/Java/Kotlin.md",
+                "file": "Linguagens/Javascript/React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/Java/Kotlin.md",
+                "file": "Linguagens/Javascript/React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/Java/Kotlin.md"
+                "file": "Linguagens/Javascript/React.md"
               }
             }
           }
@@ -146,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80ea6ddd4c566326",
+  "active": "b45fad7e4bc72b29",
   "lastOpenFiles": [
+    "Linguagens/Java/Kotlin.md",
     "Linguagens/Javascript/React.md",
     "Linguagens/Javascript/JavaScript.md",
     "Cloud/API Gateway.md",
@@ -156,7 +157,6 @@
     "Linguagens/Javascript/Build Tool.md",
     "Linguagens/Javascript",
     "Linguagens/Java/Build Tools/Gradle.md",
-    "Linguagens/Java/Kotlin.md",
     "Study More.md",
     "Testes",
     "Daily Intelitrader.md",
