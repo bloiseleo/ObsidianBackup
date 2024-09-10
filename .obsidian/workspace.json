@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study More.md",
+                "file": "Linguagens/Java/Build Tools/Gradle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b658e552e323b036",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linguagens/Java/Android.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study More.md",
+                "file": "Linguagens/Java/Android.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study More.md",
+                "file": "Linguagens/Java/Android.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study More.md"
+                "file": "Linguagens/Java/Android.md"
               }
             }
           }
@@ -146,18 +159,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "896370114c0b7238",
+  "active": "b658e552e323b036",
   "lastOpenFiles": [
+    "Linguagens/Java/Build Tools/Gradle.md",
+    "Linguagens/Java/Android.md",
+    "Android",
     "Linguagens/Java/Kotlin.md",
+    "Study More.md",
     "Linguagens/Javascript/JavaScript.md",
     "Linguagens/Javascript/React.md",
     "Cloud/API Gateway.md",
     "Cloud",
-    "Untitled",
     "Linguagens/Javascript/Build Tool.md",
     "Linguagens/Javascript",
-    "Linguagens/Java/Build Tools/Gradle.md",
-    "Study More.md",
     "Testes",
     "Daily Intelitrader.md",
     "Linguagens/Java/Build Tools",
@@ -181,7 +195,6 @@
     "Banco de Dados/Introdução.md",
     "Arquitetura de Computadores/Introdução.md",
     "Arquitetura de Computadores/Instruction Set.md",
-    "Algoritmos/Introdução.md",
     "Table_hiragana.jpg",
     "Intelitrader - Bugs",
     "Nihongo 🇯🇵",
