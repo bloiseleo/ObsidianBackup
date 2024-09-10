@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/Java/Android.md",
+                "file": "Linguagens/Java/Kotlin.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/Java/Android.md",
+                "file": "Linguagens/Java/Kotlin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/Java/Android.md",
+                "file": "Linguagens/Java/Kotlin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/Java/Android.md"
+                "file": "Linguagens/Java/Kotlin.md"
               }
             }
           }
@@ -161,6 +161,8 @@
   },
   "active": "b658e552e323b036",
   "lastOpenFiles": [
+    "HTTP.md",
+    "Untitled",
     "Linguagens/Java/Build Tools/Gradle.md",
     "Linguagens/Java/Android.md",
     "Android",
@@ -194,10 +196,8 @@
     "Banco de Dados/Structured Query Language.md",
     "Banco de Dados/Introdução.md",
     "Arquitetura de Computadores/Introdução.md",
-    "Arquitetura de Computadores/Instruction Set.md",
     "Table_hiragana.jpg",
     "Intelitrader - Bugs",
-    "Nihongo 🇯🇵",
-    "Banco de Dados"
+    "Nihongo 🇯🇵"
   ]
 }
