@@ -79,7 +79,7 @@ export function Avatar({ name = "void", age = 0 , documentation }: Props) {
 }
 ```
 
-If you want to pass another react component as a property, you can do this using the `childrene` value of `props`.
+If you want to pass another react component as a property, you can do this using the `chidren` value of `props`.
 
 ```
 export function TitleContainer({ children }) {
@@ -97,3 +97,61 @@ export function App() {
 }
 ```
 
+> Children, in this case, can be typed as a React Component or anything else, like text.
+
+When the value of the props change, a new render of this children will be triggered and the new props will be reflected in the dom. But, you cannot change which params you pass to the children, but the value can be changed. 
+
+### Conditional Rendering
+Sometimes, you need to render something when some expression is true and render nothing or other component when the expression is false. In order to do this, you can use `if` expressions, ternary operator and the logical `&&` operator. For example:
+```
+export default function AlertModal({ channel, message, title, show = false }: Props) {  
+  const toggleModal = () => {  
+    channel.send("close_modal", !show);  
+  };  
+  return show && <div className={"z-10 h-screen w-screen bg-gray-500 bg-opacity-90 absolute top-0 left-0"}>  
+    <div className={"w-[90%] h-1/4 bg-white rounded text-center p-4 relative"} style={{  
+      margin: '0 auto',  
+      transform: 'translateY(150%)'  
+    }}>  
+      <CloseIcon onClick={() => toggleModal()} className={"absolute top-5 right-5"}/>  
+      <div className={"flex flex-col items-center justify-center h-full"}>  
+        <WarningIcon fontSize={"large"} color={"warning"} />  
+        <div className={"flex flex-col mt-6"}>  
+          <span className="text-2xl">{title}</span>  
+          <p className={"mt-4"}>{message}</p>  
+        </div>      </div>    </div>  </div>;  
+}
+```
+
+This component will only be rendered if the variable `show` is true. Otherwise, it would render nothing.  You still can use `if` and ternary operators to execute the same thing. 
+
+### Rendering Lists
+If you want to render lists, you can use javascript array functions to handle these operations, like filter or map. At first, you need to extract the data that will be rendered in a list to a separated array. Now, you can use the `map` operation, for example, to generate the list of items to be displayed.
+
+```
+const people = [
+	"Leonardo",
+	"Maria",
+	"Carlos"
+]
+
+return <ul>
+	{people.map(person => <li>{person}</li>)}
+</ul>
+```
+
+This approach can be used to create a list of items, but you must pass some way to identify the item uniquely in this list. For example, imagine that you have 10 items in your list. If something happens to that list and the tree will be rendered again, react will not known which element has truly changed. So, in order to track the changes in each item, you must given them an unique key.
+
+```
+const people = [
+	"Leonardo",
+	"Maria",
+	"Carlos"
+]
+
+return <ul>
+	{people.map((person, index) => <li key={index}>{person}</li>)}
+</ul>
+```
+
+> The key property can be used, but you should use something else.
