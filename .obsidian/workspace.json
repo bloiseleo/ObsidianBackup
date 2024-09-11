@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/Java/Kotlin.md",
+                "file": "Engenharia de Software/Manifesto Agile.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/Java/Kotlin.md",
+                "file": "Engenharia de Software/Manifesto Agile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/Java/Kotlin.md",
+                "file": "Engenharia de Software/Manifesto Agile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/Java/Kotlin.md"
+                "file": "Engenharia de Software/Manifesto Agile.md"
               }
             }
           }
@@ -148,14 +148,16 @@
   },
   "active": "b658e552e323b036",
   "lastOpenFiles": [
+    "Linguagens/Microsoft/Dotnet.md",
+    "Engenharia de Software/Manifesto Agile.md",
+    "Linguagens/Microsoft",
+    "Linguagens/Java/Kotlin.md",
     "Estruturas de Dados/Introdução.md",
     "Estruturas de Dados/Single Linked List and Double Linked List.md",
     "Estruturas de Dados/Array.md",
     "Linguagens/Javascript/JavaScript.md",
     "Linguagens/Javascript/React.md",
     "Linguagens/Javascript/Build Tool.md",
-    "Engenharia de Software/Manifesto Agile.md",
-    "Linguagens/Java/Kotlin.md",
     "HTTP.md",
     "Untitled",
     "Linguagens/Java/Build Tools/Gradle.md",
@@ -182,9 +184,7 @@
     "Engenharia de Software/Gerenciamento de Projeto.md",
     "Engenharia de Software/Etapas Comuns.md",
     "Banco de Dados/Structured Query Language.md",
-    "Banco de Dados/Introdução.md",
     "Table_hiragana.jpg",
-    "Intelitrader - Bugs",
-    "Nihongo 🇯🇵"
+    "Intelitrader - Bugs"
   ]
 }
