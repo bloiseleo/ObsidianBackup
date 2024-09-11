@@ -48,3 +48,9 @@ No modelo tradicional, temos o modelo cascata ou waterfall. As etapas do projeto
 
 ### Scrum
 No modelo ágil, temos diversas cascatas separadas em períodos de tempo menores com as mesmas etapas. Dessa forma, o valor é entregue de forma diluída durante todo o projeto. Com isso, conseguimos receber feedback a cerca do produto resultante e conseguimos adaptar, na próxima sprint, o produto.
+
+## Gestão Ágil
+- Uma gestão que é flexível e que se adapte às mudanças.
+- Colaborativa e que gere transparência.
+- Voltada ao aprendizado
+- Entrega Contínua de Valor.

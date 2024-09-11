@@ -5,7 +5,6 @@ JavaScript's standards are defined by the ECMAScript language specification and 
 It means that functions are treated like any other variable. It's possible to inform functions as parameters, it can be returned by another function and can be assigned as as value to a variable.
 #### Prototype-Based
 It means that we do not need to define classes in order to create an object. We can simply create an empty object or an object that already exists and add properties and methods to this object.
-
 ## Pure Function
 A pure function is a function that does not change any value that existed before its call. In this case, imagine that we have a function that perform math operations and take two parameters as input. Now, you perform your calculations and return the value. But, before realizing the calculations, it changed the value in the memory (it's not pure). It would be pure if the parameters had not changed.
 Other thing is: given the same input, you would obtain the same result.

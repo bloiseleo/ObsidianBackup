@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Manifesto Agile.md",
+                "file": "Linguagens/Java/Kotlin.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Manifesto Agile.md",
+                "file": "Linguagens/Java/Kotlin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Manifesto Agile.md",
+                "file": "Linguagens/Java/Kotlin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Manifesto Agile.md"
+                "file": "Linguagens/Java/Kotlin.md"
               }
             }
           }
@@ -148,19 +148,22 @@
   },
   "active": "b658e552e323b036",
   "lastOpenFiles": [
-    "Linguagens/Java/Kotlin.md",
+    "Estruturas de Dados/Introdução.md",
+    "Estruturas de Dados/Single Linked List and Double Linked List.md",
+    "Estruturas de Dados/Array.md",
+    "Linguagens/Javascript/JavaScript.md",
+    "Linguagens/Javascript/React.md",
+    "Linguagens/Javascript/Build Tool.md",
     "Engenharia de Software/Manifesto Agile.md",
+    "Linguagens/Java/Kotlin.md",
     "HTTP.md",
     "Untitled",
     "Linguagens/Java/Build Tools/Gradle.md",
     "Linguagens/Java/Android.md",
     "Android",
     "Study More.md",
-    "Linguagens/Javascript/JavaScript.md",
-    "Linguagens/Javascript/React.md",
     "Cloud/API Gateway.md",
     "Cloud",
-    "Linguagens/Javascript/Build Tool.md",
     "Linguagens/Javascript",
     "Testes",
     "Daily Intelitrader.md",
@@ -175,9 +178,6 @@
     "Anotações.md",
     "conflict-files-obsidian-git.md",
     "Linguagens/Java.md",
-    "Estruturas de Dados/Array.md",
-    "Estruturas de Dados/Introdução.md",
-    "Estruturas de Dados/Single Linked List and Double Linked List.md",
     "Engenharia de Software/Introdução.md",
     "Engenharia de Software/Gerenciamento de Projeto.md",
     "Engenharia de Software/Etapas Comuns.md",
