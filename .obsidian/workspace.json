@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Manifesto Agile.md",
+                "file": "Linguagens/Javascript/JavaScript.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Manifesto Agile.md",
+                "file": "Linguagens/Javascript/JavaScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Manifesto Agile.md",
+                "file": "Linguagens/Javascript/JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Manifesto Agile.md"
+                "file": "Linguagens/Javascript/JavaScript.md"
               }
             }
           }
@@ -148,15 +148,15 @@
   },
   "active": "b658e552e323b036",
   "lastOpenFiles": [
-    "Linguagens/Microsoft/Dotnet.md",
+    "Linguagens/Javascript/React.md",
     "Engenharia de Software/Manifesto Agile.md",
+    "Linguagens/Microsoft/Dotnet.md",
     "Linguagens/Microsoft",
     "Linguagens/Java/Kotlin.md",
     "Estruturas de Dados/Introdução.md",
     "Estruturas de Dados/Single Linked List and Double Linked List.md",
     "Estruturas de Dados/Array.md",
     "Linguagens/Javascript/JavaScript.md",
-    "Linguagens/Javascript/React.md",
     "Linguagens/Javascript/Build Tool.md",
     "HTTP.md",
     "Untitled",

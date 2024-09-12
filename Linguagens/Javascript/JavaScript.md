@@ -10,3 +10,7 @@ A pure function is a function that does not change any value that existed before
 Other thing is: given the same input, you would obtain the same result.
 
 > You should take this approach in consideration when programming functionally.
+## Node Js
+Node Js is a runtime environment that powers javascript outside the browser. It was created by Ryan Dahl in 2009 and in 2010 the version 0.1.14 was launched It was adopted by Microsoft, Yahoo! and LinkedIn. The OpenJS Foundation was created to maintain and evolve node js. In 2015, the node js adopted ecma script standards.  
+### How it works? 
+Node Js relys on the JavaScript engine to execute the javascript code. Node js uses the V8, that is used by the Google Chrome to execute javascript. Then, the creator created the libuv, which is the layer written in C++ that executes the event loop and interacts with the operational system.
