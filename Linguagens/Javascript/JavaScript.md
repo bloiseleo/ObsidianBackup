@@ -14,3 +14,30 @@ Other thing is: given the same input, you would obtain the same result.
 Node Js is a runtime environment that powers javascript outside the browser. It was created by Ryan Dahl in 2009 and in 2010 the version 0.1.14 was launched It was adopted by Microsoft, Yahoo! and LinkedIn. The OpenJS Foundation was created to maintain and evolve node js. In 2015, the node js adopted ecma script standards.  
 ### How it works? 
 Node Js relys on the JavaScript engine to execute the javascript code. Node js uses the V8, that is used by the Google Chrome to execute javascript. Then, the creator created the libuv, which is the layer written in C++ that executes the event loop and interacts with the operational system.
+## Projects
+Every node.js project must contains the `package.json` file inside a folder. This folder is also called `workspace`. In order to create a pure node.js project, you should execute `npm init` in the terminal pointing to the root folder of your `workspace`.
+The command `npm init` executes and waits for your input to determine some required information for the nodejs project. They are: package name, version, description, entry point, test command, git repository, keywords, author and license. If you want it to be fulfilled with the default information, you can use `npm init -y`.
+- `name` is the name of the project.
+- `version` is the version of the project. By default, it follows the semantic versioning, but you can use any version system you want.
+- `description` is the description of the project.
+- `main` is the entrypoint file of the project. It means that this file will be the file that will be executed first.
+- `keywords` is an array of words that it would be used to look for this project in npm or any repository that supports nodejs.
+- `license` is the license used by the project.
+- `scripts` dictionary that contains key-value pairs of information. The key is the name of a lifecycle event of the project or an arbitrary name. The value is the command that will be run. To run this scripts, you can execute them with `npm run [script-name]`
+	- The lifecycle scripts are named as: prepare, prepublish, prepublishOnly, postpack, dependencies.
+	- The `prepare` runs before the package is packed, for example, during `publish` and `pack`. Besides, it also runs on `npm install`. 
+	- The `prepublishOnly` runs when the package is prepared and packed, ONLY on `npm publish`.
+	- Etc...
+	- If you want, you can create `pre` or `post` scripts for any script you have. In order to do this, you can do this:
+		```
+		{
+			"scripts": {
+				"precompress": "",
+				"compress": "",
+				"postcompress"
+			}
+		}
+		```
+
+### Running the Project
+If you want to run the project, you can execute it directly as `node file.js`. Besides, you can also create a script called `start` and put as a value to `node file.js`. But, every change will require a restart in your application, but you can add a flag called `--watch`. To do this, you can do `node --watch file.js`. Now, when you change the code that you're watching, node will automatically restart and re-execute your application.
