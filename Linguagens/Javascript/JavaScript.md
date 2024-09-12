@@ -38,6 +38,33 @@ The command `npm init` executes and waits for your input to determine some requi
 			}
 		}
 		```
-
 ### Running the Project
 If you want to run the project, you can execute it directly as `node file.js`. Besides, you can also create a script called `start` and put as a value to `node file.js`. But, every change will require a restart in your application, but you can add a flag called `--watch`. To do this, you can do `node --watch file.js`. Now, when you change the code that you're watching, node will automatically restart and re-execute your application.
+## Modules
+Modules are a way to organize and separate your code into different files. There are two manners of doing this: CommonJS and ECMAScript Modules.
+### CommonJS
+This is the default modules that nodejs uses when you create your project. Its syntax uses the object `module` to exports objects, functions and other stuff. 
+- It's sync by default.
+- It's mainly used by the node.js server side.
+- It uses the `module.exports` to exports objects and the function `require`.
+- It loads the modules dynamically.
+Every javascript file is considered as a javascript module. A module can exports functions, objects and variables to make them available to another javascript file. For example, let's imagine that you have a file that contains functions related to product processing:
+```
+product.js
+-----------------------------------------------------------------------------------
+async function getFullName(codeId, productName) {
+	return `${codeId} - ${productName}`
+}
+module.exports = {
+	getFullName
+};
+```
+Now, in another file, you can import this file in another file:
+```
+main.js
+-----------------------------------------------------------------------------------
+const { getFullName } = require('./product.js'); // This way, I'm using the
+// desestructing, but I could do this way:
+const products = require('./product.js');
+//In this case, I would need to product.getFullName...
+```
