@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/Javascript/JavaScript.md",
+                "file": "Linguagens/Terminal/ASCII.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/Javascript/JavaScript.md",
+                "file": "Linguagens/Terminal/ASCII.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/Javascript/JavaScript.md",
+                "file": "Linguagens/Terminal/ASCII.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/Javascript/JavaScript.md"
+                "file": "Linguagens/Terminal/ASCII.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "b658e552e323b036",
   "lastOpenFiles": [
+    "Linguagens/Javascript/JavaScript.md",
+    "Linguagens/Terminal/ASCII.md",
+    "Linguagens/Terminal",
     "Linguagens/Javascript/React.md",
     "Engenharia de Software/Manifesto Agile.md",
     "Linguagens/Microsoft/Dotnet.md",
@@ -156,7 +159,6 @@
     "Estruturas de Dados/Introdução.md",
     "Estruturas de Dados/Single Linked List and Double Linked List.md",
     "Estruturas de Dados/Array.md",
-    "Linguagens/Javascript/JavaScript.md",
     "Linguagens/Javascript/Build Tool.md",
     "HTTP.md",
     "Untitled",
@@ -183,8 +185,6 @@
     "Engenharia de Software/Introdução.md",
     "Engenharia de Software/Gerenciamento de Projeto.md",
     "Engenharia de Software/Etapas Comuns.md",
-    "Banco de Dados/Structured Query Language.md",
-    "Table_hiragana.jpg",
-    "Intelitrader - Bugs"
+    "Table_hiragana.jpg"
   ]
 }
