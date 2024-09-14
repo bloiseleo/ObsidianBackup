@@ -68,3 +68,55 @@ const { getFullName } = require('./product.js'); // This way, I'm using the
 const products = require('./product.js');
 //In this case, I would need to product.getFullName...
 ```
+### ECMAScript Modules
+This is the new module that nodejs uses when you set on your package.json to `type: module`. Its syntax uses `import` and `export` to control what is exposed and what is not. It's supported by the browsers.
+Again, every javascript file is a module. Then, if you want something that is inside a module to be exported to another module, you should do something like the example below:
+```
+database.js
+-----------------------------------------------------------------------------------
+async function connect() {
+	//...
+}
+
+export default connect;
+```
+
+In this way, you're only exporting the function `connect`. If you have more stuff inside this module, it will not be exported. To use it, you should do something like that:
+```
+main.js
+-----------------------------------------------------------------------------------
+import connect from './database.js';
+
+connect();
+```
+
+If you want to export more things, you can do something like this:
+```
+database.js
+-----------------------------------------------------------------------------------
+async function connect() {
+	//...
+}
+
+async function otherStuff() {
+	// ....
+}
+
+export {
+	connect,
+	otherStuff
+}
+```
+
+In order to import these stuff, you should do something like it:
+```
+import * as database from './database.js'
+
+database.connect();
+database.otherStuff();
+```
+But, if you want to only import some stuff, you can do something like it:
+```
+import { connect } from './database.js';
+connect();
+```
