@@ -1,3 +1,3 @@
 The ASCII character set is a system to represent letters, characters and control signals. This encoding system contains 128 signals: 95 graphic signs, 33 control signals and uses 7 bits to represent it all. As we know, one byte has 8 bits. So, as it only uses 7 bits to represent the letters and other things, the unused bit is used by the encoding algorithms to do a lot of things. For example, the UNICODE uses this bit to indicate that value will exceed the 7 bits needed and it will use another byte to represent it.
 
-In the ASCII, every byte is used to represent a single character and it does not determines how this conversion to bytes must be done.
+In the ASCII, every byte is used to represent a single character and it does not determines how this conversion to bytes must be done. The ASCII is just a table that 
