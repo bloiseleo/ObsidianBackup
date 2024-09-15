@@ -1,1 +1,1 @@
-The main build tool used in the javascript ecosystem is called Node Package Manager. 
+The main build tool used in the javascript ecosystem is called Node Package Manager.  This build tool is installed alongside nodejs when you install it.
