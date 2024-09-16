@@ -11,8 +11,12 @@
             "id": "4171d563302406de",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Linguagens/Javascript/Build Tool.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Linguagens/Javascript/Build Tool.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Linguagens/Javascript/Build Tool.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Linguagens/Javascript/Build Tool.md"
+              }
             }
           }
         ]
@@ -140,14 +148,14 @@
   },
   "active": "4171d563302406de",
   "lastOpenFiles": [
-    "Linguagens/Java/Kotlin.md",
+    "Linguagens/Javascript/React.md",
+    "Linguagens/Microsoft/Dotnet.md",
     "Linguagens/Javascript/Build Tool.md",
     "Linguagens/Javascript/JavaScript.md",
-    "Linguagens/Javascript/React.md",
+    "Linguagens/Java/Kotlin.md",
     "Linguagens/Terminal/ASCII.md",
     "Linguagens/Terminal",
     "Engenharia de Software/Manifesto Agile.md",
-    "Linguagens/Microsoft/Dotnet.md",
     "Linguagens/Microsoft",
     "Estruturas de Dados/Introdução.md",
     "Estruturas de Dados/Single Linked List and Double Linked List.md",
