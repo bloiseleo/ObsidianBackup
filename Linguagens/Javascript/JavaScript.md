@@ -1,4 +1,4 @@
-JavaScript is a script language which evolved to be a full featured language. Even if, as any "old" language, it has its counter parts, it's also a pretty good language. It's a interpreted or just-in-time compiled programming language with first-class functions. Besides, it's a prototype-based, multi-paradigm  and single-threaded. It supports P.O.O, imperative and declarative.
+ xJavaScript is a script language which evolved to be a full featured language. Even if, as any "old" language, it has its counter parts, it's also a pretty good language. It's a interpreted or just-in-time compiled programming language with first-class functions. Besides, it's a prototype-based, multi-paradigm  and single-threaded. It supports P.O.O, imperative and declarative.
 
 JavaScript's standards are defined by the ECMAScript language specification and ECMAScript Internationalization API specification.
 #### First-Class Function
@@ -121,5 +121,7 @@ import { connect } from './database.js';
 connect();
 ```
 
+# TypeScript
+TypeScript is a superset of Javascript that adds new features on top of javascript. The main new feature is a type system that provides safer development and better development experience.
 ## Node JS Flags
 - `--env-file`: This flag accepts a path to a `.env` file. This file will be dumped inside the `process.env` object and it would be available to your application.
