@@ -120,3 +120,6 @@ But, if you want to only import some stuff, you can do something like it:
 import { connect } from './database.js';
 connect();
 ```
+
+## Node JS Flags
+- `--env-file`: This flag accepts a path to a `.env` file. This file will be dumped inside the `process.env` object and it would be available to your application.
