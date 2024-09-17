@@ -129,7 +129,7 @@ By default, every component and its children will re-render when a prop or state
 
 After `shouldComponentUpdate` is called, React will call `render` to re-render the UI again. After this, the `componentDidUpdate` will be called.
 
-// Stopped at `Unmounting Phase`.
+When a component is not needed anymore, it starts the Unmounting Phase. It refers to the step that it will remove the component from the DOM. The method `componentWillUnmount` is called just before the component is removed from the DOM. It allows you to perform any kind of cleanup operation. All of the component data is destroyed.
 ### Conditional Rendering
 Sometimes, you need to render something when some expression is true and render nothing or other component when the expression is false. In order to do this, you can use `if` expressions, ternary operator and the logical `&&` operator. For example:
 ```
