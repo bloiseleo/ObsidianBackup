@@ -23,6 +23,17 @@ export function Gallery() {
 	);
 }
 ```
+
+> Components can be also created as classes, but it's an old approach and it's strongly recommended to use the functional approach. 
+
+Besides, components can only return one tag. So, in some cases, you can use empty elements to represent a "container" like the example below:
+```
+<>
+	<div>
+		<p>Hello World</p>
+	</div>
+</>
+```
 ### Component Properties
 A component can pass values and arguments to another component. These values are called properties. They can be any kind of javascript value. For example, you will see that some native react components can receive props, like:
 ```
@@ -105,7 +116,20 @@ export function App() {
 > Children, in this case, can be typed as a React Component or anything else, like text.
 
 When the value of the props change, a new render of this children will be triggered and the new props will be reflected in the dom. But, you cannot change which params you pass to the children, but the value can be changed. 
+### Component Lifecycle 
+All components has a lifecycle. It all starts at the `constructing`. The constructing step is responsible to determine what it needs to be built and initialize states.
 
+After that, the next method is the `render` method. This method is called when the component is inserted inside the real DOM. It only draw the content to the DOM. Then, any kind of side effect can't be done through this method.
+
+Now, after rendering, you have the `componentDidMount` method. This method is executed right after the component is rendered for the first time. This method is used for running operations that can create side effects. Side Effects are actions that can cause the DOM to re-render.
+
+When you have some side effect, you enter the `Updating Phase`. This phase occurs when the component has any update or it re-renders. This can occur when the props or states are updated or changed.
+
+By default, every component and its children will re-render when a prop or state is changed. But, you can override this implementing the `shouldComponentUpdate`. This method returns true or false and receives the new state or props as parameters to help you determine if the component should update
+
+After `shouldComponentUpdate` is called, React will call `render` to re-render the UI again. After this, the `componentDidUpdate` will be called.
+
+// Stopped at `Unmounting Phase`.
 ### Conditional Rendering
 Sometimes, you need to render something when some expression is true and render nothing or other component when the expression is false. In order to do this, you can use `if` expressions, ternary operator and the logical `&&` operator. For example:
 ```
