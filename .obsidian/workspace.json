@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/Javascript/JavaScript.md",
+                "file": "Linguagens/Microsoft/Dotnet.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/Javascript/JavaScript.md",
+                "file": "Linguagens/Microsoft/Dotnet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/Javascript/JavaScript.md",
+                "file": "Linguagens/Microsoft/Dotnet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/Javascript/JavaScript.md"
+                "file": "Linguagens/Microsoft/Dotnet.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "4171d563302406de",
   "lastOpenFiles": [
-    "Linguagens/Javascript/Build Tool.md",
+    "Japonês/Aula 16 de setembro de 2024.md",
     "Linguagens/Javascript/JavaScript.md",
+    "Japonês",
+    "Linguagens/Javascript/Build Tool.md",
     "Linguagens/Javascript/React.md",
     "Linguagens/Microsoft/Dotnet.md",
     "Linguagens/Java/Kotlin.md",
@@ -161,7 +163,6 @@
     "Estruturas de Dados/Single Linked List and Double Linked List.md",
     "Estruturas de Dados/Array.md",
     "HTTP.md",
-    "Untitled",
     "Linguagens/Java/Build Tools/Gradle.md",
     "Linguagens/Java/Android.md",
     "Android",
@@ -184,7 +185,6 @@
     "Linguagens/Java.md",
     "Engenharia de Software/Introdução.md",
     "Engenharia de Software/Gerenciamento de Projeto.md",
-    "Engenharia de Software/Etapas Comuns.md",
     "Table_hiragana.jpg"
   ]
 }
