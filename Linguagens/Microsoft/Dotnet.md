@@ -5,7 +5,6 @@ Each implementation inclueds:
 - Application Frameworks: This is optional and it can be ASP.NET, Windows Forms or WPF.
 - Dev Tools: Also optional.
 There are some implementations and they are explained below.
-
 ## DOTNET 5
 .NET 5, previously referred as .NET Core, is a cross-platform implementation of .NET that's designed to handle server and cloud workloads, including desktop apps. It also implements .NET Standard, so, if your application targets .NET Standard, it should run smoothly with .NET Core.
 ## DOTNET Framework 
