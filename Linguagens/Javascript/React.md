@@ -1,4 +1,9 @@
-React is an User Interface library for rendering user interfaces built.
+React is an User Interface library for rendering user interfaces built. It was created by facebook in 2011. 
+In order to create a react project, you should use a template. In react, you will use most of the times `npx create-react-app <project-name>`. This command will generate a folder with all the structure and dependencies installed for you.
+## Project Structure
+- public: Folder containing the public files that are retrieved from the server
+- src: The source code containing all the javascript files.
+	- index.js: The first code that is loaded into the HTML and it would load your entire application inside the div with id root.
 ## Building Blocks
 Every UI component in React is called component. It can be anything from a single text to a whole page. For example:
 ```
