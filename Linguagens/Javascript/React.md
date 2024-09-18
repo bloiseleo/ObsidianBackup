@@ -153,7 +153,6 @@ export default function AlertModal({ channel, message, title, show = false }: Pr
 ```
 
 This component will only be rendered if the variable `show` is true. Otherwise, it would render nothing.  You still can use `if` and ternary operators to execute the same thing. 
-
 ### Rendering Lists
 If you want to render lists, you can use javascript array functions to handle these operations, like filter or map. At first, you need to extract the data that will be rendered in a list to a separated array. Now, you can use the `map` operation, for example, to generate the list of items to be displayed.
 
@@ -184,3 +183,5 @@ return <ul>
 ```
 
 > The key property can be used, but you should use something else.
+## CSS Modules
+A CSS Module is a file in which every class or animation is scoped locally. Besides, all URL and imports are in module request format (`./xxx` means relative and `xxx/yyy` means in module folder, for example, `node_modules`). It compiles to a low-level interchange format called ICSS but are like normal CSS files.
