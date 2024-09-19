@@ -144,5 +144,7 @@ That's a basic configuration file for projects that you might reuse:
 }
 ```
 Another tip that is worth keeping in mind is that you must always transpile your code before running it. So, in order to make things faster, you could install a tool to make this process faster. Instead of transpiling, you would execute the typescript directly from the terminal. In order to do that, you need to install the library `tsx`. This development dependency will execute your project and, then, run it.
+## Debbuging
+Debbuging is the act of inspecting your code in order to find a problematic code. There are ways of doing this that are very straight-forward and it can help you to be faster while debbuging.
 ## Node JS Flags
 - `--env-file`: This flag accepts a path to a `.env` file. This file will be dumped inside the `process.env` object and it would be available to your application.
