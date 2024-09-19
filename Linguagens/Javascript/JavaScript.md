@@ -122,6 +122,27 @@ connect();
 ```
 
 # TypeScript
-TypeScript is a superset of Javascript that adds new features on top of javascript. The main new feature is a type system that provides safer development and better development experience.
+TypeScript is a superset of Javascript that adds new features on top of javascript. The main new feature is a type system that provides safer development and better development experience. Now, instead of getting runtime errors due to undefined objects, you calling methods on variables that you expected to be a string, but it was actually a number, it all will be caught by the Code Editor.
+> Typescript, in the end, it'll be transpiled to javascript.
+
+In order to install the typescript, you should execute `npm install -D typescript`. It should install the package as a development dependency.  
+## Configuration
+The configuration of the typescript transpiler is made through a file called `tsconfig.json`. After that, you should be able to create the configuration file for the transpiler. In order to do this, you can execute `npx tsc --init` in your project.  It will generate the default configuration for your project.
+
+> It's nothing more than a `json` file.
+
+That's a basic configuration file for projects that you might reuse:
+```
+{
+  "compilerOptions": {
+    "target": "ES6", // The transpiled code follows ES6
+    "module": "CommonJS", // The module kind is the CommonJS style
+    "outDir": "dist", // All the transpiled code will be stored inside the dist folder
+    "strict": true, // Enable all strict checks of javascript.
+    "noImplicitAny": true // Disable implicit any.
+  }
+}
+```
+Another tip that is worth keeping in mind is that you must always transpile your code before running it. So, in order to make things faster, you could install a tool to make this process faster. Instead of transpiling, you would execute the typescript directly from the terminal. In order to do that, you need to install the library `tsx`. This development dependency will execute your project and, then, run it.
 ## Node JS Flags
 - `--env-file`: This flag accepts a path to a `.env` file. This file will be dumped inside the `process.env` object and it would be available to your application.

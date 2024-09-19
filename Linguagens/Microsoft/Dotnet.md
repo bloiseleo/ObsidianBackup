@@ -1,5 +1,5 @@
 .NET is a developer platform to develop for building applications. When you develop an application for `.NET`, you are developing an application that targets one or more implementations of `.NET`. 
-Each implementation inclueds:
+Each implementation includes:
 - Runtime: The engine responsible for loading and executing your application.
 - Class Library
 - Application Frameworks: This is optional and it can be ASP.NET, Windows Forms or WPF.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/Javascript/React.md",
+                "file": "Linguagens/Javascript/JavaScript.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/Javascript/React.md",
+                "file": "Linguagens/Javascript/JavaScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/Javascript/React.md",
+                "file": "Linguagens/Javascript/JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/Javascript/React.md"
+                "file": "Linguagens/Javascript/JavaScript.md"
               }
             }
           }
@@ -146,13 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4171d563302406de",
+  "active": "80ea6ddd4c566326",
   "lastOpenFiles": [
+    "Japonês/Aula 16 de setembro de 2024.md",
     "Linguagens/Javascript/JavaScript.md",
     "Linguagens/Microsoft/Dotnet.md",
     "Linguagens/Javascript/React.md",
     "Linguagens/Javascript/Build Tool.md",
-    "Japonês/Aula 16 de setembro de 2024.md",
     "Japonês",
     "Linguagens/Java/Kotlin.md",
     "Linguagens/Terminal/ASCII.md",
