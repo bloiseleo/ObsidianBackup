@@ -1,4 +1,4 @@
- xJavaScript is a script language which evolved to be a full featured language. Even if, as any "old" language, it has its counter parts, it's also a pretty good language. It's a interpreted or just-in-time compiled programming language with first-class functions. Besides, it's a prototype-based, multi-paradigm  and single-threaded. It supports P.O.O, imperative and declarative.
+ JavaScript is a script language which evolved to be a full featured language. Even if, as any "old" language, it has its counter parts, it's also a pretty good language. It's a interpreted or just-in-time compiled programming language with first-class functions. Besides, it's a prototype-based, multi-paradigm  and single-threaded. It supports P.O.O, imperative and declarative.
 
 JavaScript's standards are defined by the ECMAScript language specification and ECMAScript Internationalization API specification.
 #### First-Class Function
