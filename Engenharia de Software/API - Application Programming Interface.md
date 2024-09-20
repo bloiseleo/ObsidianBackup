@@ -1,0 +1,9 @@
+An Application Programming Interface is an application that executes some routine(s) that solves some kind of problem. Besides, it follows an interface that determines what that application expects as input and what it should send as response.
+
+Besides, there's an architectural pattern called `REST`.  This architectural pattern called `REST` (Representational State Transfer). When we talk about `state`, we are referring to the value of the application or the resource you're asking for. API REST is an application that is possible to transfer its own state or the state of a resource's application.
+- Every API that follows the REST architecture must have the back-end and front-end isolated and independent. If you can not change the front-end without changing the back-end, so you do not have a RESTful API.
+- Every API must have an stateless connection. When an API receives a request, it must execute whatever it needs to execute, and then return the result. After that, everything about the last request must not be kept inside the application. Otherwise, it's not stateless, but stateful.
+- Every API must be able to do cache. Caching is the act of saving responses from a given request and, if the same request is made again, you would not process everything again, but just sent the response stored in the cache.
+- Every API should follow an interface. This interface is responsible for making the front-end and back-end independent. This interface determines what the front-end should send to the API and what the front-end can expect as response from the back-end.
+
+> When an API follows all REST principles, we can call it RESTful.

@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/Javascript/JavaScript.md",
-                "mode": "preview",
+                "file": "Engenharia de Software/API - Application Programming Interface.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/Javascript/JavaScript.md",
+                "file": "Engenharia de Software/API - Application Programming Interface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/Javascript/JavaScript.md",
+                "file": "Engenharia de Software/API - Application Programming Interface.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/Javascript/JavaScript.md"
+                "file": "Engenharia de Software/API - Application Programming Interface.md"
               }
             }
           }
@@ -148,11 +148,12 @@
   },
   "active": "4171d563302406de",
   "lastOpenFiles": [
-    "Japonês/Aula 16 de setembro de 2024.md",
-    "Linguagens/Javascript/JavaScript.md",
-    "Linguagens/Microsoft/Dotnet.md",
-    "Linguagens/Javascript/React.md",
     "Linguagens/Javascript/Build Tool.md",
+    "Linguagens/Javascript/React.md",
+    "Linguagens/Javascript/JavaScript.md",
+    "Engenharia de Software/API - Application Programming Interface.md",
+    "Japonês/Aula 16 de setembro de 2024.md",
+    "Linguagens/Microsoft/Dotnet.md",
     "Japonês",
     "Linguagens/Java/Kotlin.md",
     "Linguagens/Terminal/ASCII.md",
@@ -184,7 +185,6 @@
     "conflict-files-obsidian-git.md",
     "Linguagens/Java.md",
     "Engenharia de Software/Introdução.md",
-    "Engenharia de Software/Gerenciamento de Projeto.md",
     "Table_hiragana.jpg"
   ]
 }
