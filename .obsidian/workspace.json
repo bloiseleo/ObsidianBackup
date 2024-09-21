@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/API - Application Programming Interface.md",
+                "file": "Study More.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/API - Application Programming Interface.md",
+                "file": "Study More.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/API - Application Programming Interface.md",
+                "file": "Study More.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/API - Application Programming Interface.md"
+                "file": "Study More.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "4171d563302406de",
   "lastOpenFiles": [
+    "Engenharia de Software/API - Application Programming Interface.md",
     "Linguagens/Javascript/Build Tool.md",
     "Linguagens/Javascript/React.md",
     "Linguagens/Javascript/JavaScript.md",
-    "Engenharia de Software/API - Application Programming Interface.md",
     "Japonês/Aula 16 de setembro de 2024.md",
     "Linguagens/Microsoft/Dotnet.md",
     "Japonês",
