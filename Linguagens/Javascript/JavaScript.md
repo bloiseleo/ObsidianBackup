@@ -144,6 +144,9 @@ That's a basic configuration file for projects that you might reuse:
 }
 ```
 Another tip that is worth keeping in mind is that you must always transpile your code before running it. So, in order to make things faster, you could install a tool to make this process faster. Instead of transpiling, you would execute the typescript directly from the terminal. In order to do that, you need to install the library `tsx`. This development dependency will execute your project and, then, run it.
+### Declaration Files
+Typescript uses declaration files to known which functions, objects, properties and methods exists even if you don't have the real implementation.
+We have two kinds of files: `.ts` files are implementation files that are transpiled to javascript and`.d.ts` files are declaration files that contain only type information. These declaration files aren't transpiled to declaration files since they're only used for type checking. There're a lot of built-in definition files that are included with typescript, like `DOM APIs` declaration files, standard libraries and etc.
 ## Debbuging
 Debbuging is the act of inspecting your code in order to find a problematic code. There are ways of doing this that are very straight-forward and it can help you to be faster while debbuging.
 ## Node JS Flags
