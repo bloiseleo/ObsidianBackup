@@ -1,3 +1,8 @@
+## Tools
+The react library was created using existing tools in the javascript world. In this section, we will go through them and understand it all properly.
+### Babel
+Babel is a javascript compiler that aims to convert ECMAScript 2015+ code into backwards compatible version of javascript in current and older browsers or environments. It can transform syntax, polyfill features that are missing in your target environment and source transformations.
+## Definition
 React is an User Interface library for rendering user interfaces built. It was created by facebook in 2011. 
 In order to create a react project, you should use a template. In react, you will use most of the times `npx create-react-app <project-name>`. This command will generate a folder with all the structure and dependencies installed for you.
 ## Project Structure
