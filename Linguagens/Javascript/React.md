@@ -5,7 +5,9 @@ Babel is a javascript compiler that aims to convert ECMAScript 2015+ code into b
 These kind of transformations are supported through plugins. These plugins are javascript library codes that you use to instruct babel how to transform your source code.
 In order to configure the babel compiler behavior, you can create a file `.babelrc` or `babe.config.json`. The `.babelrc` is a file that can be used to define specific transformations for files or directories. The `babel.config.json` applies to the entire project, even if you have another `package.json`.
 #### PreSets
-Babel and its plugins has a lot of configurations to make it work properly. It would be very inefficient to write it every time you need to use them. So, in order to make this process efficient, the presets were created. The presets are an assortment of plugins and configurations that you can apply to your project directly
+Babel and its plugins has a lot of configurations to make it work properly. It would be very inefficient to write it every time you need to use them. So, in order to make this process efficient, the presets were created. The presets are an assortment of plugins and configurations that you can apply to your project directly.
+### Webpack
+It's a module bundler that takes all your files and transform it into one single file. It can handle js, css, sass, png and any other kind of file.
 ## Definition
 React is an User Interface library for rendering user interfaces built. It was created by facebook in 2011. 
 In order to create a react project, you should use a template. In react, you will use most of the times `npx create-react-app <project-name>`. This command will generate a folder with all the structure and dependencies installed for you.
@@ -14,6 +16,21 @@ In order to create a react project, you should use a template. In react, you wil
 - src: The source code containing all the javascript files.
 	- index.js: The first code that is loaded into the HTML and it would load your entire application inside the div with id root.
 ## Building Blocks
+### JSX
+JSX is a new syntax created by Facebook to make creating components easy. It mixes the Javascript syntax with the HTML syntax. Because of this, you're able to write HTML inside the Javascript code. But, you need to write it in a different way, since it's not real HTML. For example, in JSX, you can return an HTML object:
+```
+const App = () => {
+    return (
+        <div className="App">
+            <h1>Hello DIO!</h1>
+            <p>1 + 1 = { 1 + 1 }</p>
+        </div>
+    )
+}
+```
+Besides, you can use javascript inside the HTML code. But, in order to do that, you should encapsulate it inside brackets. In addition, keep in mind that everything inside the brackets will be returned to the HTML and It'll be displayed as HTML.
+There're differences in some html properties, like `class`. `class` is a reserved keyword of Javascript. So, in order to use `class` property in HTML JSX, you should use `className`.
+### Functional Components
 Every UI component in React is called component. It can be anything from a single text to a whole page. For example:
 ```
 function Photo() {
