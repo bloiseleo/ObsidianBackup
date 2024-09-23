@@ -2,6 +2,10 @@
 The react library was created using existing tools in the javascript world. In this section, we will go through them and understand it all properly.
 ### Babel
 Babel is a javascript compiler that aims to convert ECMAScript 2015+ code into backwards compatible version of javascript in current and older browsers or environments. It can transform syntax, polyfill features that are missing in your target environment and source transformations.
+These kind of transformations are supported through plugins. These plugins are javascript library codes that you use to instruct babel how to transform your source code.
+In order to configure the babel compiler behavior, you can create a file `.babelrc` or `babe.config.json`. The `.babelrc` is a file that can be used to define specific transformations for files or directories. The `babel.config.json` applies to the entire project, even if you have another `package.json`.
+#### PreSets
+Babel and its plugins has a lot of configurations to make it work properly. It would be very inefficient to write it every time you need to use them. So, in order to make this process efficient, the presets were created. The presets are an assortment of plugins and configurations that you can apply to your project directly
 ## Definition
 React is an User Interface library for rendering user interfaces built. It was created by facebook in 2011. 
 In order to create a react project, you should use a template. In react, you will use most of the times `npx create-react-app <project-name>`. This command will generate a folder with all the structure and dependencies installed for you.
