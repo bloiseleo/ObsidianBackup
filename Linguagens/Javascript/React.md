@@ -156,6 +156,79 @@ By default, every component and its children will re-render when a prop or state
 After `shouldComponentUpdate` is called, React will call `render` to re-render the UI again. After this, the `componentDidUpdate` will be called.
 
 When a component is not needed anymore, it starts the Unmounting Phase. It refers to the step that it will remove the component from the DOM. The method `componentWillUnmount` is called just before the component is removed from the DOM. It allows you to perform any kind of cleanup operation. All of the component data is destroyed.
+## Understanding Rendering
+A component is a template of what should be rendered and what should happen when some conditions are met, like states, side effects and properties. A component will be rendered when something triggers it. It can be due to component's state update, ancestors re-renders or the initial render.
+When a rendering is triggered, two things can happen:
+- If it's the first render, the root component is called and the entire tree of components are rendered.
+- If it's not the first render, React will call the component function whose state update triggered the render. If this component return more components, every component will be re-rendered in a recursive way until we do not have more components in that tree. Then, React will calculate which of their properties, if any, have changed since the previous render and store it.
+Right after the rendering phase, we enter the `commit` phase. In this step, two things can happen:
+- If it's the initial phase, react will call `appendChild` to add the HTML elements to de DOM.
+- If it's subsequent render, React will apply minimal operations necessary to make the DOM match the current state of the components.
+### Component's State
+React components local variables are not persisted between renders. When a component is rendered, the function or `render` method is called with the appropriated props and the component is returned. Every changes to the variables inside the components are lost, since we are not persisting them outside the function.
+In order to persist data between renders, we should use a **state** variable. A state variable is able to keep the data between re-renders. Besides, any changes to the state variable will trigger a new render with new data. So, the state variable can control when the component will re-render.
+
+In order to create a state variable, we shall use `useState` hook. This hook will return an array with two variables: the current value inside the state and the function to change the state's value. Take a look at the example below:
+```
+import { useState } from "react"
+
+export default function App() {
+    const [count, setCount] = useState(0);
+    return <div>
+        <button onClick={() => {
+            setCount(count + 1);
+        }}>
+            Click me
+        </button>
+        <p>Counter: {count}</p>
+    </div>;
+}
+```
+- When the component is initiated, the state is created and the initial value of it is `0`.
+- Then, the component returns its content with the value of `count` being `0`.
+- When the user clicks the button element, the function `onClick` is triggered and this function calls `setCount` incrementing the value of the previous state by 1.
+- The state is updated and a new render is called. The function is called again and the returned value of `count` is now `1`, since it reflects the value of the current state.
+- Then, the component returns its content with the value of `count` being `1`.
+
+> State is isolated to the instance of the component whose declared them. So, if you have the same component rendered twice, you'll have different states for them.
+
+Another important thing to mention: If you call the function to change the value of the state, this change will only be applied in the next render. So, if you try to access the variable storing the current value of the state, it won't be the new one. For example:
+```
+export default function App() {
+    const [count, setCount] = useState(0);
+    return <div>
+        <button onClick={() => {
+            setCount(count + 1);
+            // count here stills 0. So, if you do that:
+            setCount(count + 1);
+            // the new state will be 0, since 0 + 1 is 1.
+        }}>
+            Click me
+        </button>
+        <p>Counter: {count}</p>
+    </div>;
+}
+```
+If you want to do something like it, you should queue state updates using a function that calculates the next state based on the previous one in the queue, like `setCount(count => count + 1)`. This is called updater function. So, now, if you do something like it:
+```
+
+export default function App() {
+    const [count, setCount] = useState(0);
+    return <div>
+        <button onClick={() => {
+            setCount(old => ++old);
+            setCount(old => ++old);
+            setCount(old => ++old);
+        }}>
+            Click me
+        </button>
+        <p>Counter: {count}</p>
+    </div>;
+}
+```
+You will get `3` as a response.
+
+> If you store an object or array as state, you should treat them as immutables. Besides, mutating them will not trigger any kind of render.
 ### Conditional Rendering
 Sometimes, you need to render something when some expression is true and render nothing or other component when the expression is false. In order to do this, you can use `if` expressions, ternary operator and the logical `&&` operator. For example:
 ```
