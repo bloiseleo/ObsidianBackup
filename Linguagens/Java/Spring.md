@@ -16,4 +16,4 @@ public class AppConfig {
 	}
 }
 ```
-Every `@Bean` that
+Every method annotated with `@Bean` will generate an object that will be managed by the ApplicationContext.
