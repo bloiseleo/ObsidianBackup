@@ -16,3 +16,4 @@ public class AppConfig {
 	}
 }
 ```
+Every `@Bean` that
