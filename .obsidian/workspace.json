@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Telefones.md",
+                "file": "Linguagens/Java/Spring.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Telefones.md",
+                "file": "Linguagens/Java/Spring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Telefones.md",
+                "file": "Linguagens/Java/Spring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Telefones.md"
+                "file": "Linguagens/Java/Spring.md"
               }
             }
           }
@@ -161,8 +161,10 @@
   },
   "active": "397daf2bfe74f2c3",
   "lastOpenFiles": [
-    "Linguagens/Javascript/React.md",
     "Telefones.md",
+    "Linguagens/Java/Spring.md",
+    "Linguagens/Java",
+    "Linguagens/Javascript/React.md",
     "Linguagens/Javascript/JavaScript.md",
     "Linguagens/Javascript/Build Tool.md",
     "Study More.md",
@@ -194,10 +196,8 @@
     "Linguagens/DOTNET/DOTNET.md",
     "Linguagens/DOTNET/Hosts.md",
     "Linguagens/DOTNET/ASP.NET Core.md",
-    "Linguagens/DOTNET",
     "Anotações.md",
     "conflict-files-obsidian-git.md",
-    "Linguagens/Java.md",
     "Table_hiragana.jpg"
   ]
 }
