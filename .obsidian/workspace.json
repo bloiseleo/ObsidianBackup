@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/Java/Spring.md",
+                "file": "Cloud/Azure.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/Java/Spring.md",
+                "file": "Cloud/Azure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/Java/Spring.md",
+                "file": "Cloud/Azure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/Java/Spring.md"
+                "file": "Cloud/Azure.md"
               }
             }
           }
@@ -161,8 +161,10 @@
   },
   "active": "397daf2bfe74f2c3",
   "lastOpenFiles": [
-    "Telefones.md",
+    "Cloud/API Gateway.md",
+    "Cloud/Azure.md",
     "Linguagens/Java/Spring.md",
+    "Telefones.md",
     "Linguagens/Java",
     "Linguagens/Javascript/React.md",
     "Linguagens/Javascript/JavaScript.md",
@@ -184,7 +186,6 @@
     "Linguagens/Java/Build Tools/Gradle.md",
     "Linguagens/Java/Android.md",
     "Android",
-    "Cloud/API Gateway.md",
     "Cloud",
     "Linguagens/Javascript",
     "Testes",
@@ -197,7 +198,6 @@
     "Linguagens/DOTNET/Hosts.md",
     "Linguagens/DOTNET/ASP.NET Core.md",
     "Anotações.md",
-    "conflict-files-obsidian-git.md",
     "Table_hiragana.jpg"
   ]
 }

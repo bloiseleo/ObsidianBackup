@@ -1,0 +1,1 @@
+Microsoft Azure is the cloud provider created and maintained by Microsoft.
