@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/Microsoft/Dotnet.md",
+                "file": "Cloud/Azure.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/Microsoft/Dotnet.md",
+                "file": "Cloud/Azure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/Microsoft/Dotnet.md",
+                "file": "Cloud/Azure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/Microsoft/Dotnet.md"
+                "file": "Cloud/Azure.md"
               }
             }
           }
@@ -148,19 +148,19 @@
   },
   "active": "397daf2bfe74f2c3",
   "lastOpenFiles": [
+    "Cloud/API Gateway.md",
+    "Linguagens/Microsoft/Dotnet.md",
     "Linguagens/Javascript/React.md",
     "Linguagens/Java/Language.md",
     "Study More.md",
     "Linguagens/Java/Spring.md",
     "Cloud/Azure.md",
-    "Cloud/API Gateway.md",
     "Telefones.md",
     "Linguagens/Java",
     "Linguagens/Javascript/JavaScript.md",
     "Linguagens/Javascript/Build Tool.md",
     "Engenharia de Software/API - Application Programming Interface.md",
     "Japonês/Aula 16 de setembro de 2024.md",
-    "Linguagens/Microsoft/Dotnet.md",
     "Japonês",
     "Linguagens/Java/Kotlin.md",
     "Linguagens/Terminal/ASCII.md",
