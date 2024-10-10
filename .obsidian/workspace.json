@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud/Azure.md",
+                "file": "Linguagens/Java/Language.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud/Azure.md",
+                "file": "Linguagens/Java/Language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cloud/Azure.md",
+                "file": "Linguagens/Java/Language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cloud/Azure.md"
+                "file": "Linguagens/Java/Language.md"
               }
             }
           }
@@ -148,13 +148,13 @@
   },
   "active": "397daf2bfe74f2c3",
   "lastOpenFiles": [
+    "Linguagens/Java/Spring.md",
+    "Linguagens/Java/Language.md",
+    "Cloud/Azure.md",
     "Cloud/API Gateway.md",
     "Linguagens/Microsoft/Dotnet.md",
     "Linguagens/Javascript/React.md",
-    "Linguagens/Java/Language.md",
     "Study More.md",
-    "Linguagens/Java/Spring.md",
-    "Cloud/Azure.md",
     "Telefones.md",
     "Linguagens/Java",
     "Linguagens/Javascript/JavaScript.md",
