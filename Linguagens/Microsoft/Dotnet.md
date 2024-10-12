@@ -15,6 +15,9 @@ There are some implementations and they are explained below.
 This is the smallest implementation of .NET. It's the runtime that powers Xamarin applications on mobile devices and games. It supports all .NET Standard versions.
 ## .NET Standard
 .NET Standard is a set of contracts rather than an implementation of .NET platform. Every implementation of .NET platform must supports a set of these contracts. Therefore, every application that targets .NET Standard can run on any implementation that supports .NET Standard.
+## Entrypoint
+Every starting point of C# application is the `Main` method. It can be declared inside a class or struct. Besides, it must be a static method. This method can return a lot of stuff, including non-sync return. Also, it can receive a parameter `string[]`. These parameters are command line options that you pass to your program. 
 
+> The `Main method` and the `class` enclosing it can have any kind of accessor.
 
 
