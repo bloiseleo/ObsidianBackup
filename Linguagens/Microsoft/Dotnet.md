@@ -15,3 +15,6 @@ There are some implementations and they are explained below.
 This is the smallest implementation of .NET. It's the runtime that powers Xamarin applications on mobile devices and games. It supports all .NET Standard versions.
 ## .NET Standard
 .NET Standard is a set of contracts rather than an implementation of .NET platform. Every implementation of .NET platform must supports a set of these contracts. Therefore, every application that targets .NET Standard can run on any implementation that supports .NET Standard.
+
+
+
