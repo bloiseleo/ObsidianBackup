@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagens/Microsoft/Dotnet.md",
+                "file": "Linguagens/Microsoft/MSBuild.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens/Microsoft/Dotnet.md",
+                "file": "Linguagens/Microsoft/MSBuild.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens/Microsoft/Dotnet.md",
+                "file": "Linguagens/Microsoft/MSBuild.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens/Microsoft/Dotnet.md"
+                "file": "Linguagens/Microsoft/MSBuild.md"
               }
             }
           }
@@ -148,12 +148,13 @@
   },
   "active": "397daf2bfe74f2c3",
   "lastOpenFiles": [
+    "Linguagens/Microsoft/Dotnet.md",
+    "Linguagens/Microsoft/MSBuild.md",
     "Linguagens/GoLang.md",
     "Linguagens/Java/Language.md",
     "Linguagens/Java/Spring.md",
     "Cloud/Azure.md",
     "Cloud/API Gateway.md",
-    "Linguagens/Microsoft/Dotnet.md",
     "Linguagens/Javascript/React.md",
     "Study More.md",
     "Telefones.md",
@@ -184,7 +185,6 @@
     "image.png",
     "Linguagens/DOTNET/MSBuild.md",
     "Linguagens/DOTNET/DOTNET.md",
-    "Linguagens/DOTNET/Hosts.md",
     "Table_hiragana.jpg"
   ]
 }
