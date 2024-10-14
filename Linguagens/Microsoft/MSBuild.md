@@ -1,4 +1,4 @@
-MSBuild is the microsoft build system used to build and manage .NET projects. Their informations are stored in files that ends with `proj`. So, if you have a `Visual Basic` project, then you have a `vbproj`. If you have a `C#` project, so you have a `csproj` and so on.
+hMSBuild is the microsoft build system used to build and manage .NET projects. Their informations are stored in files that ends with `proj`. So, if you have a `Visual Basic` project, then you have a `vbproj`. If you have a `C#` project, so you have a `csproj` and so on.
 Every project file starts with a root node called `Project`. Usually, they all have a property called `sdk`, it will determine some important stuff that we'll cover later on. 
 ## Build Properties
 These properties are key-value pairs that guides and defines some variables that are important to the build itself. They're located inside a `PropertyGroup` and they can be user-defined and there're some properties that MSBuild uses to define some building behavior.
