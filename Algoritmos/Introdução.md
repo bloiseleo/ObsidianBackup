@@ -40,7 +40,6 @@ int main(int* arr, int size, int v) {
 	return achou; // Passo básico 5
 }
 ```
-
 ### Tipos de Análise
 Existem dois tipos de análise que podem ser realizados sobre algoritmos:
 - Espacial: Analisa o espaço de memória consumido pelo algoritmo para executar o algoritmo.
@@ -53,3 +52,11 @@ Existem dois tipos de análise que podem ser realizados sobre algoritmos:
 Nesse tipo de análise, deve-se considerar o tamanho da entrada para um algoritmo e levar em consideração os seguintes pontos:
 - Cada operação (passo básico) leva o mesmo tempo constante.
 - A memória da máquina é eficiente.
+Por conta disso, o resultado dessa análise pode ser expressa como uma função `f(n)`, onde `n` é o tamanho da entrada da função que você deseja analisar. Portanto, essa análise determina a eficiência do algoritmo quando N torna-se grande. 
+
+> Podemos entender que essa função basicamente determina o quanto de espaço e/ou tempo que esse algoritmo irá utilizar de acordo com o tamanho do input.
+
+O resultado dessa análise assintótica é a complexidade assintótica do algoritmo para entradas suficientemente grandes. Logo, um algoritmo com complexidade assintótica medida é determinado como eficiente quando ele é eficiente para todas as entradas, com exceção de entradas pequenas.
+### Comparação Assintótica
+Quando temos duas complexidades assintóticas, a preocupação é a velocidade de crescimento do consumo de recursos e tempo daquele algoritmo. Logo, valores constantes que estão sendo multiplicados e/ou somados são ignorados, visto que eles afetam de modo irrelevante a velocidade do crescimento de consumo de recursos. Um exemplo: 10 x n cresce tão rápido quanto 100 x n. Logo, as multiplicações são ignorados. Contudo, n ^ 2 cresce bem mais rápido que n * 2. Logo, n é mais rápido que n^2.
+Existe um certo padrão nas análises 
