@@ -19,4 +19,37 @@ A eficiência de um algoritmo está diretamente relacionada aos seguintes recurs
 ## Problemas NP-Completos
 Um problema é dito NP-Completo quando a sua execução correta, entretanto, a determinada execução demora muito tempo para ser completa. Dessa forma, ainda não há uma solução que determine a resposta correta com demanda de recursos e tempo de execução eficientes.
 ## Análise
-Para realizar uma análise agnóstica de máquina, devemos nos concentrar no número de operações realizadas em função do tamanho da entrada dos elementos. O tamanho da entrada é associado aos parâmetros fornecidos na chamada inicial do algoritmo. Nesse caso, pode ser a quantidade de itens dentro de um arranjo, uma árvore
+Para realizar uma análise agnóstica de máquina, devemos nos concentrar no número de operações realizadas em função do tamanho da entrada dos elementos. O tamanho da entrada é associado aos parâmetros fornecidos na chamada inicial do algoritmo. Nesse caso, pode ser a quantidade de itens dentro de um arranjo, itens de uma árvore e etc.
+Existem algumas atividades de um algoritmo que são considerados como passos básicos, ou seja, operações primitivas utilizadas pela máquina para realizar uma determinada tarefa:
+- Operações aritméticas.
+- Comparações.
+- Atribuições.
+- Resolver um ponteiro ou referência.
+- Indexação de um array.
+- Chamadas e retornos de funções e métodos.
+Exemplo abaixo dos passos básicos:
+```
+int main(int* arr, int size, int v) {
+	int achou = 0; // Passo básico 1
+	for(int i = 0; i < size; i++) {
+		if(arr[i] == v) { // Passo básico 2
+			achou = 1; // Passo básico 3
+			return achou; // Passo básico 4
+		}
+	}
+	return achou; // Passo básico 5
+}
+```
+
+### Tipos de Análise
+Existem dois tipos de análise que podem ser realizados sobre algoritmos:
+- Espacial: Analisa o espaço de memória consumido pelo algoritmo para executar o algoritmo.
+- Temporal: Esse tipo de complexidade é o mais usado e pode ser dividido em dois grupos:
+	- Tempo (real) necessário a execução do algoritmo.
+	- Número de instruções necessárias à execução.
+
+> A análise temporal é a mais usada. 
+### Análise Assintótica
+Nesse tipo de análise, deve-se considerar o tamanho da entrada para um algoritmo e levar em consideração os seguintes pontos:
+- Cada operação (passo básico) leva o mesmo tempo constante.
+- A memória da máquina é eficiente.
