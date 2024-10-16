@@ -69,3 +69,4 @@ Existe um certo padrão nas análises e valores que surgem. A ordem mais conheci
 - Exponencial: f(a^n)
 - Fatorial: f(n!)
 ### Notação O (Big O)
+A notação big O é a forma que a matemática denota o pior caso possível para um algoritmo. O pior caso é aquele onde uma maior quantidade de passos básicos é necessário para resolver um determinado problema.
